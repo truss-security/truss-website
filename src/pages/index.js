@@ -13,7 +13,7 @@ export default (() => {
 				Quarkly export
 			</title>
 			<meta name={"description"} content={"Web site created using quarkly.io"} />
-			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/readme/cra/favicon-32x32.ico"} type={"image/x-icon"} />
+			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/648b58158bd7e60018594e7d/images/Truss%20Logo%20IconOnly_BWG.png?v=2023-06-15T22:19:54.100Z"} type={"image/x-icon"} />
 		</Helmet>
 		<Section quarkly-title="Header">
 			<Override slot="SectionContent" justify-content="center" display="flex" align-items="center" />
@@ -768,7 +768,7 @@ export default (() => {
 					Documentation
 				</Link>
 				<Link
-					href="/blog"
+					href="/404"
 					color="white"
 					padding="6px 12px 6px 12px"
 					text-decoration-line="initial"
@@ -780,7 +780,7 @@ export default (() => {
 					Blog
 				</Link>
 				<Link
-					href="/contact"
+					href="/404"
 					color="white"
 					padding="6px 12px 6px 12px"
 					text-decoration-line="initial"

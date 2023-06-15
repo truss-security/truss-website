@@ -42,6 +42,8 @@ export default {
 	"projectType": "create-react-app",
 	"site": {
 		"styles": {},
-		"seo": {}
+		"seo": {
+			"favicon_32px": "https://uploads.quarkly.io/648b58158bd7e60018594e7d/images/Truss%20Logo%20IconOnly_BWG.png?v=2023-06-15T22:19:54.100Z"
+		}
 	}
 }

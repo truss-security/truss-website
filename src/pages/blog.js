@@ -1,48 +1,323 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Section } from "@quarkly/widgets";
+import { Theme, Link, Text, Image, Box, LinkBox, Section } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { RawHtml, Override } from "@quarkly/components";
+import { RawHtml } from "@quarkly/components";
 export default (() => {
 	return <Theme theme={theme}>
-		<GlobalQuarklyPageStyles pageUrl={"blog"} />
+		<GlobalQuarklyPageStyles pageUrl={"blog1"} />
 		<Helmet>
 			<title>
 				Quarkly export
 			</title>
 			<meta name={"description"} content={"Web site created using quarkly.io"} />
-			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/readme/cra/favicon-32x32.ico"} type={"image/x-icon"} />
+			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/648b58158bd7e60018594e7d/images/Truss%20Logo%20IconOnly_BWG.png?v=2023-06-15T22:19:54.100Z"} type={"image/x-icon"} />
 		</Helmet>
-		<Section padding="80px 0 80px 0" quarkly-title="Content-5">
-			<Override slot="SectionContent" padding="0px 150px 0px 0px" lg-padding="0px 0 0px 0px" />
-			<Text margin="0px 0px 10px 0px" font="normal 400 18px/1.5 --fontFamily-sans" color="#5d20a9" max-width="640px">
-				Whitepaper
+		<Section padding="90px 0 100px 0" quarkly-title="News/Streams/Blog-3">
+			<Text margin="0px 0px 15px 0px" font="normal 600 42px/1.2 --fontFamily-sans">
+				From the blog
 			</Text>
-			<Text margin="0px 0px 30px 0px" font="normal 600 42px/1.2 --fontFamily-sans" max-width="640px">
-				Truss - An Inter-chain Decentralized Autonomous Security Ecosystem
+			<Text margin="0px 0px 60px 0px" font="--lead" color="#626970">
+				There are recent articles in this blog
 			</Text>
-			<Text margin="0px 0px 20px 0px" font="--headline3" max-width="640px">
-				Abstract
-			</Text>
-			<Text margin="0px 0px 25px 0px" font="normal 300 25px/1.5 --fontFamily-sans" color="#505257" max-width="640px">
-				It is rare when something fundamentally alters not only how we interact with the world around us but also with each other. The personal computer, the cellphone, and 5G wireless communication are examples of how technology can transform the physical mediums we use to communicate and connect with each other. Blockchain technology, on the other hand, stands apart from the physical mediums just mentioned and enters the world of transforming how we trust information. Blockchain has an answer to questions like, How well do we trust the information we digest? Is there a consensus on the legitimacy of a particular event? Can we mathematically prove that a particular event even took place?
-			</Text>
-			<Text margin="0px 0px 25px 0px" font="normal 300 18px/1.5 --fontFamily-sans" color="#505257" max-width="640px">
-				Blockchain up to this point has been largely focused on answering the questions of trust from a financial perspective as well as leveraging the technology to enhance governance, privacy, and multi-signature authorization. In each use-case, cryptologic functions are used to assert, without question, that a particular set of events are indeed true. This leads us to a logical next step, the information security industry. Blockchain operations have many parallels with security operations. Redundancy, transparency, privacy, and authentication, each of these is rooted deeply within both fields. The three questions we want to address are: 1) can we use the strengths of blockchain to store and provide security event data? Furthermore, 2) can this include data developed and curated by a decentralized network of researchers to achieve validation or consensus? Finally, 3) can we enable this security data to be sent directly to consumers in real-time to protect them from novel and viral threats?
-			</Text>
-			<Text margin="0px 0px 45px 0px" font="normal 300 18px/1.5 --fontFamily-sans" color="#505257" max-width="640px">
-				We envision a world where person-to-person (P2P) communication of malware signatures, malicious Command and Control (C2) infrastructure, threat actor tactics, techniques, and procedures (TTPs), and security tools are streamed between the developer and the recipient. Where the transmission of security data is processed, purchased, and integrated in real time via smart contract automation. In such a world, when a threat actor launches a novel attack, within minutes every organization in the world has the security data required to prevent this attack from impacting their environment. To achieve this goal, we propose the development of a Global Cyber Immune System, called Decentralized Autonomous Security (DAS), designed to combat the viral infections of cyber attacks.
-			</Text>
-			<Text margin="0px 0px 45px 0px" font="normal 300 18px/1.5 --fontFamily-sans" color="#505257" max-width="640px">
-				This whitepaper presents a decentralized approach to providing relevant, simple, and economical security data. The concepts listed here present a new way to deliver, purchase, and retrieve security data that directly supports the research of and prevention of cyber-attacks across the globe. Information security practitioners across the globe acknowledge the decentralized nature of attackers and how decentralized attack patterns present a technological and economic challenge to providing timely, actionable security data for organizations wanting to protect themselves. With this paper, we propose an alternative to centralized security vendors, one that takes a decentralized approach to combating cyber attacks.
-			</Text>
-			<Text margin="0px 0px 45px 0px" font="normal 300 18px/1.5 --fontFamily-sans" color="#505257" max-width="640px">
-				Thanks,
-				<br />
-				<br />
-				The Truss Security Team
-			</Text>
+			<Box
+				min-width="100px"
+				min-height="100px"
+				display="block"
+				grid-template-columns="repeat(2, 1fr)"
+				grid-gap="0 80px"
+				lg-grid-gap="0 50px"
+				md-grid-template-columns="1fr"
+			>
+				<Box
+					min-width="100px"
+					min-height="100px"
+					display="flex"
+					margin="0px 0px 60px 0px"
+					md-flex-direction="column"
+				>
+					<Image
+						src="https://images.unsplash.com/photo-1606857521015-7f9fcf423740?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000"
+						display="block"
+						width="35%"
+						object-fit="cover"
+						border-radius="25px"
+						margin="0px 50px 0px 0px"
+						height="350px"
+						md-width="100%"
+						md-margin="0px 50px 35px 0px"
+					/>
+					<Box
+						min-width="100px"
+						min-height="100px"
+						md-margin="0px 0px 30px 0px"
+						margin="0px 0px 0 0px"
+						width="65%"
+						display="flex"
+						flex-direction="column"
+						justify-content="space-between"
+						md-width="100%"
+						md-justify-content="flex-start"
+					>
+						<Box
+							min-width="10px"
+							min-height="10px"
+							display="flex"
+							align-items="center"
+							margin="0px 0px 10px 0px"
+						>
+							<Text margin="0px 30px 10px 0px" font="normal 400 16px/1.5 --fontFamily-sansHelvetica" color="#626970">
+								May 20, 2022
+							</Text>
+							<Text
+								margin="0px 0px 10px 0px"
+								font="normal 400 16px/1.5 --fontFamily-sansHelvetica"
+								color="#626970"
+								padding="3px 10px 3px 10px"
+								background="--color-lightD1"
+								border-radius="15px"
+							>
+								Marketing
+							</Text>
+						</Box>
+						<LinkBox align-items="flex-start" margin="0px 0px 15px 0px" href="/">
+							<Text margin="0px 0px 0 0px" font="normal 600 24px/1.2 --fontFamily-sans">
+								The future of it: trends to watch in 2021 and beyond
+							</Text>
+						</LinkBox>
+						<Text
+							margin="0px 0px 0 0px"
+							font="normal 300 18px/1.5 --fontFamily-sansHelvetica"
+							lg-margin="0px 0px 40px 0px"
+							color="#626970"
+							md-margin="0px 0px 25px 0px"
+						>
+							As technology continues to evolve at a rapid pace, the future of IT is an exciting and constantly evolving landscape. In this article, we explore some of the key trends that are shaping the future of IT, including artificial intelligence, cybersecurity, cloud computing, and more.{"\n "}
+						</Text>
+						<Box
+							min-width="10px"
+							min-height="10px"
+							display="flex"
+							margin="30px 0px 0px 0px"
+							align-items="center"
+							border-color="--color-lightD2"
+							padding="30px 0px 0px 0px"
+							border-width="1px 0 0 0"
+							border-style="solid"
+						>
+							<Image
+								src="https://uploads.quarkly.io/643d8e6ebf72b300207d7233/images/medium-shot-man-with-freckles.jpg?v=2023-04-20T19:59:54.577Z"
+								display="block"
+								width="50px"
+								height="50px"
+								object-fit="cover"
+								border-radius="50%"
+							/>
+							<Box min-width="10px" min-height="10px">
+								<Text margin="0px 0 0px 20px" font="normal 500 16px/1.5 --fontFamily-sansHelvetica" sm-font="normal 500 18px/1.5 --fontFamily-sans">
+									Alex Foster
+								</Text>
+								<Text margin="0px 0 0px 20px" font="normal 500 16px/1.5 --fontFamily-sansHelvetica" sm-font="normal 500 18px/1.5 --fontFamily-sans" color="#626970">
+									Co-Founder
+								</Text>
+							</Box>
+						</Box>
+					</Box>
+				</Box>
+				<Box
+					min-width="100px"
+					min-height="100px"
+					display="flex"
+					margin="0px 0px 60px 0px"
+					md-flex-direction="column"
+				>
+					<Image
+						src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000"
+						display="block"
+						width="35%"
+						object-fit="cover"
+						border-radius="25px"
+						margin="0px 50px 0px 0px"
+						height="350px"
+						md-width="100%"
+						md-margin="0px 50px 35px 0px"
+					/>
+					<Box
+						min-width="100px"
+						min-height="100px"
+						md-margin="0px 0px 30px 0px"
+						margin="0px 0px 0 0px"
+						width="65%"
+						display="flex"
+						flex-direction="column"
+						justify-content="space-between"
+						md-width="100%"
+					>
+						<Box
+							min-width="10px"
+							min-height="10px"
+							display="flex"
+							align-items="center"
+							margin="0px 0px 10px 0px"
+						>
+							<Text margin="0px 30px 10px 0px" font="normal 400 16px/1.5 --fontFamily-sansHelvetica" color="#626970">
+								Jule 3, 2022
+							</Text>
+							<Text
+								margin="0px 0px 10px 0px"
+								font="normal 400 16px/1.5 --fontFamily-sansHelvetica"
+								color="#626970"
+								padding="3px 10px 3px 10px"
+								background="--color-lightD1"
+								border-radius="15px"
+							>
+								Sales
+							</Text>
+						</Box>
+						<LinkBox align-items="flex-start" margin="0px 0px 15px 0px" href="/">
+							<Text margin="0px 0px 0 0px" font="normal 600 24px/1.2 --fontFamily-sans">
+								Cybersecurity threats and solutions for businesses
+							</Text>
+						</LinkBox>
+						<Text
+							margin="0px 0px 0 0px"
+							font="normal 300 18px/1.5 --fontFamily-sansHelvetica"
+							lg-margin="0px 0px 40px 0px"
+							color="#626970"
+							md-margin="0px 0px 25px 0px"
+						>
+							As technology continues to advance, cybersecurity threats are becoming increasingly sophisticated and frequent. Businesses must take steps to protect their data and systems from cyber attacks. Here are some of the most common cybersecurity threats facing businesses today, as well as strategies for preventing and responding to these threats...
+							<br />
+							{" \n "}
+						</Text>
+						<Box
+							min-width="10px"
+							min-height="10px"
+							display="flex"
+							margin="30px 0px 0px 0px"
+							align-items="center"
+							border-color="--color-lightD2"
+							padding="30px 0px 0px 0px"
+							border-width="1px 0 0 0"
+							border-style="solid"
+						>
+							<Image
+								src="https://uploads.quarkly.io/643d8e6ebf72b300207d7233/images/beautiful-woman-with-curly-blonde-hair-smiling.jpg?v=2023-04-20T19:59:19.648Z"
+								display="block"
+								width="50px"
+								height="50px"
+								object-fit="cover"
+								border-radius="50%"
+							/>
+							<Box min-width="10px" min-height="10px">
+								<Text margin="0px 0 0px 20px" font="normal 500 16px/1.5 --fontFamily-sansHelvetica" sm-font="normal 500 18px/1.5 --fontFamily-sans">
+									Lindsay White
+								</Text>
+								<Text margin="0px 0 0px 20px" font="normal 500 16px/1.5 --fontFamily-sansHelvetica" sm-font="normal 500 18px/1.5 --fontFamily-sans" color="#626970">
+									Director of product
+								</Text>
+							</Box>
+						</Box>
+					</Box>
+				</Box>
+				<Box
+					min-width="100px"
+					min-height="100px"
+					display="flex"
+					margin="0px 0px 0 0px"
+					md-flex-direction="column"
+				>
+					<Image
+						src="https://images.unsplash.com/photo-1573495612890-430e48b164df?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000"
+						display="block"
+						width="35%"
+						object-fit="cover"
+						border-radius="25px"
+						margin="0px 50px 0px 0px"
+						height="350px"
+						md-width="100%"
+						md-margin="0px 50px 35px 0px"
+					/>
+					<Box
+						min-width="100px"
+						min-height="100px"
+						md-margin="0px 0px 50px 0px"
+						margin="0px 0px 0 0px"
+						width="65%"
+						display="flex"
+						flex-direction="column"
+						justify-content="space-between"
+						md-width="100%"
+					>
+						<Box
+							min-width="10px"
+							min-height="10px"
+							display="flex"
+							align-items="center"
+							margin="0px 0px 10px 0px"
+						>
+							<Text margin="0px 30px 10px 0px" font="normal 400 16px/1.5 --fontFamily-sansHelvetica" color="#626970">
+								Jule 7, 2022
+							</Text>
+							<Text
+								margin="0px 0px 10px 0px"
+								font="normal 400 16px/1.5 --fontFamily-sansHelvetica"
+								color="#626970"
+								padding="3px 10px 3px 10px"
+								background="--color-lightD1"
+								border-radius="15px"
+							>
+								Marketing
+							</Text>
+						</Box>
+						<LinkBox align-items="flex-start" margin="0px 0px 15px 0px" href="/">
+							<Text margin="0px 0px 0 0px" font="normal 600 24px/1.2 --fontFamily-sans">
+								Artificial intelligence and machine learning: applications in it
+							</Text>
+						</LinkBox>
+						<Text
+							margin="0px 0px 0 0px"
+							font="normal 300 18px/1.5 --fontFamily-sansHelvetica"
+							lg-margin="0px 0px 40px 0px"
+							color="#626970"
+							md-margin="0px 0px 25px 0px"
+						>
+							Artificial Intelligence (AI) and Machine Learning (ML) are two technologies that are revolutionizing the way businesses approach IT security. Here are some of the ways AI and ML are being used to enhance cybersecurity...
+							<br />
+							{" \n "}
+						</Text>
+						<Box
+							min-width="10px"
+							min-height="10px"
+							display="flex"
+							margin="30px 0px 0px 0px"
+							align-items="center"
+							border-color="--color-lightD2"
+							padding="30px 0px 0px 0px"
+							border-width="1px 0 0 0"
+							border-style="solid"
+						>
+							<Image
+								src="https://uploads.quarkly.io/643d8e6ebf72b300207d7233/images/close-up-beautiful-woman-portrait.jpg?v=2023-04-20T19:52:22.143Z"
+								display="block"
+								width="50px"
+								height="50px"
+								object-fit="cover"
+								border-radius="50%"
+							/>
+							<Box min-width="10px" min-height="10px">
+								<Text margin="0px 0 0px 20px" font="normal 500 16px/1.5 --fontFamily-sansHelvetica" sm-font="normal 500 18px/1.5 --fontFamily-sans">
+									Maria Williams
+								</Text>
+								<Text margin="0px 0 0px 20px" font="normal 500 16px/1.5 --fontFamily-sansHelvetica" sm-font="normal 500 18px/1.5 --fontFamily-sans" color="#626970">
+									Co-Founder
+								</Text>
+							</Box>
+						</Box>
+					</Box>
+				</Box>
+			</Box>
 		</Section>
 		<Link
 			font={"--capture"}
