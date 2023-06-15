@@ -1,7 +1,7 @@
 import React from "react";
 import Index from "pages/index";
-import Blog from "pages/blog";
-import Blog1 from "pages/blog1";
+import Blog from "pages/whitepaper";
+import Blog1 from "pages/blog";
 import Contact from "pages/contact";
 import Page404 from "pages/page404";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
