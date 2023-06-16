@@ -4,15 +4,15 @@ import { Theme, Link, Box, Section, Image, Text, Icon, List } from "@quarkly/wid
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, Menu, SocialMedia } from "@quarkly/components";
-import { FaDiscord, FaTelegram, FaSlack } from "react-icons/fa";
+import { FaDiscord, FaTelegram, FaLinkedin } from "react-icons/fa";
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"index"} />
 		<Helmet>
 			<title>
-				Quarkly export
+				Truss Security
 			</title>
-			<meta name={"description"} content={"Web site created using quarkly.io"} />
+			<meta name={"description"} content={"The Truss Website and Whitepaper layout the primary mission and focus of the Truss Protocol and Truss Marketplace through the establishment of a decentralized autonomous security platform."} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/648b58158bd7e60018594e7d/images/Truss%20Logo%20IconOnly_BWG.png?v=2023-06-15T22:19:54.100Z"} type={"image/x-icon"} />
 		</Helmet>
 		<Section quarkly-title="Header">
@@ -37,7 +37,10 @@ export default (() => {
 					<Override slot="link-active" color="--primary" />
 					<Override slot="item" padding="6px" />
 					<Override slot="link-index">
-						Home
+						About
+					</Override>
+					<Override slot="link-contact">
+						Contact
 					</Override>
 				</Menu>
 			</Box>
@@ -117,11 +120,6 @@ export default (() => {
 						padding="0px 0px 20px 0px"
 					>
 						To do this Truss developed a custom-built utility token designed to facilitate the decentralized distribution and production of security data between global end users. Providing the ground floor for a true Peer-2-Peer Security Intelligence platform.
-					</Text>
-					<Text margin="0px 0px 0px 0px" font="normal 300 18px/1.5 --fontFamily-sansHelvetica" color="#35363a" text-align="center">
-						We are targeting 100 million unique global end-users within the next 3 years
-						<br />
-						We project our marketplace can globally pay researchers $10 million USD in the next 3 years
 					</Text>
 				</Box>
 				<Box min-width="100px" min-height="100px" padding="0px 0px 0px 0px" text-align="center">
@@ -329,7 +327,7 @@ export default (() => {
 				lg-justify-content="center"
 			>
 				<Image
-					src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=80"
+					src="https://images.unsplash.com/photo-1579621970795-87facc2f976d?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000"
 					object-fit="cover"
 					width="100%"
 					height="100%"
@@ -433,7 +431,7 @@ export default (() => {
 				justify-content="center"
 			>
 				<Box position="relative" display="flex" flex-direction="column">
-					<Image src="https://uploads.quarkly.io/648b58158bd7e60018594e7d/images/Q_Headshot_BW.png?v=2023-06-15T19:22:06.048Z" display="block" width="500px" />
+					<Image src="https://uploads.quarkly.io/648b58158bd7e60018594e7d/images/Q_Headshot_BW.png?v=2023-06-15T19:22:06.048Z" display="block" height="500px" />
 					<Box padding="0px 20px 0px 20px" margin="0px 0px 16px 0px">
 						<Text
 							margin="24px 0px 0px 0px"
@@ -495,7 +493,7 @@ export default (() => {
 					</SocialMedia>
 				</Box>
 				<Box position="relative" display="flex" flex-direction="column">
-					<Image src="https://uploads.quarkly.io/648b58158bd7e60018594e7d/images/Eric_headshot_BW.jpg?v=2023-06-15T19:27:34.671Z" display="block" width="500px" />
+					<Image src="https://uploads.quarkly.io/648b58158bd7e60018594e7d/images/Eric_headshot_BW.jpg?v=2023-06-15T19:27:34.671Z" display="block" height="500px" />
 					<Box padding="0px 20px 0px 20px" margin="0px 0px 16px 0px">
 						<Text
 							margin="24px 0px 0px 0px"
@@ -638,13 +636,13 @@ export default (() => {
 					<Link
 						href="https://discord.gg/5XHts9bN"
 						color="--light"
-						text-decoration-line="initial"
+						text-decoration-line="underline"
 						font="normal 500 25px/1.5 --fontFamily-sansHelvetica"
 						display="block"
 						margin="0px 0px 5px 0px"
 						sm-font="normal 500 22px/1.5 --fontFamily-sansHelvetica"
 					>
-						Discord Server
+						Discord
 					</Link>
 				</Box>
 				<Box
@@ -671,13 +669,13 @@ export default (() => {
 					<Link
 						href="hxxps://telegram[.]com/"
 						color="--light"
-						text-decoration-line="initial"
+						text-decoration-line="underline"
 						font="normal 500 25px/1.5 --fontFamily-sansHelvetica"
 						display="block"
 						margin="0px 0px 5px 0px"
 						sm-font="normal 500 22px/1.5 --fontFamily-sansHelvetica"
 					>
-						Telegram Channel
+						Telegram
 					</Link>
 				</Box>
 				<Box
@@ -689,7 +687,7 @@ export default (() => {
 					border-radius="4px"
 					align-items="center"
 				>
-					<Icon category="fa" icon={FaSlack} size="64px" />
+					<Icon category="fa" icon={FaLinkedin} size="64px" />
 					<Box
 						min-width="10px"
 						min-height="10px"
@@ -707,15 +705,15 @@ export default (() => {
 						md-justify-content="center"
 					>
 						<Link
-							href="hxxps://slack[.]com/"
+							href="hxxps://linkedin[.]com/truss"
 							color="--light"
-							text-decoration-line="initial"
+							text-decoration-line="underline"
 							font="normal 500 25px/1.5 --fontFamily-sansHelvetica"
 							display="block"
 							margin="0px 0px 5px 0px"
 							sm-font="normal 500 22px/1.5 --fontFamily-sansHelvetica"
 						>
-							Slack Workspace
+							Truss
 						</Link>
 					</Box>
 				</Box>
@@ -741,10 +739,10 @@ export default (() => {
 					hover-color="--lightD2"
 					transition="background-color 0.1s ease 0s"
 				>
-					Home
+					About
 				</Link>
 				<Link
-					href="/blog"
+					href="/whitepaper"
 					color="white"
 					padding="6px 12px 6px 12px"
 					text-decoration-line="initial"
@@ -754,42 +752,6 @@ export default (() => {
 					transition="background-color 0.1s ease 0s"
 				>
 					Whitepaper
-				</Link>
-				<Link
-					href="/404"
-					color="white"
-					padding="6px 12px 6px 12px"
-					text-decoration-line="initial"
-					display="flex"
-					font="20px/30px sans-serif"
-					hover-color="--lightD2"
-					transition="background-color 0.1s ease 0s"
-				>
-					Documentation
-				</Link>
-				<Link
-					href="/404"
-					color="white"
-					padding="6px 12px 6px 12px"
-					text-decoration-line="initial"
-					display="flex"
-					font="20px/30px sans-serif"
-					hover-color="--lightD2"
-					transition="background-color 0.1s ease 0s"
-				>
-					Blog
-				</Link>
-				<Link
-					href="/404"
-					color="white"
-					padding="6px 12px 6px 12px"
-					text-decoration-line="initial"
-					display="flex"
-					font="20px/30px sans-serif"
-					hover-color="--lightD2"
-					transition="background-color 0.1s ease 0s"
-				>
-					Contact
 				</Link>
 			</List>
 			<Link
@@ -802,6 +764,9 @@ export default (() => {
 				info@truss-security.com
 			</Link>
 		</Section>
+		<Link href="#" color="#000000">
+			Some text
+		</Link>
 		<Link
 			font={"--capture"}
 			font-size={"10px"}

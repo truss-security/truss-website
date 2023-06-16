@@ -7,9 +7,7 @@ export default {
 			"children": [
 				"648b58158bd7e60018594e82",
 				"648b58158bd7e60018594e85",
-				"648b82426efcea001ae1fa39",
-				"648b85c3588b2d0019588d41",
-				"648b85c7032e8d0018859bd6"
+				"648cd28a72a6d3001823fffa"
 			]
 		},
 		"648b58158bd7e60018594e82": {
@@ -19,23 +17,13 @@ export default {
 		},
 		"648b58158bd7e60018594e85": {
 			"id": "648b58158bd7e60018594e85",
-			"name": "index",
+			"name": "About",
 			"pageUrl": "index"
 		},
-		"648b82426efcea001ae1fa39": {
-			"id": "648b82426efcea001ae1fa39",
-			"pageUrl": "blog",
+		"648cd28a72a6d3001823fffa": {
+			"id": "648cd28a72a6d3001823fffa",
+			"pageUrl": "whitepaper",
 			"name": "Whitepaper"
-		},
-		"648b85c3588b2d0019588d41": {
-			"id": "648b85c3588b2d0019588d41",
-			"pageUrl": "blog1",
-			"name": "Blog"
-		},
-		"648b85c7032e8d0018859bd6": {
-			"id": "648b85c7032e8d0018859bd6",
-			"pageUrl": "contact",
-			"name": "Contact"
 		}
 	},
 	"mode": "production",
@@ -43,7 +31,10 @@ export default {
 	"site": {
 		"styles": {},
 		"seo": {
-			"favicon_32px": "https://uploads.quarkly.io/648b58158bd7e60018594e7d/images/Truss%20Logo%20IconOnly_BWG.png?v=2023-06-15T22:19:54.100Z"
+			"favicon_32px": "https://uploads.quarkly.io/648b58158bd7e60018594e7d/images/Truss%20Logo%20IconOnly_BWG.png?v=2023-06-15T22:19:54.100Z",
+			"title": "Truss Security",
+			"description": "The Truss Website and Whitepaper layout the primary mission and focus of the Truss Protocol and Truss Marketplace through the establishment of a decentralized autonomous security platform.",
+			"og:title": ""
 		}
 	}
 }

@@ -1,20 +1,49 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Section } from "@quarkly/widgets";
+import { Theme, Link, Text, Box, Section, List } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { RawHtml, Override } from "@quarkly/components";
+import { RawHtml, Override, Menu } from "@quarkly/components";
 export default (() => {
 	return <Theme theme={theme}>
-		<GlobalQuarklyPageStyles pageUrl={"blog"} />
+		<GlobalQuarklyPageStyles pageUrl={"whitepaper"} />
 		<Helmet>
 			<title>
-				Quarkly export
+				Truss Security
 			</title>
-			<meta name={"description"} content={"Web site created using quarkly.io"} />
+			<meta name={"description"} content={"The Truss Website and Whitepaper layout the primary mission and focus of the Truss Protocol and Truss Marketplace through the establishment of a decentralized autonomous security platform."} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/648b58158bd7e60018594e7d/images/Truss%20Logo%20IconOnly_BWG.png?v=2023-06-15T22:19:54.100Z"} type={"image/x-icon"} />
 		</Helmet>
-		<Section padding="80px 0 80px 0" quarkly-title="Content-5">
+		<Section quarkly-title="Header">
+			<Box
+				display="flex"
+				padding="12px 0"
+				justify-content="space-between"
+				align-items="center"
+				flex-direction="row"
+				md-flex-direction="column"
+			>
+				<Text margin="0" md-margin="0px 0 20px 0" text-align="left" font="normal 300 28px/1.5 --fontFamily-sansHelvetica">
+					TRUSS
+				</Text>
+				<Menu
+					display="flex"
+					justify-content="center"
+					font="--base"
+					font-weight="700"
+					md-flex-direction="column"
+					md-align-items="center"
+				>
+					<Override slot="link" text-decoration="none" color="--dark" padding="6px 12px" />
+					<Override slot="link-active" color="--primary" />
+					<Override slot="item" padding="6px" />
+					<Override slot="link-index" href="/index">
+						About
+					</Override>
+				</Menu>
+			</Box>
+		</Section>
+		<Section padding="80px 0 80px 0" quarkly-title="Whitepaper">
 			<Override slot="SectionContent" padding="0px 150px 0px 0px" lg-padding="0px 0 0px 0px" />
 			<Text margin="0px 0px 10px 0px" font="normal 400 18px/1.5 --fontFamily-sans" color="#5d20a9" max-width="640px">
 				Whitepaper
@@ -43,6 +72,51 @@ export default (() => {
 				<br />
 				The Truss Security Team
 			</Text>
+		</Section>
+		<Section background-color="--dark" text-align="center" padding="32px 0" quarkly-title="Footer">
+			<List
+				margin="0px 0px 0px 0px"
+				padding="12px 0px 12px 0px"
+				list-style-type="none"
+				as="ul"
+				display="flex"
+				align-items="center"
+				justify-content="center"
+			>
+				<Link
+					href="/index"
+					color="white"
+					padding="6px 12px 6px 12px"
+					text-decoration-line="initial"
+					display="flex"
+					font="20px/30px sans-serif"
+					hover-color="--lightD2"
+					transition="background-color 0.1s ease 0s"
+				>
+					About
+				</Link>
+				<Link
+					href="/whitepaper"
+					color="white"
+					padding="6px 12px 6px 12px"
+					text-decoration-line="initial"
+					display="flex"
+					font="20px/30px sans-serif"
+					hover-color="--lightD2"
+					transition="background-color 0.1s ease 0s"
+				>
+					Whitepaper
+				</Link>
+			</List>
+			<Link
+				href="mailto:info@truss-security.com"
+				text-decoration-line="none"
+				variant="--base"
+				color="--grey"
+				hover-color="--primary"
+			>
+				info@truss-security.com
+			</Link>
 		</Section>
 		<Link
 			font={"--capture"}
