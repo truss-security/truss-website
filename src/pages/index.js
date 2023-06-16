@@ -52,6 +52,7 @@ export default (() => {
 			background="rgba(0, 0, 0, 0) url(https://images.unsplash.com/photo-1491895200222-0fc4a4c35e18?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000) 0% 0% /auto repeat scroll border-box"
 			quarkly-title="Title"
 		>
+			<Override slot="SectionContent" width="900px" />
 			<Image src="https://uploads.quarkly.io/648b58158bd7e60018594e7d/images/Truss%20Logo%20Horizontal_Black.png?v=2023-06-15T20:00:15.139Z" display="block" />
 		</Section>
 		<Section padding="80px 0 80px 0" sm-padding="60px 0 60px 0" background="--color-dark" quarkly-title="Capability">
@@ -705,7 +706,7 @@ export default (() => {
 						md-justify-content="center"
 					>
 						<Link
-							href="hxxps://linkedin[.]com/truss"
+							href="https://www.linkedin.com/company/truss-security/"
 							color="--light"
 							text-decoration-line="underline"
 							font="normal 500 25px/1.5 --fontFamily-sansHelvetica"
@@ -755,7 +756,7 @@ export default (() => {
 				</Link>
 			</List>
 			<Link
-				href="mailto:hello@company.com"
+				href="mailto:info@truss-security.com"
 				text-decoration-line="none"
 				variant="--base"
 				color="--grey"
