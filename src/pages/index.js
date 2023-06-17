@@ -1,10 +1,9 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Box, Section, Image, Text, Icon, List } from "@quarkly/widgets";
+import { Theme, Link, Box, Section, Image, Text, List } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, Menu, SocialMedia } from "@quarkly/components";
-import { FaDiscord, FaTelegram, FaLinkedin } from "react-icons/fa";
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"index"} />
@@ -109,12 +108,12 @@ export default (() => {
 					sm-padding="0 0px 0px 0px"
 					sm-margin="0px 10% 35px 0px"
 				>
-					<Text margin="0px 0px 25px 0px" font="normal 300 25px/1.5 --fontFamily-sansHelvetica" color="#35363a" text-align="center">
+					<Text margin="0px 0px 25px 0px" font="normal 300 24px/1.5 --fontFamily-sansHelvetica" color="#35363a" text-align="center">
 						Ease the burden of implementing actionable, timely and cost-effective security solutions by incentivizing the production and distribution of decentralized security resources.
 					</Text>
 					<Text
 						margin="0px 0px 0px 0px"
-						font="normal 300 18px/1.5 --fontFamily-sansHelvetica"
+						font="normal 300 24px/1.5 --fontFamily-sansHelvetica"
 						color="#35363a"
 						text-align="center"
 						position="relative"
@@ -388,7 +387,14 @@ export default (() => {
 				</Link>
 			</Box>
 		</Section>
-		<Section padding="80px 0 80px 0" justify-content="center" quarkly-title="Team">
+		<Section
+			padding="80px 0 80px 0"
+			justify-content="center"
+			quarkly-title="Team"
+			display="block"
+			overflow-x="scroll"
+			overflow-y="scroll"
+		>
 			<Override slot="SectionContent" justify-content="center" flex-wrap="no-wrap" align-content="center" />
 			<Box
 				align-items="center"
@@ -432,7 +438,7 @@ export default (() => {
 				justify-content="center"
 			>
 				<Box position="relative" display="flex" flex-direction="column">
-					<Image src="https://uploads.quarkly.io/648b58158bd7e60018594e7d/images/Q_Headshot_BW.png?v=2023-06-15T19:22:06.048Z" display="block" height="500px" />
+					<Image src="https://uploads.quarkly.io/648b58158bd7e60018594e7d/images/Q_Headshot_BW.png?v=2023-06-17T21:52:22.270Z" display="block" order="-1" flex="0 0 auto" />
 					<Box padding="0px 20px 0px 20px" margin="0px 0px 16px 0px">
 						<Text
 							margin="24px 0px 0px 0px"
@@ -468,7 +474,7 @@ export default (() => {
 							Threat Hunting, Security Operations
 						</Text>
 					</Box>
-					<SocialMedia margin="12px 0px 24px 0px" linked-in="https://www.linkedin.com/in/qquist/" twitter="https://twitter.com/qcuequeue" discord="nquist#7384">
+					<SocialMedia margin="12px 0px 24px 0px" linked-in="https://www.linkedin.com/in/qquist/" twitter="https://twitter.com/qcuequeue" discord="https://discord.com/users/1100487494098759710">
 						<Override
 							slot="link"
 							border-radius="50%"
@@ -494,7 +500,7 @@ export default (() => {
 					</SocialMedia>
 				</Box>
 				<Box position="relative" display="flex" flex-direction="column">
-					<Image src="https://uploads.quarkly.io/648b58158bd7e60018594e7d/images/Eric_headshot_BW.jpg?v=2023-06-15T19:27:34.671Z" display="block" height="500px" />
+					<Image src="https://uploads.quarkly.io/648b58158bd7e60018594e7d/images/Eric_headshot_BW.jpg?v=2023-06-17T21:52:06.768Z" display="block" flex="1 1 0%" align-self="flex-start" />
 					<Box padding="0px 20px 0px 20px" margin="0px 0px 16px 0px">
 						<Text
 							margin="24px 0px 0px 0px"
@@ -528,7 +534,7 @@ export default (() => {
 							4 years leading development of Layer 1 DPoS chain.{" "}
 						</Text>
 					</Box>
-					<SocialMedia twitter="https://twitter.com/ericbutz" margin="12px 0px 24px 0px" linked-in="https://www.linkedin.com/in/ericgbutz/" discord="ericbutz">
+					<SocialMedia twitter="https://twitter.com/ericbutz" margin="12px 0px 24px 0px" linked-in="https://www.linkedin.com/in/ericgbutz/" discord="https://discord.com/users/ericbutz">
 						<Override
 							slot="link"
 							border-radius="50%"
@@ -556,13 +562,19 @@ export default (() => {
 			</Box>
 		</Section>
 		<Section padding="80px 0 80px 0" background="--color-darkL1" color="--lightD2" quarkly-title="Contact">
-			<Override slot="SectionContent" flex-direction="row" align-items="flex-start" lg-flex-direction="column" />
+			<Override
+				slot="SectionContent"
+				flex-direction="row"
+				align-items="flex-start"
+				lg-flex-direction="column"
+				display="block"
+			/>
 			<Box
 				min-width="100px"
 				min-height="100px"
 				width="40%"
 				lg-width="100%"
-				display="flex"
+				display="block"
 				flex-direction="column"
 				justify-content="center"
 				lg-margin="0px 0 30px 0px"
@@ -575,150 +587,81 @@ export default (() => {
 				<Text margin="0px 0px 20px 0px" font="normal 600 38px/1.2 --fontFamily-sansHelvetica" color="--light">
 					Contact us
 				</Text>
-				<Text
-					margin="0px 0px 50px 0px"
-					font="normal 300 16px/1.5 --fontFamily-sansHelvetica"
-					color="--lightD2"
-					lg-margin="0px 0px 20px 0px"
-					md-width="100%"
-				>
-					Truss is dedicated to knowledge sharing and supporting the global
-					<br />
-					security industry. The more we work together the better our global hygiene and the more secure we all become.
-				</Text>
-				<Text
-					margin="0px 0px 50px 0px"
-					font="normal 300 16px/1.5 --fontFamily-sansHelvetica"
-					color="--lightD2"
-					lg-margin="0px 0px 20px 0px"
-					md-width="100%"
-				>
-					We want to hear from you! Join the Truss security community and share your knowledge, skills, and expertise.
-				</Text>
 			</Box>
-			<Box
-				min-width="100px"
-				min-height="100px"
+			<Text
+				margin="0px 0px 50px 0px"
+				font="normal 300 24px/1.5 --fontFamily-sansHelvetica"
+				color="--lightD2"
+				lg-margin="0px 0px 20px 0px"
+				md-width="100%"
 				display="flex"
-				grid-template-columns="repeat(3, 1fr)"
-				grid-gap="16px 24px"
-				margin="0px 0 0 10%"
-				lg-grid-template-columns="repeat(2, 1fr)"
-				lg-grid-gap="36px 34px"
-				md-grid-template-columns="1fr"
-				flex-direction="column"
-				width="50%"
-				lg-margin="0px 0 0 0"
-				lg-width="100%"
-				justify-content="flex-start"
 				align-items="center"
+				justify-content="center"
+				align-content="flex-end"
+				flex-direction="column"
 			>
-				<Box
-					min-width="10px"
-					min-height="10px"
-					display="flex"
-					flex-direction="row"
-					border-color="--color-lightD2"
-					border-radius="4px"
-					align-items="center"
-					margin="0px 0px 30px 0px"
-					lg-margin="0px 0px 10px 0px"
-					sm-margin="0px 0px 0 0px"
-				>
-					<Icon category="fa" icon={FaDiscord} size="64px" />
-					<Box
-						min-width="10px"
-						min-height="10px"
-						display="flex"
-						flex-direction="column"
-						align-items="flex-start"
-						md-justify-content="center"
-					/>
-					<Link
-						href="https://discord.gg/5XHts9bN"
-						color="--light"
-						text-decoration-line="underline"
-						font="normal 500 25px/1.5 --fontFamily-sansHelvetica"
-						display="block"
-						margin="0px 0px 5px 0px"
-						sm-font="normal 500 22px/1.5 --fontFamily-sansHelvetica"
-					>
-						Discord
-					</Link>
-				</Box>
-				<Box
-					min-width="10px"
-					min-height="10px"
-					display="flex"
-					flex-direction="row"
-					border-color="--color-lightD2"
-					border-radius="4px"
-					align-items="center"
-					margin="0px 0px 30px 0px"
-					lg-margin="0px 0px 10px 0px"
-					sm-margin="0px 0px 0 0px"
-				>
-					<Icon category="fa" icon={FaTelegram} size="64px" />
-					<Box
-						min-width="10px"
-						min-height="10px"
-						display="flex"
-						flex-direction="column"
-						align-items="flex-start"
-						md-justify-content="center"
-					/>
-					<Link
-						href="hxxps://telegram[.]com/"
-						color="--light"
-						text-decoration-line="underline"
-						font="normal 500 25px/1.5 --fontFamily-sansHelvetica"
-						display="block"
-						margin="0px 0px 5px 0px"
-						sm-font="normal 500 22px/1.5 --fontFamily-sansHelvetica"
-					>
-						Telegram
-					</Link>
-				</Box>
-				<Box
-					min-width="10px"
-					min-height="10px"
-					display="flex"
-					flex-direction="row"
-					border-color="--color-lightD2"
-					border-radius="4px"
-					align-items="center"
-				>
-					<Icon category="fa" icon={FaLinkedin} size="64px" />
-					<Box
-						min-width="10px"
-						min-height="10px"
-						display="flex"
-						flex-direction="column"
-						align-items="flex-start"
-						md-justify-content="center"
-					/>
-					<Box
-						min-width="10px"
-						min-height="10px"
-						display="flex"
-						flex-direction="column"
-						align-items="flex-start"
-						md-justify-content="center"
-					>
-						<Link
-							href="https://www.linkedin.com/company/truss-security/"
-							color="--light"
-							text-decoration-line="underline"
-							font="normal 500 25px/1.5 --fontFamily-sansHelvetica"
-							display="block"
-							margin="0px 0px 5px 0px"
-							sm-font="normal 500 22px/1.5 --fontFamily-sansHelvetica"
-						>
-							Truss
-						</Link>
-					</Box>
-				</Box>
-			</Box>
+				Truss is dedicated to knowledge sharing and supporting the global security industry.
+			</Text>
+			<Text
+				margin="0px 0px 50px 0px"
+				font="normal 300 24px/1.5 --fontFamily-sansHelvetica"
+				color="--lightD2"
+				lg-margin="0px 0px 20px 0px"
+				md-width="100%"
+				display="flex"
+				align-items="center"
+				justify-content="center"
+				align-content="center"
+				flex-direction="column"
+			>
+				The more we work together the better our global hygiene and the more secure we all become.
+			</Text>
+			<Text
+				margin="0px 0px 50px 0px"
+				font="normal 300 24px/1.5 --fontFamily-sansHelvetica"
+				color="--lightD2"
+				lg-margin="0px 0px 20px 0px"
+				md-width="100%"
+				flex-wrap="no-wrap"
+				align-content="center"
+				flex-direction="column"
+				align-items="center"
+				justify-content="center"
+				justify-items="center"
+				display="flex"
+			>
+				We want to hear from you! Join the Truss security community!
+			</Text>
+			<SocialMedia
+				twitter="https://twitter.com/truss_security"
+				margin="12px 0px 24px 0px"
+				linked-in="https://www.linkedin.com/company/truss-security/"
+				discord="https://discord.com/invite/zerVhHtfxJ"
+				youtube="https://www.youtube.com/channel/UCjzO-8_mv3iKKf6baDWaYfw"
+			>
+				<Override
+					slot="link"
+					border-radius="50%"
+					color="--grey"
+					hover-color="--light"
+					background="transparent"
+					hover-background="transparent"
+					margin="0 5px 0 5px"
+					padding="0px 0px 0px 0px"
+				/>
+				<Override slot="icon-facebook" color="#000000" />
+				<Override
+					slot="icon"
+					color="--darkL1"
+					padding="10px 10px 10px 10px"
+					border-color="--color-grey"
+					border-style="solid"
+					size="40px"
+					border-radius="50px"
+					background="--color-lightD2"
+					border-width="0px"
+				/>
+			</SocialMedia>
 		</Section>
 		<Section background-color="--dark" text-align="center" padding="32px 0" quarkly-title="Footer">
 			<List
