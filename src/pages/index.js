@@ -391,7 +391,7 @@ export default (() => {
 			padding="80px 0 80px 0"
 			justify-content="center"
 			quarkly-title="Team"
-			display="block"
+			display="none"
 			overflow-x="scroll"
 			overflow-y="scroll"
 		>
