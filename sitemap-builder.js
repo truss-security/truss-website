@@ -33,6 +33,6 @@ class UniqueSitemap extends Sitemap {
 
 (
     new UniqueSitemap(router())
-        .build('https://truss-security.github.io/truss-website')
+        .build('https://truss-security.com')
         .save('./public/sitemap-index.xml')
 );

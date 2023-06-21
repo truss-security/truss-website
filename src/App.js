@@ -20,6 +20,7 @@ export default () => (
         			<Route exact path='/' component={Index}/>
 			<Route exact path='/index' component={Index}/>
 			<Route exact path='/whitepaper' component={Whitepaper}/>
+			<Route component={Page404}/>
         </Switch>
     </Router>
 );
