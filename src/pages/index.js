@@ -78,7 +78,7 @@ export default (() => {
 				md-width="100%"
 			>
 				<Text margin="0px 0px 40px 0px" color="--light" font="--base">
-					We envision a world where person-to-person (P2P) communication of malware signatures, malicious Command and Control (C2) infrastructure, threat actor tactics, techniques, and procedures (TTPs), and security tools are streamed between the developer and the recipient. Where the transmission of security data is processed, purchased, and integrated in real time via smart contract automation.
+					We envision a world where peer-to-peer (P2P) communication of malware signatures, malicious Command and Control (C2) infrastructure, threat actor tactics, techniques, and procedures (TTPs), and security tools are streamed between the developer and the recipient. Where the transmission of security data is processed, purchased, and integrated in real time via smart contract automation.
 				</Text>
 				<Text margin="0px 0px 0px 0px" color="--light" font="--base">
 					In such a world, when a threat actor launches a novel attack, within minutes every organization in the world has the security data required to prevent this attack from impacting their environment. To achieve this goal, we propose the development of a Global Cyber Immune System, called Decentralized Autonomous Security (DAS), designed to combat the viral infections of cyber attacks.
