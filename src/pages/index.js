@@ -369,7 +369,7 @@ export default (() => {
 					Read our whitepaper to learn more
 				</Text>
 				<Link
-					href="/blog"
+					href="/whitepaper"
 					padding="12px 24px 12px 24px"
 					color="--light"
 					text-decoration-line="initial"
