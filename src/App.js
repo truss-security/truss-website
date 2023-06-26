@@ -1,6 +1,7 @@
 import React from "react";
 import Index from "pages/index";
 import Whitepaper from "pages/whitepaper";
+import ComingSoon from "pages/comingSoon";
 import Page404 from "pages/page404";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { createGlobalStyle } from "styled-components";
@@ -20,6 +21,7 @@ export default () => (
         			<Route exact path='/' component={Index}/>
 			<Route exact path='/index' component={Index}/>
 			<Route exact path='/whitepaper' component={Whitepaper}/>
+			<Route exact path='/coming-soon' component={ComingSoon}/>
 			<Route component={Page404}/>
         </Switch>
     </Router>
