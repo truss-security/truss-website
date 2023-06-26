@@ -12,7 +12,16 @@ export default (() => {
 				Truss Security
 			</title>
 			<meta name={"description"} content={"The Truss Website and Whitepaper layout the primary mission and focus of the Truss Protocol and Truss Marketplace through the establishment of a decentralized autonomous security platform."} />
-			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/648b58158bd7e60018594e7d/images/Truss%20Logo%20IconOnly_BWG.png?v=2023-06-15T22:19:54.100Z"} type={"image/x-icon"} />
+			<meta property={"og:title"} content={"Truss"} />
+			<meta property={"og:description"} content={"Truss Security establishes a decentralized autonomous security platform."} />
+			<meta property={"og:image"} content={"https://uploads.quarkly.io/64972fbb588b2d0019591bb1/images/Truss%20Logo%20IconOnly_Black.png?v=2023-06-26T01:17:23.697Z"} />
+			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/64972fbb588b2d0019591bb1/images/Truss%20Logo%20IconOnly_BWG.png?v=2023-06-26T01:17:44.962Z"} type={"image/x-icon"} />
+			<link rel={"apple-touch-icon"} href={"https://uploads.quarkly.io/64972fbb588b2d0019591bb1/images/Truss%20Logo%20IconOnly_BWG.png?v=2023-06-26T01:17:44.962Z"} />
+			<link rel={"apple-touch-icon"} sizes={"76x76"} href={"https://uploads.quarkly.io/64972fbb588b2d0019591bb1/images/Truss%20Logo%20IconOnly_BWG.png?v=2023-06-26T01:17:44.962Z"} />
+			<link rel={"apple-touch-icon"} sizes={"152x152"} href={"https://uploads.quarkly.io/64972fbb588b2d0019591bb1/images/Truss%20Logo%20IconOnly_BWG.png?v=2023-06-26T01:17:44.962Z"} />
+			<link rel={"apple-touch-startup-image"} href={"https://uploads.quarkly.io/64972fbb588b2d0019591bb1/images/Truss%20Logo%20IconOnly_BWG.png?v=2023-06-26T01:17:44.962Z"} />
+			<meta name={"msapplication-TileImage"} content={"https://uploads.quarkly.io/64972fbb588b2d0019591bb1/images/Truss%20Logo%20IconOnly_BWG.png?v=2023-06-26T01:17:44.962Z"} />
+			<meta name={"msapplication-TileColor"} content={"#ffffff"} />
 		</Helmet>
 		<Section quarkly-title="Header">
 			<Box
@@ -40,6 +49,7 @@ export default (() => {
 					<Override slot="link-index">
 						About
 					</Override>
+					<Override slot="item-coming-soon" display="none" />
 				</Menu>
 			</Box>
 		</Section>
@@ -282,7 +292,7 @@ export default (() => {
 				>
 					3
 				</Link>
-				], small and medium-sized businesses simply cannot be expected to survive even one data breach. Now more than ever medium-sized businesses need security solutions that allow them to use relevant, simple, and economical security products. There are three scenarios that accurately reflect this problem:{"\t\t\t\t"}
+				], small and medium-sized businesses simply cannot be expected to survive even one data breach. Now more than ever medium-sized businesses need security solutions that allow them to use relevant, simple, and economical security products. There are three scenarios that accurately reflect this problem:
 				<br />
 				<br />
 				Scenario #1 - Commercial security vendors can provide relevant, timely, and actionable threat information that is simple to understand and implement. However, this oftentimes only comes with the purchase of premier security offerings, pushing these services out of reach for most mid-level organizations.
@@ -2289,8 +2299,30 @@ export default (() => {
 				info@truss-security.com
 			</Link>
 		</Section>
+		<Link
+			font={"--capture"}
+			font-size={"10px"}
+			position={"fixed"}
+			bottom={"12px"}
+			right={"12px"}
+			z-index={"4"}
+			border-radius={"4px"}
+			padding={"5px 12px 4px"}
+			background-color={"--dark"}
+			opacity={"0.6"}
+			hover-opacity={"1"}
+			color={"--light"}
+			cursor={"pointer"}
+			transition={"--opacityOut"}
+			quarkly-title={"Badge"}
+			text-decoration-line={"initial"}
+			href={"https://quarkly.io/"}
+			target={"_blank"}
+		>
+			Made on Quarkly
+		</Link>
 		<RawHtml>
-			<style place={"endOfHead"} rawKey={"648b58158bd7e60018594e7b"}>
+			<style place={"endOfHead"} rawKey={"64972fbb588b2d0019591baf"}>
 				{":root {\n  box-sizing: border-box;\n}\n\n* {\n  box-sizing: inherit;\n}"}
 			</style>
 		</RawHtml>

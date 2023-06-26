@@ -1,12 +1,13 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Box, Section } from "@quarkly/widgets";
+import { Theme, Link, Text, Icon, LinkBox, Box, Section } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override } from "@quarkly/components";
+import { BsArrowLeftShort } from "react-icons/bs";
 export default (() => {
 	return <Theme theme={theme}>
-		<GlobalQuarklyPageStyles pageUrl={"404"} />
+		<GlobalQuarklyPageStyles pageUrl={"coming-soon"} />
 		<Helmet>
 			<title>
 				Truss Security
@@ -24,49 +25,60 @@ export default (() => {
 			<meta name={"msapplication-TileColor"} content={"#ffffff"} />
 		</Helmet>
 		<Section
+			padding="150px 0 150px 0"
 			min-height="100vh"
-			background="url(https://images.unsplash.com/photo-1610337673044-720471f83677?auto=format&fit=crop&w=1500&q=80) center center/cover no-repeat"
-			md-background="url(https://images.unsplash.com/photo-1610337673044-720471f83677?auto=format&fit=crop&w=800&q=80) center center/cover no-repeat"
-			padding="88px 0 88px 0"
-			quarkly-title="404-7"
+			background="linear-gradient(180deg,--color-light 0%,transparent 86.7%) 0 0 no-repeat,rgba(0, 0, 0, 0) url(https://images.unsplash.com/photo-1530375323520-248ebdaa967f?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000) 0% 0% /cover no-repeat scroll padding-box"
+			lg-padding="90px 0 90px 0"
+			quarkly-title="Coming Soon"
 		>
-			<Override slot="SectionContent" justify-content="center" max-width="1220px" align-items="center" />
-			<Box
-				border-radius="24px"
-				display="flex"
-				justify-content="center"
-				padding="56px 106px 64px 106px"
-				background="--color-dark"
-				max-width="600px"
-				sm-padding="26px 30px 34px 30px"
-				align-items="center"
-				flex-direction="column"
-			>
-				<Text font="--headline1" color="--light" margin="0px 0px 16px 0px" sm-font="normal 700 42px/1.2 &quot;Source Sans Pro&quot;, sans-serif">
-					404
+			<Override slot="SectionContent" max-width="1220px" justify-content="flex-start" />
+			<Box align-items="center" display="flex" justify-content="center" flex-direction="column">
+				<Text
+					color="--dark"
+					margin="8px 0px 16px 0px"
+					sm-font="normal 700 42px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
+					font="--headline1"
+					letter-spacing="-0.025em"
+					lg-margin="0px 0px 16px 0px"
+				>
+					Coming Soon
 				</Text>
 				<Text
-					md-width="100%"
-					font="--lead"
-					color="--lightD1"
-					margin="0px 0px 40px 0px"
-					text-align="center"
-					width="100%"
 					lg-width="80%"
-				>
-					The page you are looking for is not available or doesn’t belong to this website!
-				</Text>
-				<Link
 					font="--lead"
-					padding="12px 24px 12px 24px"
-					border-radius="8px"
-					background="--color-light"
-					href="/index"
-					text-decoration-line="initial"
 					color="--dark"
+					margin="0px 0px 36px 0px"
+					text-align="center"
+					lg-margin="0px 0px 24px 0px"
 				>
-					Go Back to Home
-				</Link>
+					This page will be delivered soon
+				</Text>
+				<LinkBox
+					flex-direction="row"
+					padding="12px 8px 12px 8px"
+					transition="--opacityOut"
+					hover-opacity="0.7"
+					lg-margin="0px 0px 20px 0px"
+					href="/index"
+				>
+					<Icon category="bs" icon={BsArrowLeftShort} size="24px" margin="4px 4px 0px 0px" />
+					<Text margin="0px 0px 0px 0px" font="--lead" color="--dark">
+						Back to home
+					</Text>
+				</LinkBox>
+				<LinkBox
+					flex-direction="row"
+					padding="12px 8px 12px 8px"
+					transition="--opacityOut"
+					hover-opacity="0.7"
+					lg-margin="0px 0px 20px 0px"
+					href="/whitepaper"
+				>
+					<Icon category="bs" icon={BsArrowLeftShort} size="24px" margin="4px 4px 0px 0px" />
+					<Text margin="0px 0px 0px 0px" font="--lead" color="--dark">
+						To the Whitepaper
+					</Text>
+				</LinkBox>
 			</Box>
 		</Section>
 		<Link
