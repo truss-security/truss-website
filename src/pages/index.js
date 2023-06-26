@@ -128,7 +128,7 @@ export default (() => {
 						</Strong>
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="normal 600 36px/1.2 --fontFamily-sans">
-						^144%
+						Up 144%
 					</Text>
 				</Box>
 				<Box min-width="100px" min-height="100px">
@@ -147,7 +147,7 @@ export default (() => {
 						</Strong>
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="normal 600 36px/1.2 --fontFamily-sans">
-						^84%
+						Up 84%
 					</Text>
 				</Box>
 				<Box min-width="100px" min-height="100px">
@@ -166,7 +166,7 @@ export default (() => {
 						</Strong>
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="normal 600 36px/1.2 --fontFamily-sans">
-						^83%
+						Up 83%
 					</Text>
 				</Box>
 				<Box min-width="100px" min-height="100px">
