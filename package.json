@@ -1,5 +1,8 @@
 {
     "name": "quarkly-export",
+    "version": "0.1.0",
+    "private": true,
+    "homepage": "https://truss-security.com",
     "dependencies": {
         "@quarkly/atomize": "1.0.20",
         "@quarkly/components": "0.2.75",
