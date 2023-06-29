@@ -93,7 +93,7 @@ export default (() => {
 				Cyber attacks are increasing in frequency
 			</Text>
 			<Text margin="0px 0px 25px 0px" font="normal 300 18px/1.5 --fontFamily-sans" color="#505257">
-				Billions of dollars in ransomware payments have led to advancements in the development and distribution of ransomware binaries resulting in a growth of young, malicious, yet entrepreneurial, mindsets. Furthermore, because of the potential for large payoffs, more competition is entering the field. The following percentages are based on 2022 compared to 2021 stats.
+				Billions of dollars in ransomware payments have led to advancements in the development and distribution of ransomware binaries resulting in a growth of young, malicious, yet entrepreneurial, mindsets. Furthermore, because of the potential for large payoffs, more competition is entering the field.
 			</Text>
 			<Box
 				grid-template-columns="repeat(4, 1fr)"
@@ -244,7 +244,7 @@ export default (() => {
 					lg-max-width="720px"
 					sm-text-align="left"
 				>
-					A marketplace connecting organizations with respected researchers
+					A marketplace connecting organizations with security researchers
 				</Text>
 				<Box
 					display="grid"
@@ -292,7 +292,7 @@ export default (() => {
 							</Text>
 						</Box>
 						<Text margin="16px 0px 0px 0px" font="--base" color="--lightD2">
-							When a threat actor launches a novel attack, within minutes every organization in the world has access to the security data required to prevent this attack from impacting their environment.
+							When a threat actor launches a novel attack, within minutes every organization has access to the security data required to prevent this attack from impacting their environment.
 						</Text>
 					</Box>
 				</Box>
@@ -319,7 +319,7 @@ export default (() => {
 					sm-font="normal 700 32px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
 					text-align="center"
 				>
-					Leveraging the power of blockchain
+					Building decentralized trust
 				</Text>
 				<Text
 					margin="0px 0px 0px 0px"
@@ -329,7 +329,7 @@ export default (() => {
 					text-align="center"
 					max-width="600px"
 				>
-					Blockchains have the potential to disrupt the monopoly held by large organizations over cyber threat intelligence. This democratization of the intelligence ecosystem can lead to more diverse and effective defenses against cyber threats.
+					A democratized intelligence ecosystem fueled by a trusted community of security professionals and built on a transparent, immutable blockchain has the potential to disrupt the monopoly held by large organizations over cyber threat intelligence.
 				</Text>
 			</Box>
 			<Box display="grid" grid-template-columns="repeat(3, 1fr)" grid-gap="32px 4%" md-grid-template-columns="1fr">
@@ -360,7 +360,7 @@ export default (() => {
 						lg-text-align="left"
 						flex="1 0 auto"
 					>
-						Blockchain distributes the control of threat intelligence across a network of participants, empowering individuals to contribute their insights and analysis.
+						The use of distributed ledger technology enables decentralized control of threat intelligence across a network of participants, empowering individuals to contribute their insights and analysis.
 					</Text>
 				</Box>
 				<Box
@@ -494,7 +494,7 @@ export default (() => {
 					lg-text-align="center"
 					lg-width="100%"
 				>
-					Imagine, emulating how the body’s immune system works together to deploy antigens to protect the whole body from a pathogen, the security industry can build a global immune system to ensure that security infections taking place in one enterprise are rapidly disseminated to protect the global ecosystem.
+					Imagine, emulating how the body’s immune system works together to deploy antigens to protect the whole body from a pathogen, the security community can build a global immune system to ensure that security infections taking place in one enterprise are rapidly disseminated to protect the global ecosystem.
 				</Text>
 			</Box>
 			<List
@@ -546,7 +546,7 @@ export default (() => {
 							pointer-events="auto"
 							font="--base"
 						>
-							The decentralized nature of Truss eliminates the need for intermediaries and allows for direct peer-to-peer transactions.
+							The peer-to-peer network architecture enables the direct transfer of information between participants, regardless of their physical location.
 						</Span>
 					</Text>
 				</Box>
@@ -626,7 +626,7 @@ export default (() => {
 							pointer-events="auto"
 							font="--base"
 						>
-							Using blockchain eliminates the need for intermediaries, allowing for the direct transfer of CTI between buyers and sellers.
+							Using a public ledger eliminates the need for intermediaries, allowing for the direct transfer of CTI between buyers and sellers.
 						</Span>
 					</Text>
 				</Box>
@@ -665,7 +665,7 @@ export default (() => {
 							pointer-events="auto"
 							font="--base"
 						>
-							Blockchain data is encrypted and distributed across multiple nodes, making it highly resistant to tampering and fraud.
+							Data is encrypted and distributed across multiple nodes, making it highly resistant to tampering and fraud.
 						</Span>
 					</Text>
 				</Box>
@@ -705,7 +705,7 @@ export default (() => {
 							pointer-events="auto"
 							font="--base"
 						>
-							Every participant in the blockchain network can access the same information, creating a transparent and shared ledger.
+							Every participant in the network can access the same information, creating a transparent and shared ledger.
 						</Span>
 					</Text>
 				</Box>
@@ -733,7 +733,7 @@ export default (() => {
 						>
 							Incentivization.{" "}
 							<Span font-weight="300">
-								{" "}A blockchain token foundation incentives developers, organizations, and researchers who contribute to the Truss ecosystem.
+								{" "}A token-based economy rewards the developers, organizations, and researchers who contribute to the Truss ecosystem.
 							</Span>
 						</Span>
 					</Text>
@@ -1023,9 +1023,7 @@ export default (() => {
 							</Strong>
 						</Text>
 						<Text margin="0px 0px 24px 0px" font="--base" color="--darkL2">
-							Researchers cryptographically sign their cyber threat intelligence (CTI) and publish it to the blockchain.
-							<br />
-							{"  "}
+							Researchers cryptographically sign their cyber threat intelligence (CTI) and publish it to an immutable ledger.
 						</Text>
 					</Box>
 				</Box>
@@ -1057,7 +1055,7 @@ export default (() => {
 							</Strong>
 						</Text>
 						<Text margin="0px 0px 24px 0px" font="--base" color="--darkL2">
-							Organizations pay a fee to access the CTI data. A majority of that purchase price goes to the researcher who published it as well as the data sources who supplied the data.
+							Organizations pay to access the CTI data and shares of the purchase price go to the researcher who published it and the data suppliers.
 						</Text>
 					</Box>
 				</Box>
@@ -1116,7 +1114,7 @@ export default (() => {
 					lg-text-align="left"
 					sm-text-align="left"
 				>
-					Organizations and individuals alike will be free to integrate and sell purpose-built collections of security detections directly to end-users reducing the cost of security protections while simultaneously encouraging advanced research.
+					Organizations and individuals alike are free to integrate and sell purpose-built collections of security detections directly to end-users reducing the cost of security protections while simultaneously encouraging advanced research.
 				</Text>
 				<Text
 					margin="0px 0px 16px 0px"
@@ -1135,7 +1133,7 @@ export default (() => {
 					lg-margin="0px 0px 36px 0px"
 					sm-text-align="left"
 				>
-					The Truss ecosystem enhances the security and flexibility of all Truss entities through increased visibility and marketing awareness of global or viral security events. Resulting in organizations having access to enterprise-level security solutions, regardless of their size or industry.
+					The Truss ecosystem enhances the security and flexibility of all Truss entities through increased visibility and marketing awareness of global or viral security events, resulting in organizations having access to enterprise-level security solutions, regardless of their size or industry.
 				</Text>
 				<Link
 					href="/whitepaper"
