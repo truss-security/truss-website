@@ -319,7 +319,7 @@ export default (() => {
 					sm-font="normal 700 32px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
 					text-align="center"
 				>
-					Leveraging the power of blockchain
+					Building decentralized trust
 				</Text>
 				<Text
 					margin="0px 0px 0px 0px"
@@ -329,7 +329,7 @@ export default (() => {
 					text-align="center"
 					max-width="600px"
 				>
-					Blockchains have the potential to disrupt the monopoly held by large organizations over cyber threat intelligence. This democratization of the intelligence ecosystem will lead to more diverse and effective defenses against cyber threats.
+					A democratized intelligence ecosystem fueled by a trusted community of security professionals and built on a transparent, immutable blockchain has the potential to disrupt the monopoly held by large organizations over cyber threat intelligence.
 				</Text>
 			</Box>
 			<Box display="grid" grid-template-columns="repeat(3, 1fr)" grid-gap="32px 4%" md-grid-template-columns="1fr">
@@ -360,7 +360,7 @@ export default (() => {
 						lg-text-align="left"
 						flex="1 0 auto"
 					>
-						Blockchain distributes the control of threat intelligence across a network of participants, empowering individuals to contribute their insights and analysis.
+						The use of distributed ledger technology enables decentralized control of threat intelligence across a network of participants, empowering individuals to contribute their insights and analysis.
 					</Text>
 				</Box>
 				<Box
@@ -626,7 +626,7 @@ export default (() => {
 							pointer-events="auto"
 							font="--base"
 						>
-							Using blockchain eliminates the need for intermediaries, allowing for the direct transfer of CTI between buyers and sellers.
+							Using a public ledger eliminates the need for intermediaries, allowing for the direct transfer of CTI between buyers and sellers.
 						</Span>
 					</Text>
 				</Box>
@@ -665,7 +665,7 @@ export default (() => {
 							pointer-events="auto"
 							font="--base"
 						>
-							Blockchain data is encrypted and distributed across multiple nodes, making it highly resistant to tampering and fraud.
+							Data is encrypted and distributed across multiple nodes, making it highly resistant to tampering and fraud.
 						</Span>
 					</Text>
 				</Box>
@@ -705,7 +705,7 @@ export default (() => {
 							pointer-events="auto"
 							font="--base"
 						>
-							Every participant in the blockchain network can access the same information, creating a transparent and shared ledger.
+							Every participant in the network can access the same information, creating a transparent and shared ledger.
 						</Span>
 					</Text>
 				</Box>
@@ -733,7 +733,7 @@ export default (() => {
 						>
 							Incentivization.{" "}
 							<Span font-weight="300">
-								{" "}A blockchain token incentivizes the developers, organizations, and researchers who contribute to the Truss ecosystem.
+								{" "}A token-based economy rewards the developers, organizations, and researchers who contribute to the Truss ecosystem.
 							</Span>
 						</Span>
 					</Text>
@@ -1023,7 +1023,7 @@ export default (() => {
 							</Strong>
 						</Text>
 						<Text margin="0px 0px 24px 0px" font="--base" color="--darkL2">
-							Researchers cryptographically sign their cyber threat intelligence (CTI) and publish it to an immutable blockchain.
+							Researchers cryptographically sign their cyber threat intelligence (CTI) and publish it to an immutable ledger.
 						</Text>
 					</Box>
 				</Box>
