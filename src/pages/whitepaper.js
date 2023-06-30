@@ -32,9 +32,7 @@ export default (() => {
 				flex-direction="row"
 				md-flex-direction="column"
 			>
-				<Text margin="0" md-margin="0px 0 20px 0" text-align="left" font="normal 300 28px/1.5 --fontFamily-sansHelvetica">
-					TRUSS
-				</Text>
+				<Image src="https://uploads.quarkly.io/64972fbb588b2d0019591bb1/images/Truss%20Logo%20Horizontal_Black.png?v=2023-06-30T18:54:59.248Z" display="block" max-width="20%" />
 				<Menu
 					display="flex"
 					justify-content="center"

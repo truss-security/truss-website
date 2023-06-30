@@ -36,9 +36,7 @@ export default (() => {
 				flex-direction="row"
 				md-flex-direction="column"
 			>
-				<Text margin="0" md-margin="0px 0 20px 0" text-align="left" font="normal 300 28px/1.5 --fontFamily-sansHelvetica">
-					TRUSS
-				</Text>
+				<Image src="https://uploads.quarkly.io/64972fbb588b2d0019591bb1/images/Truss%20Logo%20Horizontal_Black.png?v=2023-06-30T18:54:59.248Z" display="block" width="20% content-box" max-width="20%" />
 				<Menu
 					display="flex"
 					justify-content="center"
@@ -55,139 +53,6 @@ export default (() => {
 					</Override>
 					<Override slot="item-coming-soon" display="none" />
 				</Menu>
-			</Box>
-		</Section>
-		<Section
-			padding="40px 0 40px 0"
-			lg-padding="56px 0 56px 0"
-			sm-padding="32px 0 32px 0"
-			background="rgba(0, 0, 0, 0) url(https://images.unsplash.com/photo-1491895200222-0fc4a4c35e18?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000) 0% 0% /auto repeat scroll border-box"
-			quarkly-title="Title"
-		>
-			<Override slot="SectionContent" width="900px" />
-			<Image src="https://uploads.quarkly.io/64972fbb588b2d0019591bb1/images/Truss%20Logo%20Horizontal_Black.png?v=2023-06-30T18:54:59.248Z" display="block" />
-		</Section>
-		<Section
-			padding="40px 0 0px 0"
-			sm-padding="60px 0 80px 0"
-			quarkly-title="The Problem"
-			display="grid"
-			align-items="start"
-		>
-			<Override
-				slot="SectionContent"
-				padding="0px 0 0px 0px"
-				lg-padding="0px 0 0px 0px"
-				display="block"
-				grid-template-columns="repeat(2, 1fr)"
-				align-items="start"
-				lg-grid-template-columns="1fr"
-				order="0"
-				align-self="auto"
-				justify-self="auto"
-			/>
-			<Text margin="0px 0px 10px 0px" font="normal 400 24px/1.5 --fontFamily-sans" color="#000000" text-align="center">
-				The Problem
-			</Text>
-			<Text margin="0px 0px 30px 0px" font="normal 600 42px/1.2 --fontFamily-sans" text-align="center">
-				Cyber attacks are increasing in frequency
-			</Text>
-			<Text margin="0px 0px 25px 0px" font="normal 300 18px/1.5 --fontFamily-sans" color="#505257">
-				Billions of dollars in ransomware payments have led to advancements in the development and distribution of ransomware binaries resulting in a growth of young, malicious, yet entrepreneurial, mindsets. Furthermore, because of the potential for large payoffs, more competition is entering the field. The following percentages are based on 2022 compared to 2021 stats.
-			</Text>
-			<Box
-				grid-template-columns="repeat(4, 1fr)"
-				grid-gap="16px 16px"
-				padding="15px 0px 0px 0px"
-				border-width="1px 0 0 0"
-				border-style="solid"
-				border-color="--color-lightD2"
-				margin="0px 0px 30px 0px"
-				sm-grid-template-columns="repeat(2, 1fr)"
-				text-align="center"
-				justify-content="center"
-				align-content="center"
-				justify-items="center"
-				align-items="center"
-				width="100% border-box"
-				display="grid"
-			>
-				<Box min-width="100px" min-height="100px" flex="1 1 0%">
-					<Text margin="0px 0px 15px 0px" font="normal 400 24px/1.5 --fontFamily-sans">
-						<Strong
-							overflow-wrap="normal"
-							word-break="normal"
-							white-space="normal"
-							text-indent="0"
-							text-overflow="clip"
-							hyphens="manual"
-							user-select="auto"
-							pointer-events="auto"
-						>
-							Ransomware
-						</Strong>
-					</Text>
-					<Text margin="0px 0px 0px 0px" font="normal 600 36px/1.2 --fontFamily-sans">
-						^144%
-					</Text>
-				</Box>
-				<Box min-width="100px" min-height="100px">
-					<Text margin="0px 0px 15px 0px" font="normal 400 24px/1.5 --fontFamily-sans">
-						<Strong
-							overflow-wrap="normal"
-							word-break="normal"
-							white-space="normal"
-							text-indent="0"
-							text-overflow="clip"
-							hyphens="manual"
-							user-select="auto"
-							pointer-events="auto"
-						>
-							BEC
-						</Strong>
-					</Text>
-					<Text margin="0px 0px 0px 0px" font="normal 600 36px/1.2 --fontFamily-sans">
-						^84%
-					</Text>
-				</Box>
-				<Box min-width="100px" min-height="100px">
-					<Text margin="0px 0px 15px 0px" font="normal 400 24px/1.5 --fontFamily-sans">
-						<Strong
-							overflow-wrap="normal"
-							word-break="normal"
-							white-space="normal"
-							text-indent="0"
-							text-overflow="clip"
-							hyphens="manual"
-							user-select="auto"
-							pointer-events="auto"
-						>
-							Compromised Orgs
-						</Strong>
-					</Text>
-					<Text margin="0px 0px 0px 0px" font="normal 600 36px/1.2 --fontFamily-sans">
-						^83%
-					</Text>
-				</Box>
-				<Box min-width="100px" min-height="100px">
-					<Text margin="0px 0px 15px 0px" font="normal 400 24px/1.5 --fontFamily-sans">
-						<Strong
-							overflow-wrap="normal"
-							word-break="normal"
-							white-space="normal"
-							text-indent="0"
-							text-overflow="clip"
-							hyphens="manual"
-							user-select="auto"
-							pointer-events="auto"
-						>
-							Not detected
-						</Strong>
-					</Text>
-					<Text margin="0px 0px 0px 0px" font="normal 600 36px/1.2 --fontFamily-sans">
-						53%
-					</Text>
-				</Box>
 			</Box>
 		</Section>
 		<Section
@@ -220,9 +85,6 @@ export default (() => {
 				lg-flex-wrap="wrap"
 				lg-justify-content="center"
 			>
-				<Text margin="0px 0px 10px 0px" font="normal 400 24px/1.5 --fontFamily-sans" color="#ffffff" text-align="left">
-					The Solution
-				</Text>
 				<Text
 					as="h1"
 					margin="0px"
@@ -244,7 +106,7 @@ export default (() => {
 					lg-max-width="720px"
 					sm-text-align="left"
 				>
-					A marketplace connecting organizations with respected researchers
+					A decentralized security marketplace that connects organizations with respected researchers
 				</Text>
 				<Box
 					display="grid"
@@ -265,14 +127,21 @@ export default (() => {
 						box-shadow="--m"
 						sm-padding="24px 24px 24px 24px"
 					>
-						<Box display="flex" align-items="center">
-							<Icon category="fa" icon="FaComments" size="28px" color="--red" />
-							<Text margin="0px 0px 0px 12px" font="--lead" color="--light">
-								Peer-to-Peer (P2P) Intelligence
+						<Box display="flex" align-items="center" font="20px sans-serif">
+							<Icon
+								category="bs"
+								icon="BsCheck"
+								size="28px"
+								color="--red"
+								width="35px"
+								height="35px"
+							/>
+							<Text margin="0px 0px 0px 12px" font="normal 300 24px/1.5 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif" color="--light">
+								Right-sizing your security protections
 							</Text>
 						</Box>
-						<Text margin="16px 0px 0px 0px" font="--base" color="--lightD2">
-							Malware signatures, malicious Command and Control (C2) infrastructure, threat actor tactics, techniques, and procedures (TTPs), and security tools are streamed between the developer and the recipient.
+						<Text margin="16px 0px 0px 0px" font="normal 300 20px/1.5 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif" color="--lightD2">
+							Select the exact security product to fit exactly the right use-case.
 						</Text>
 					</Box>
 					<Box
@@ -286,15 +155,247 @@ export default (() => {
 						sm-padding="24px 24px 24px 24px"
 					>
 						<Box display="flex" align-items="center">
-							<Icon category="fa" icon="FaAudible" size="28px" color="--red" />
-							<Text margin="0px 0px 0px 12px" font="--lead" color="--light">
-								Enabling Rapid Communication
+							<Icon
+								category="bs"
+								icon="BsFillBookHalfFill"
+								size="28px"
+								color="--red"
+								width="35px"
+								height="35px"
+							/>
+							<Text margin="0px 0px 0px 12px" font="normal 300 24px/1.5 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif" color="--light">
+								Augmenting security knowledge
 							</Text>
 						</Box>
-						<Text margin="16px 0px 0px 0px" font="--base" color="--lightD2">
-							When a threat actor launches a novel attack, within minutes every organization in the world has access to the security data required to prevent this attack from impacting their environment.
+						<Text margin="16px 0px 0px 0px" font="normal 300 20px/1.5 --fontFamily-sans" color="--lightD2">
+							Bolt-on intelligence and remediation products, delivered directly to your current security tools.
 						</Text>
 					</Box>
+				</Box>
+				<Box
+					display="grid"
+					width="100%"
+					grid-template-columns="repeat(2, 1fr)"
+					grid-gap="24px"
+					margin="36px 0px 0px 0px"
+					max-width="1000px"
+					md-grid-template-columns="1fr"
+				>
+					<Box
+						padding="24px 24px 48px 24px"
+						background="--color-darkL2"
+						border-radius="8px"
+						border-width="0px 0px 0px 4px"
+						border-style="solid"
+						border-color="--color-red"
+						box-shadow="--m"
+						sm-padding="24px 24px 24px 24px"
+					>
+						<Box display="flex" align-items="center" font="20px sans-serif">
+							<Icon
+								category="fa"
+								icon="FaComments"
+								size="28px"
+								color="--red"
+								width="35px"
+								height="35px"
+							/>
+							<Text margin="0px 0px 0px 12px" font="normal 300 24px/1.5 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif" color="--light">
+								Crowdsourced Intelligence
+							</Text>
+						</Box>
+						<Text margin="16px 0px 0px 0px" font="normal 300 20px/1.5 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif" color="--lightD2">
+							Detection, remediation, and mitigation knowledge and techniques direct from skilled researchers.
+						</Text>
+					</Box>
+					<Box
+						padding="24px 24px 48px 24px"
+						background="--color-darkL2"
+						border-radius="8px"
+						border-width="0px 0px 0px 4px"
+						border-style="solid"
+						border-color="--color-red"
+						box-shadow="--m"
+						sm-padding="24px 24px 24px 24px"
+					>
+						<Box display="flex" align-items="center">
+							<Icon
+								category="fa"
+								icon="FaAudible"
+								size="28px"
+								color="--red"
+								width="35px"
+								height="35px"
+							/>
+							<Text margin="0px 0px 0px 12px" font="normal 300 24px/1.5 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif" color="--light">
+								Rapid Threat Communication
+							</Text>
+						</Box>
+						<Text margin="16px 0px 0px 0px" font="normal 300 20px/1.5 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif" color="--lightD2">
+							Protect your environment from novel attacks as soon as they are detected.
+						</Text>
+					</Box>
+				</Box>
+			</Box>
+		</Section>
+		<Section padding="40px 0 10px 0" lg-padding="90px 0 90px 0" sm-padding="45px 0 60px 0" quarkly-title="About-15">
+			<Override
+				slot="SectionContent"
+				flex-direction="row"
+				lg-flex-wrap="wrap"
+				sm-min-width="280px"
+				padding="40px 0px 0px 0px"
+			/>
+			<Box
+				width="50%"
+				display="flex"
+				flex-direction="column"
+				align-items="flex-start"
+				justify-content="space-between"
+				lg-width="100%"
+				lg-align-items="stretch"
+				lg-flex-direction="row"
+				lg-justify-content="flex-start"
+				md-flex-direction="column"
+			>
+				<Box
+					lg-width="80%"
+					lg-display="flex"
+					lg-flex-direction="column"
+					lg-align-items="flex-start"
+					lg-justify-content="flex-end"
+					md-width="100%"
+					height="100%"
+					display="flex"
+					flex-direction="column"
+					align-items="flex-start"
+					justify-content="space-around"
+				>
+					<Text
+						margin="0px 0px 12px 0px"
+						font="--base"
+						text-transform="uppercase"
+						color="--red"
+						letter-spacing="1px"
+					>
+						Cyber attacks are increasing
+					</Text>
+					<Text
+						margin="0px 0px 24px 0px"
+						font="--headline2"
+						color="--dark"
+						lg-text-align="left"
+						md-padding="0px 0px 0px 0px"
+					>
+						Medium-sized business are being left behind
+					</Text>
+					<Text
+						margin="0px 0px 24px 0px"
+						font="--base"
+						color="--greyD2"
+						md-text-align="left"
+						lg-flex="1 1 0%"
+						lg-padding="0px 0px 0px 0px"
+						lg-margin="0px 0px 32px 0px"
+						sm-margin="0px 0px 28px 0px"
+					>
+						Medium-sized businesses are the most prominent target for commodity cyber-attacks. Truss can dramatically reduce the cost of quality security products available to these organizations by providing a marketplace where these organizations can quickly and easily implement security solutions developed directly by industry security researchers.
+					</Text>
+				</Box>
+			</Box>
+			<Box
+				width="80%"
+				display="flex"
+				justify-content="flex-end"
+				lg-width="100%"
+				lg-margin="48px 0px 0px 0px"
+				lg-flex-direction="column"
+				align-items="center"
+			>
+				<Box position="relative">
+					<Image
+						src="https://images.unsplash.com/photo-1568992687947-868a62a9f521?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=1200"
+						display="block"
+						object-fit="cover"
+						height="380px"
+						width="550px"
+						lg-width="100%"
+						lg-height="auto"
+						lg-margin="8px 0px 0px 0px"
+					/>
+				</Box>
+			</Box>
+		</Section>
+		<Section padding="0px 0 40px 0" sm-padding="60px 0 60px 0">
+			<Box display="grid" grid-template-columns="repeat(3, 1fr)" grid-gap="32px 4%" md-grid-template-columns="1fr">
+				<Box align-items="center" justify-content="flex-start" flex-direction="column" display="flex">
+					<Icon
+						category="go"
+						icon="GoOrganization"
+						margin="0px 0px 0px 0px"
+						color="--dark"
+						size="36px"
+						width="50px"
+						height="50px"
+					/>
+					<Text margin="0px 0px 11px 0px" color="--darkL2" font="--headline3" lg-text-align="left">
+						Understaffed
+					</Text>
+					<Text
+						margin="0px 0px 12px 0px"
+						color="--greyD3"
+						font="--base"
+						text-align="center"
+						flex="1 0 auto"
+					>
+						Security teams are routinely staffed in response to the threats they face. Truss looks to provide crowdsourced staffing to fill those gaps
+					</Text>
+				</Box>
+				<Box align-items="center" justify-content="flex-start" flex-direction="column" display="flex">
+					<Icon
+						category="fa"
+						icon="FaRegMoneyBillAlt"
+						margin="0px 0px 0px 0px"
+						color="--dark"
+						size="36px"
+						width="50px"
+						height="50px"
+					/>
+					<Text margin="0px 0px 11px 0px" color="--darkL2" font="--headline3" lg-text-align="left">
+						Underfunded
+					</Text>
+					<Text
+						margin="0px 0px 12px 0px"
+						color="--greyD3"
+						font="--base"
+						text-align="center"
+						flex="1 0 auto"
+					>
+						Security is often seen as a blackhole to throw money at, hoping that security protections are in place to prevent compromise
+					</Text>
+				</Box>
+				<Box align-items="center" justify-content="flex-start" flex-direction="column" display="flex">
+					<Icon
+						category="fa"
+						icon="FaReact"
+						margin="0px 0px 0 0px"
+						color="--dark"
+						size="36px"
+						width="50px"
+						height="50px"
+					/>
+					<Text margin="0px 0px 11px 0px" color="--darkL2" font="--headline3" lg-text-align="left">
+						Underskilled
+					</Text>
+					<Text
+						margin="0px 0px 12px 0px"
+						color="--greyD3"
+						font="--base"
+						text-align="center"
+						flex="1 0 auto"
+					>
+						Threat intelligence analysts, threat hunters, and red team operators are expensive. Truss crowdsources these skills.
+					</Text>
 				</Box>
 			</Box>
 		</Section>
@@ -327,7 +428,8 @@ export default (() => {
 					color="--greyD3"
 					md-text-align="center"
 					text-align="center"
-					max-width="600px"
+					max-width="700px"
+					width="700px"
 				>
 					Decentralized Security (DeSec) has the potential to disrupt the monopoly held by large organizations over cyber threat intelligence. This democratization of the intelligence ecosystem can lead to more diverse and effective defenses against cyber threats.
 				</Text>
@@ -806,18 +908,7 @@ export default (() => {
 					</Span>
 				</Text>
 				<Text margin="0px 0px 38px 0px" color="--darkL2" font="--lead">
-					<Em
-						overflow-wrap="normal"
-						word-break="normal"
-						white-space="normal"
-						text-indent="0"
-						text-overflow="clip"
-						hyphens="manual"
-						user-select="auto"
-						pointer-events="auto"
-					>
-						Connecting organizations and researchers
-					</Em>
+					Where individuals and organizations connect and transact related security products and services like threat intelligence feeds, reporting, security services, and tools that augment in-house security applications, protocols, and infrastructure.
 				</Text>
 				<Link
 					href="/coming-soon"
@@ -833,55 +924,6 @@ export default (() => {
 					border-radius="4px"
 				>
 					The Truss Marketplace
-				</Link>
-			</Box>
-		</Section>
-		<Section padding="90px 0 90px 0" background="linear-gradient(0deg,rgba(0, 0, 0, 0.4) 0%,rgba(0,0,0,0.4) 100%),rgba(0, 0, 0, 0) url(https://images.unsplash.com/photo-1639322537228-f710d846310a?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000) 50% 50% /cover repeat scroll padding-box" md-padding="100px 0 100px 0" quarkly-title="Documentation">
-			<Override
-				slot="SectionContent"
-				flex-direction="row"
-				md-flex-direction="column"
-				align-self="flex-start"
-				justify-content="space-around"
-				align-content="stretch"
-				align-items="center"
-				text-align="center"
-			/>
-			<Box
-				min-width="100px"
-				min-height="100px"
-				padding="0px 80px 0px 0px"
-				width="100%"
-				lg-width="70%"
-				md-width="100%"
-				md-padding="0px 0 0px 0px"
-				md-margin="0px 0px 50px 0px"
-				text-align="left"
-				display="block"
-			>
-				<Text margin="0px 0px 10px 0px" font="normal 500 20px/1.5 --fontFamily-sans" color="white">
-					Truss Protocol
-				</Text>
-				<Text margin="0px 0px 30px 0px" font="--headline2" color="white">
-					Unleashing the Power of Token Economies
-				</Text>
-				<Text margin="0px 0px 40px 0px" color="--light" font="--base">
-					The Truss token encourages active engagement by distributing the value generated through the development and purchase of security products among the community of contributors and buyers, incentivizing their participation.
-				</Text>
-				<Link
-					href="/coming-soon"
-					color="--dark"
-					text-decoration-line="initial"
-					padding="7px 24px 8px 24px"
-					background="--color-light"
-					font="--base"
-					transition="--opacityOut"
-					hover-opacity=".7"
-					text-transform="uppercase"
-					letter-spacing="1px"
-					border-radius="4px"
-				>
-					Truss Documentation
 				</Link>
 			</Box>
 		</Section>
@@ -929,7 +971,7 @@ export default (() => {
 					sm-font="normal 600 40px/1.2 --fontFamily-sans"
 					text-align="left"
 				>
-					Crowdsourcing collective intelligence
+					Crowdsourcing Threat Intelligence
 				</Text>
 				<Text
 					as="p"
