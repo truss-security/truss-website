@@ -4,9 +4,9 @@ import { Theme, Link, Image, Box, Section, Text, Icon, Strong, Span, List } from
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, Menu, SocialMedia } from "@quarkly/components";
-import { BsCheck, BsFillBookHalfFill, BsFillAlarmFill, BsBullseye, BsFillPeopleFill } from "react-icons/bs";
+import { BsCheck, BsFillAlarmFill, BsBullseye, BsFillPeopleFill } from "react-icons/bs";
+import { GoPackage, GoOrganization, GoBroadcast, GoMortarBoard } from "react-icons/go";
 import { FaComments, FaAudible, FaRegMoneyBillAlt, FaReact, FaGalacticRepublic, FaHornbill, FaGlobeAmericas } from "react-icons/fa";
-import { GoOrganization, GoBroadcast, GoMortarBoard } from "react-icons/go";
 import { IoLogoBitcoin, IoMdUnlock, IoIosAperture, IoMdAperture, IoIosBug, IoMdGitCompare } from "react-icons/io";
 export default (() => {
 	return <Theme theme={theme}>
@@ -156,8 +156,8 @@ export default (() => {
 					>
 						<Box display="flex" align-items="center">
 							<Icon
-								category="bs"
-								icon={BsFillBookHalfFill}
+								category="go"
+								icon={GoPackage}
 								size="28px"
 								color="--red"
 								width="35px"
