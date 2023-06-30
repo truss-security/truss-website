@@ -55,7 +55,5 @@
         "cross-env": "^7.0.3",
         "gh-pages": "^5.0.0",
         "react-router-sitemap": "^1.2.0"
-    },
-    "version": "0.1.0",
-    "private": true
+    }
 }
