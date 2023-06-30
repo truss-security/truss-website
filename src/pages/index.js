@@ -65,7 +65,7 @@ export default (() => {
 			quarkly-title="Title"
 		>
 			<Override slot="SectionContent" width="900px" />
-			<Image src="https://uploads.quarkly.io/64972fbb588b2d0019591bb1/images/Truss%20Logo%20Horizontal_Black_Transparent.png?v=2023-06-26T00:58:21.370Z" display="block" />
+			<Image src="https://uploads.quarkly.io/64972fbb588b2d0019591bb1/images/Truss%20Logo%20Horizontal_Black.png?v=2023-06-30T18:54:59.248Z" display="block" />
 		</Section>
 		<Section
 			padding="40px 0 0px 0"
@@ -93,7 +93,7 @@ export default (() => {
 				Cyber attacks are increasing in frequency
 			</Text>
 			<Text margin="0px 0px 25px 0px" font="normal 300 18px/1.5 --fontFamily-sans" color="#505257">
-				Billions of dollars in ransomware payments have led to advancements in the development and distribution of ransomware binaries resulting in a growth of young, malicious, yet entrepreneurial, mindsets. Furthermore, because of the potential for large payoffs, more competition is entering the field.
+				Billions of dollars in ransomware payments have led to advancements in the development and distribution of ransomware binaries resulting in a growth of young, malicious, yet entrepreneurial, mindsets. Furthermore, because of the potential for large payoffs, more competition is entering the field. The following percentages are based on 2022 compared to 2021 stats.
 			</Text>
 			<Box
 				grid-template-columns="repeat(4, 1fr)"
@@ -128,7 +128,7 @@ export default (() => {
 						</Strong>
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="normal 600 36px/1.2 --fontFamily-sans">
-						Up 144%
+						^144%
 					</Text>
 				</Box>
 				<Box min-width="100px" min-height="100px">
@@ -147,7 +147,7 @@ export default (() => {
 						</Strong>
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="normal 600 36px/1.2 --fontFamily-sans">
-						Up 84%
+						^84%
 					</Text>
 				</Box>
 				<Box min-width="100px" min-height="100px">
@@ -166,7 +166,7 @@ export default (() => {
 						</Strong>
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="normal 600 36px/1.2 --fontFamily-sans">
-						Up 83%
+						^83%
 					</Text>
 				</Box>
 				<Box min-width="100px" min-height="100px">
@@ -234,7 +234,7 @@ export default (() => {
 					text-align="center"
 					sm-text-align="left"
 				>
-					Making enterprise cyber security easy and affordable
+					Making cyber security easy and affordable
 				</Text>
 				<Text
 					margin="8px 0px 0px 0px"
@@ -244,7 +244,7 @@ export default (() => {
 					lg-max-width="720px"
 					sm-text-align="left"
 				>
-					A marketplace connecting organizations with security researchers
+					A marketplace connecting organizations with respected researchers
 				</Text>
 				<Box
 					display="grid"
@@ -266,7 +266,7 @@ export default (() => {
 						sm-padding="24px 24px 24px 24px"
 					>
 						<Box display="flex" align-items="center">
-							<Icon category="fa" icon={FaComments} size="28px" color="--red" />
+							<Icon category="fa" icon="FaComments" size="28px" color="--red" />
 							<Text margin="0px 0px 0px 12px" font="--lead" color="--light">
 								Peer-to-Peer (P2P) Intelligence
 							</Text>
@@ -286,19 +286,19 @@ export default (() => {
 						sm-padding="24px 24px 24px 24px"
 					>
 						<Box display="flex" align-items="center">
-							<Icon category="fa" icon={FaAudible} size="28px" color="--red" />
+							<Icon category="fa" icon="FaAudible" size="28px" color="--red" />
 							<Text margin="0px 0px 0px 12px" font="--lead" color="--light">
 								Enabling Rapid Communication
 							</Text>
 						</Box>
 						<Text margin="16px 0px 0px 0px" font="--base" color="--lightD2">
-							When a threat actor launches a novel attack, within minutes every organization has access to the security data required to prevent this attack from impacting their environment.
+							When a threat actor launches a novel attack, within minutes every organization in the world has access to the security data required to prevent this attack from impacting their environment.
 						</Text>
 					</Box>
 				</Box>
 			</Box>
 		</Section>
-		<Section padding="40px 0 40px 0" background="#EDF2F6" sm-padding="60px 0 60px 0" quarkly-title="Blockchain">
+		<Section padding="40px 0 40px 0" background="#EDF2F6" sm-padding="60px 0 60px 0" quarkly-title="DeSec">
 			<Box
 				width="100%"
 				display="flex"
@@ -319,7 +319,7 @@ export default (() => {
 					sm-font="normal 700 32px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
 					text-align="center"
 				>
-					Building decentralized trust
+					Leveraging Decentralized Security
 				</Text>
 				<Text
 					margin="0px 0px 0px 0px"
@@ -329,7 +329,7 @@ export default (() => {
 					text-align="center"
 					max-width="600px"
 				>
-					A democratized intelligence ecosystem fueled by a trusted community of security professionals and built on a transparent, immutable blockchain has the potential to disrupt the monopoly held by large organizations over cyber threat intelligence.
+					Decentralized Security (DeSec) has the potential to disrupt the monopoly held by large organizations over cyber threat intelligence. This democratization of the intelligence ecosystem can lead to more diverse and effective defenses against cyber threats.
 				</Text>
 			</Box>
 			<Box display="grid" grid-template-columns="repeat(3, 1fr)" grid-gap="32px 4%" md-grid-template-columns="1fr">
@@ -345,13 +345,13 @@ export default (() => {
 				>
 					<Icon
 						category="fa"
-						icon={FaGalacticRepublic}
+						icon="FaGalacticRepublic"
 						margin="0px 0px 30px 0px"
 						color="--dark"
 						size="48px"
 					/>
 					<Text margin="0px 0px 18px 0px" color="--darkL2" font="--headline3" lg-text-align="left">
-						Decentralization
+						Resilience
 					</Text>
 					<Text
 						margin="0px 0px 0px 0px"
@@ -360,7 +360,7 @@ export default (() => {
 						lg-text-align="left"
 						flex="1 0 auto"
 					>
-						The use of distributed ledger technology enables decentralized control of threat intelligence across a network of participants, empowering individuals to contribute their insights and analysis.
+						DeSec reduces the reliance on a single point of failure by distributing data across multiple nodes, making it harder for attackers to compromise the entire system.
 					</Text>
 				</Box>
 				<Box
@@ -375,7 +375,7 @@ export default (() => {
 				>
 					<Icon
 						category="fa"
-						icon={FaHornbill}
+						icon="FaHornbill"
 						margin="0px 0px 30px 0px"
 						color="--dark"
 						size="48px"
@@ -390,7 +390,7 @@ export default (() => {
 						lg-text-align="left"
 						flex="1 0 auto"
 					>
-						Blockchains provide transparent and auditable records, ensuring the origin and integrity of threat intelligence and increasing trust among participants.
+						DeSec provides transparent and auditable records, ensuring the origin and integrity of threat intelligence and increasing trust among participants.
 					</Text>
 				</Box>
 				<Box
@@ -405,13 +405,13 @@ export default (() => {
 				>
 					<Icon
 						category="fa"
-						icon={FaReact}
+						icon="FaReact"
 						margin="0px 0px 30px 0px"
 						color="--dark"
 						size="48px"
 					/>
 					<Text margin="0px 0px 18px 0px" color="--darkL2" font="--headline3" lg-text-align="left">
-						Collaboration
+						Reduced Cost
 					</Text>
 					<Text
 						margin="0px 0px 0px 0px"
@@ -420,7 +420,7 @@ export default (() => {
 						lg-text-align="left"
 						flex="1 0 auto"
 					>
-						Smart contracts enable automated sharing and incentivization mechanisms, encouraging collective defense efforts among a community of organizations, researchers, and even machines.
+						DeSec leverages a community-driven approach, where participants contribute resources and expertise, reducing the need for extensive in-house security solutions.
 					</Text>
 				</Box>
 			</Box>
@@ -494,7 +494,7 @@ export default (() => {
 					lg-text-align="center"
 					lg-width="100%"
 				>
-					Imagine, emulating how the body’s immune system works together to deploy antigens to protect the whole body from a pathogen, the security community can build a global immune system to ensure that security infections taking place in one enterprise are rapidly disseminated to protect the global ecosystem.
+					Imagine, emulating how the body’s immune system works together to deploy antigens to protect the whole body from a pathogen, the security industry can build a global immune system to ensure that security infections taking place in one enterprise are rapidly disseminated to protect the global ecosystem.
 				</Text>
 			</Box>
 			<List
@@ -515,7 +515,7 @@ export default (() => {
 					<Icon
 						display="block"
 						category="fa"
-						icon={FaGlobeAmericas}
+						icon="FaGlobeAmericas"
 						size="20px"
 						color="--red"
 						margin="5px 0 0 0"
@@ -532,7 +532,7 @@ export default (() => {
 							pointer-events="auto"
 							font="normal 600 16px/1.5 --fontFamily-sans"
 						>
-							Global reach.{" "}
+							Global reach.
 						</Span>
 						<Span
 							opacity="0.9"
@@ -546,7 +546,7 @@ export default (() => {
 							pointer-events="auto"
 							font="--base"
 						>
-							The peer-to-peer network architecture enables the direct transfer of information between participants, regardless of their physical location.
+							The decentralized nature of Truss eliminates the need for intermediaries and allows for direct peer-to-peer transactions.
 						</Span>
 					</Text>
 				</Box>
@@ -554,7 +554,7 @@ export default (() => {
 					<Icon
 						display="block"
 						category="bs"
-						icon={BsFillAlarmFill}
+						icon="BsFillAlarmFill"
 						size="20px"
 						color="--red"
 						margin="5px 0 0 0"
@@ -572,7 +572,7 @@ export default (() => {
 							pointer-events="auto"
 							font="normal 600 16px/1.5 --fontFamily-sans"
 						>
-							Relevant and timely intelligence.{" "}
+							Relevant and timely intelligence.
 						</Span>
 						<Span
 							opacity="0.9"
@@ -594,7 +594,7 @@ export default (() => {
 					<Icon
 						display="block"
 						category="io"
-						icon={IoLogoBitcoin}
+						icon="IoLogoBitcoin"
 						size="20px"
 						color="--red"
 						margin="5px 0 0 0"
@@ -612,7 +612,7 @@ export default (() => {
 							pointer-events="auto"
 							font="normal 600 16px/1.5 --fontFamily-sans"
 						>
-							Cost-effective.{" "}
+							Cost-effective.
 						</Span>
 						<Span
 							opacity="0.9"
@@ -626,7 +626,7 @@ export default (() => {
 							pointer-events="auto"
 							font="--base"
 						>
-							Using a public ledger eliminates the need for intermediaries, allowing for the direct transfer of CTI between buyers and sellers.
+							Using DeSec eliminates the need for intermediaries, allowing for the direct transfer of CTI between buyers and sellers.
 						</Span>
 					</Text>
 				</Box>
@@ -634,7 +634,7 @@ export default (() => {
 					<Icon
 						display="block"
 						category="io"
-						icon={IoMdUnlock}
+						icon="IoMdUnlock"
 						size="20px"
 						color="--red"
 						margin="5px 0 0 0"
@@ -651,7 +651,7 @@ export default (() => {
 							pointer-events="auto"
 							font="normal 600 16px/1.5 --fontFamily-sans"
 						>
-							Security and trust.{" "}
+							Security and trust.
 						</Span>
 						<Span
 							opacity="0.9"
@@ -665,7 +665,7 @@ export default (() => {
 							pointer-events="auto"
 							font="--base"
 						>
-							Data is encrypted and distributed across multiple nodes, making it highly resistant to tampering and fraud.
+							DeSec data is encrypted and distributed across multiple nodes, making it highly resistant to tampering and fraud.
 						</Span>
 					</Text>
 				</Box>
@@ -673,7 +673,7 @@ export default (() => {
 					<Icon
 						display="block"
 						category="io"
-						icon={IoIosAperture}
+						icon="IoIosAperture"
 						size="20px"
 						color="--red"
 						margin="5px 0 0 0"
@@ -691,7 +691,7 @@ export default (() => {
 							pointer-events="auto"
 							font="normal 600 16px/1.5 --fontFamily-sans"
 						>
-							Transparency and trust.{" "}
+							Transparency and trust.
 						</Span>
 						<Span
 							opacity="0.9"
@@ -705,7 +705,7 @@ export default (() => {
 							pointer-events="auto"
 							font="--base"
 						>
-							Every participant in the network can access the same information, creating a transparent and shared ledger.
+							Every participant in the DeSec network can access the same information, creating a transparent and shared ledger.
 						</Span>
 					</Text>
 				</Box>
@@ -713,7 +713,7 @@ export default (() => {
 					<Icon
 						display="block"
 						category="go"
-						icon={GoBroadcast}
+						icon="GoBroadcast"
 						size="20px"
 						color="--red"
 						margin="5px 0 0 0"
@@ -731,9 +731,19 @@ export default (() => {
 							pointer-events="auto"
 							font="normal 600 16px/1.5 --fontFamily-sans"
 						>
-							Incentivization.{" "}
-							<Span font-weight="300">
-								{" "}A token-based economy rewards the developers, organizations, and researchers who contribute to the Truss ecosystem.
+							Incentivization.
+							<Span
+								font-weight="300"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+								user-select="auto"
+								pointer-events="auto"
+							>
+								A DeSec token foundation incentives developers, organizations, and researchers who contribute to the Truss ecosystem.
 							</Span>
 						</Span>
 					</Text>
@@ -830,19 +840,24 @@ export default (() => {
 			<Override
 				slot="SectionContent"
 				flex-direction="row"
-				align-items="center"
-				justify-content="center"
 				md-flex-direction="column"
+				align-self="flex-start"
+				justify-content="space-around"
+				align-content="stretch"
+				align-items="center"
+				text-align="center"
 			/>
 			<Box
 				min-width="100px"
 				min-height="100px"
 				padding="0px 80px 0px 0px"
-				width="50%"
+				width="100%"
 				lg-width="70%"
 				md-width="100%"
 				md-padding="0px 0 0px 0px"
 				md-margin="0px 0px 50px 0px"
+				text-align="left"
+				display="block"
 			>
 				<Text margin="0px 0px 10px 0px" font="normal 500 20px/1.5 --fontFamily-sans" color="white">
 					Truss Protocol
@@ -868,26 +883,6 @@ export default (() => {
 				>
 					Truss Documentation
 				</Link>
-			</Box>
-			<Box
-				min-width="250px"
-				min-height="250px"
-				width="250px"
-				height="250px"
-				background="--color-darkL1"
-				border-radius="50%"
-				display="flex"
-				align-items="center"
-				justify-content="center"
-				flex-direction="column"
-				md-align-self="flex-end"
-			>
-				<Text margin="0px 0px 15px 0px" color="#ff251d" font="normal 600 28px/1.2 --fontFamily-sans" text-align="center">
-					Validation
-				</Text>
-				<Text margin="0px 0px 0px 0px" color="--light" font="normal 500 22px/1.5 --fontFamily-sans" text-align="center">
-					Quality
-				</Text>
 			</Box>
 		</Section>
 		<Section
@@ -934,7 +929,7 @@ export default (() => {
 					sm-font="normal 600 40px/1.2 --fontFamily-sans"
 					text-align="left"
 				>
-					Researchers harness collective intelligence
+					Crowdsourcing collective intelligence
 				</Text>
 				<Text
 					as="p"
@@ -952,7 +947,7 @@ export default (() => {
 					lg-width="100%"
 					lg-max-width="720px"
 				>
-					Truss is the first cybersecurity platform that directly supports and incentivizes the producers of Cyber Threat Intelligence (CTI) by having consumers buy directly from the researchers. The Truss Marketplace connects buyers and sellers, creating a self-cycling economy where producers can communicate with their clientele.
+					Truss is the first cybersecurity platform that directly supports and incentivizes the crowdsourcing of Cyber Threat Intelligence (CTI). By involving and engaging a diverse community of security researchers, ethical hackers, and interested individuals, Truss helps to strengthen global hygiene against novel threats by increasing an organization's access to security "Just-in-Time" security data.
 				</Text>
 			</Box>
 			<Box
@@ -966,7 +961,7 @@ export default (() => {
 				<Box display="flex" flex-direction="column" align-items="flex-start" justify-content="space-between">
 					<Icon
 						category="io"
-						icon={IoMdAperture}
+						icon="IoMdAperture"
 						size="42px"
 						color="--light"
 						background="--color-red"
@@ -987,18 +982,18 @@ export default (() => {
 								user-select="auto"
 								pointer-events="auto"
 							>
-								Unleashed Potential
+								Broader skillset and expertise
 							</Strong>
 						</Text>
 						<Text margin="0px 0px 24px 0px" font="--base" color="--darkL2">
-							Truss untethers security data production from centralized organizations and unleashes the potential of the decentralized community of researchers.
+							Engaging a crowd of security experts brings together a wide range of perspectives, experiences, and knowledge, which help identify vulnerabilities and threats.
 						</Text>
 					</Box>
 				</Box>
 				<Box display="flex" flex-direction="column" align-items="flex-start" justify-content="space-between">
 					<Icon
 						category="io"
-						icon={IoMdPeople}
+						icon="IoIosBug"
 						size="42px"
 						color="--light"
 						background="--color-red"
@@ -1019,18 +1014,123 @@ export default (() => {
 								user-select="auto"
 								pointer-events="auto"
 							>
-								Tracked ownership
+								Rapid Vulnerability Discovery
 							</Strong>
 						</Text>
 						<Text margin="0px 0px 24px 0px" font="--base" color="--darkL2">
-							Researchers cryptographically sign their cyber threat intelligence (CTI) and publish it to an immutable ledger.
+							Incentivizing crowds to find vulnerabilities increases the number of eyes, which helps identify vulnerabilities earlier and reduces the window of opportunity for attackers.
+						</Text>
+					</Box>
+				</Box>
+				<Box display="flex" flex-direction="column" align-items="flex-start" justify-content="space-between">
+					<Icon
+						category="bs"
+						icon="BsBullseye"
+						size="42px"
+						color="--light"
+						background="--color-red"
+						padding="8px 8px 8px 8px"
+						border-radius="8px"
+						sm-margin="0px 0px 12px 0px"
+						margin="0px 0px 20px 0px"
+					/>
+					<Box align-items="flex-start" display="flex" flex-direction="column" lg-max-width="720px">
+						<Text font="--lead" color="--dark" margin="0px 0px 6px 0px">
+							<Strong
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+								user-select="auto"
+								pointer-events="auto"
+							>
+								Cost-Effective Security
+							</Strong>
+						</Text>
+						<Text margin="0px 0px 24px 0px" font="--base" color="--darkL2">
+							This distributed model allows organizations to pay only for valid vulnerabilities identified, making crowdsourcing a scalable and cost-efficient way to improve organizational security.
+						</Text>
+					</Box>
+				</Box>
+			</Box>
+			<Box
+				width="100%"
+				display="grid"
+				grid-template-columns="repeat(3, 1fr)"
+				grid-gap="32px"
+				lg-grid-template-columns="1fr"
+				lg-grid-gap="48px"
+			>
+				<Box display="flex" flex-direction="column" align-items="flex-start" justify-content="space-between">
+					<Icon
+						category="bs"
+						icon="BsFillPeopleFill"
+						size="42px"
+						color="--light"
+						background="--color-red"
+						padding="8px 8px 8px 8px"
+						border-radius="8px"
+						sm-margin="0px 0px 12px 0px"
+						margin="0px 0px 20px 0px"
+					/>
+					<Box align-items="flex-start" display="flex" flex-direction="column" lg-max-width="720px">
+						<Text font="--lead" color="--dark" margin="0px 0px 6px 0px">
+							<Strong
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+								user-select="auto"
+								pointer-events="auto"
+							>
+								Builds Trust
+							</Strong>
+						</Text>
+						<Text margin="0px 0px 24px 0px" font="--base" color="--darkL2">
+							Engaging with the security community builds trust and enhances the organization's reputation among both security researchers and the broader public.
+						</Text>
+					</Box>
+				</Box>
+				<Box display="flex" flex-direction="column" align-items="flex-start" justify-content="space-between">
+					<Icon
+						category="go"
+						icon="GoMortarBoard"
+						size="42px"
+						color="--light"
+						background="--color-red"
+						padding="8px 8px 8px 8px"
+						border-radius="8px"
+						sm-margin="0px 0px 12px 0px"
+						margin="0px 0px 20px 0px"
+					/>
+					<Box align-items="flex-start" display="flex" flex-direction="column" lg-max-width="720px">
+						<Text font="--lead" color="--dark" margin="0px 0px 6px 0px">
+							<Strong
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+								user-select="auto"
+								pointer-events="auto"
+							>
+								Knowledge Transfer
+							</Strong>
+						</Text>
+						<Text margin="0px 0px 24px 0px" font="--base" color="--darkL2">
+							By fostering knowledge-sharing and education within the community, organizations can gain insights into emerging trends, techniques, and best practices in cybersecurity.
 						</Text>
 					</Box>
 				</Box>
 				<Box display="flex" flex-direction="column" align-items="flex-start" justify-content="space-between">
 					<Icon
 						category="io"
-						icon={IoMdGitCompare}
+						icon="IoMdGitCompare"
 						size="42px"
 						color="--light"
 						background="--color-red"
@@ -1051,11 +1151,11 @@ export default (() => {
 								user-select="auto"
 								pointer-events="auto"
 							>
-								Direct Payments
+								Continuous Monitoring
 							</Strong>
 						</Text>
 						<Text margin="0px 0px 24px 0px" font="--base" color="--darkL2">
-							Organizations pay to access the CTI data and shares of the purchase price go to the researcher who published it and the data suppliers.
+							Crowdsourcing helps identify new vulnerabilities as they emerge. Providing real-time feedback on potential threats, Helps organizations stay ahead of evolving security risks and emerging threats.
 						</Text>
 					</Box>
 				</Box>
@@ -1114,7 +1214,7 @@ export default (() => {
 					lg-text-align="left"
 					sm-text-align="left"
 				>
-					Organizations and individuals alike are free to integrate and sell purpose-built collections of security detections directly to end-users reducing the cost of security protections while simultaneously encouraging advanced research.
+					Organizations and individuals alike will be free to integrate and sell purpose-built collections of security detections directly to end-users reducing the cost of security protections while simultaneously encouraging advanced research.
 				</Text>
 				<Text
 					margin="0px 0px 16px 0px"
@@ -1133,7 +1233,7 @@ export default (() => {
 					lg-margin="0px 0px 36px 0px"
 					sm-text-align="left"
 				>
-					The Truss ecosystem enhances the security and flexibility of all Truss entities through increased visibility and marketing awareness of global or viral security events, resulting in organizations having access to enterprise-level security solutions, regardless of their size or industry.
+					The Truss ecosystem enhances the security and flexibility of all Truss entities through increased visibility and marketing awareness of global or viral security events. Resulting in organizations having access to enterprise-level security solutions, regardless of their size or industry.
 				</Text>
 				<Link
 					href="/whitepaper"
