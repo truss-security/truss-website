@@ -1,13 +1,13 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Box, Section, Image, Strong, Icon, Span, List, Em } from "@quarkly/widgets";
+import { Theme, Link, Image, Box, Section, Text, Icon, Strong, Span, List } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, Menu, SocialMedia } from "@quarkly/components";
-import { FaComments, FaAudible, FaGalacticRepublic, FaHornbill, FaReact, FaGlobeAmericas } from "react-icons/fa";
-import { BsFillAlarmFill } from "react-icons/bs";
-import { IoLogoBitcoin, IoMdUnlock, IoIosAperture, IoMdAperture, IoMdPeople, IoMdGitCompare } from "react-icons/io";
-import { GoBroadcast } from "react-icons/go";
+import { BsCheck, BsFillBookHalfFill, BsFillAlarmFill, BsBullseye, BsFillPeopleFill } from "react-icons/bs";
+import { FaComments, FaAudible, FaRegMoneyBillAlt, FaReact, FaGalacticRepublic, FaHornbill, FaGlobeAmericas } from "react-icons/fa";
+import { GoOrganization, GoBroadcast, GoMortarBoard } from "react-icons/go";
+import { IoLogoBitcoin, IoMdUnlock, IoIosAperture, IoMdAperture, IoIosBug, IoMdGitCompare } from "react-icons/io";
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"index"} />
@@ -130,11 +130,11 @@ export default (() => {
 						<Box display="flex" align-items="center" font="20px sans-serif">
 							<Icon
 								category="bs"
-								icon="BsCheck"
+								icon={BsCheck}
 								size="28px"
 								color="--red"
-								width="35px"
 								height="35px"
+								width="35px"
 							/>
 							<Text margin="0px 0px 0px 12px" font="normal 300 24px/1.5 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif" color="--light">
 								Right-sizing your security protections
@@ -157,7 +157,7 @@ export default (() => {
 						<Box display="flex" align-items="center">
 							<Icon
 								category="bs"
-								icon="BsFillBookHalfFill"
+								icon={BsFillBookHalfFill}
 								size="28px"
 								color="--red"
 								width="35px"
@@ -194,7 +194,7 @@ export default (() => {
 						<Box display="flex" align-items="center" font="20px sans-serif">
 							<Icon
 								category="fa"
-								icon="FaComments"
+								icon={FaComments}
 								size="28px"
 								color="--red"
 								width="35px"
@@ -221,7 +221,7 @@ export default (() => {
 						<Box display="flex" align-items="center">
 							<Icon
 								category="fa"
-								icon="FaAudible"
+								icon={FaAudible}
 								size="28px"
 								color="--red"
 								width="35px"
@@ -331,7 +331,7 @@ export default (() => {
 				<Box align-items="center" justify-content="flex-start" flex-direction="column" display="flex">
 					<Icon
 						category="go"
-						icon="GoOrganization"
+						icon={GoOrganization}
 						margin="0px 0px 0px 0px"
 						color="--dark"
 						size="36px"
@@ -354,7 +354,7 @@ export default (() => {
 				<Box align-items="center" justify-content="flex-start" flex-direction="column" display="flex">
 					<Icon
 						category="fa"
-						icon="FaRegMoneyBillAlt"
+						icon={FaRegMoneyBillAlt}
 						margin="0px 0px 0px 0px"
 						color="--dark"
 						size="36px"
@@ -377,12 +377,12 @@ export default (() => {
 				<Box align-items="center" justify-content="flex-start" flex-direction="column" display="flex">
 					<Icon
 						category="fa"
-						icon="FaReact"
+						icon={FaReact}
 						margin="0px 0px 0 0px"
 						color="--dark"
 						size="36px"
-						width="50px"
 						height="50px"
+						width="50px"
 					/>
 					<Text margin="0px 0px 11px 0px" color="--darkL2" font="--headline3" lg-text-align="left">
 						Underskilled
@@ -447,7 +447,7 @@ export default (() => {
 				>
 					<Icon
 						category="fa"
-						icon="FaGalacticRepublic"
+						icon={FaGalacticRepublic}
 						margin="0px 0px 30px 0px"
 						color="--dark"
 						size="48px"
@@ -477,7 +477,7 @@ export default (() => {
 				>
 					<Icon
 						category="fa"
-						icon="FaHornbill"
+						icon={FaHornbill}
 						margin="0px 0px 30px 0px"
 						color="--dark"
 						size="48px"
@@ -507,7 +507,7 @@ export default (() => {
 				>
 					<Icon
 						category="fa"
-						icon="FaReact"
+						icon={FaReact}
 						margin="0px 0px 30px 0px"
 						color="--dark"
 						size="48px"
@@ -617,7 +617,7 @@ export default (() => {
 					<Icon
 						display="block"
 						category="fa"
-						icon="FaGlobeAmericas"
+						icon={FaGlobeAmericas}
 						size="20px"
 						color="--red"
 						margin="5px 0 0 0"
@@ -634,7 +634,7 @@ export default (() => {
 							pointer-events="auto"
 							font="normal 600 16px/1.5 --fontFamily-sans"
 						>
-							Global reach.
+							Global reach.{" "}
 						</Span>
 						<Span
 							opacity="0.9"
@@ -656,7 +656,7 @@ export default (() => {
 					<Icon
 						display="block"
 						category="bs"
-						icon="BsFillAlarmFill"
+						icon={BsFillAlarmFill}
 						size="20px"
 						color="--red"
 						margin="5px 0 0 0"
@@ -674,7 +674,7 @@ export default (() => {
 							pointer-events="auto"
 							font="normal 600 16px/1.5 --fontFamily-sans"
 						>
-							Relevant and timely intelligence.
+							Relevant and timely intelligence.{" "}
 						</Span>
 						<Span
 							opacity="0.9"
@@ -696,7 +696,7 @@ export default (() => {
 					<Icon
 						display="block"
 						category="io"
-						icon="IoLogoBitcoin"
+						icon={IoLogoBitcoin}
 						size="20px"
 						color="--red"
 						margin="5px 0 0 0"
@@ -714,7 +714,7 @@ export default (() => {
 							pointer-events="auto"
 							font="normal 600 16px/1.5 --fontFamily-sans"
 						>
-							Cost-effective.
+							Cost-effective.{" "}
 						</Span>
 						<Span
 							opacity="0.9"
@@ -736,7 +736,7 @@ export default (() => {
 					<Icon
 						display="block"
 						category="io"
-						icon="IoMdUnlock"
+						icon={IoMdUnlock}
 						size="20px"
 						color="--red"
 						margin="5px 0 0 0"
@@ -753,7 +753,7 @@ export default (() => {
 							pointer-events="auto"
 							font="normal 600 16px/1.5 --fontFamily-sans"
 						>
-							Security and trust.
+							Security and trust.{" "}
 						</Span>
 						<Span
 							opacity="0.9"
@@ -775,7 +775,7 @@ export default (() => {
 					<Icon
 						display="block"
 						category="io"
-						icon="IoIosAperture"
+						icon={IoIosAperture}
 						size="20px"
 						color="--red"
 						margin="5px 0 0 0"
@@ -793,7 +793,7 @@ export default (() => {
 							pointer-events="auto"
 							font="normal 600 16px/1.5 --fontFamily-sans"
 						>
-							Transparency and trust.
+							Transparency and trust.{" "}
 						</Span>
 						<Span
 							opacity="0.9"
@@ -815,7 +815,7 @@ export default (() => {
 					<Icon
 						display="block"
 						category="go"
-						icon="GoBroadcast"
+						icon={GoBroadcast}
 						size="20px"
 						color="--red"
 						margin="5px 0 0 0"
@@ -833,7 +833,7 @@ export default (() => {
 							pointer-events="auto"
 							font="normal 600 16px/1.5 --fontFamily-sans"
 						>
-							Incentivization.
+							Incentivization.{" "}
 							<Span
 								font-weight="300"
 								overflow-wrap="normal"
@@ -845,7 +845,7 @@ export default (() => {
 								user-select="auto"
 								pointer-events="auto"
 							>
-								A DeSec token foundation incentives developers, organizations, and researchers who contribute to the Truss ecosystem.
+								{" "}A DeSec token foundation incentives developers, organizations, and researchers who contribute to the Truss ecosystem.
 							</Span>
 						</Span>
 					</Text>
@@ -1003,7 +1003,7 @@ export default (() => {
 				<Box display="flex" flex-direction="column" align-items="flex-start" justify-content="space-between">
 					<Icon
 						category="io"
-						icon="IoMdAperture"
+						icon={IoMdAperture}
 						size="42px"
 						color="--light"
 						background="--color-red"
@@ -1035,7 +1035,7 @@ export default (() => {
 				<Box display="flex" flex-direction="column" align-items="flex-start" justify-content="space-between">
 					<Icon
 						category="io"
-						icon="IoIosBug"
+						icon={IoIosBug}
 						size="42px"
 						color="--light"
 						background="--color-red"
@@ -1060,14 +1060,14 @@ export default (() => {
 							</Strong>
 						</Text>
 						<Text margin="0px 0px 24px 0px" font="--base" color="--darkL2">
-							Incentivizing crowds to find vulnerabilities increases the number of eyes, which helps identify vulnerabilities earlier and reduces the window of opportunity for attackers.
+							Incentivizing crowds to find vulnerabilities increases the number of eyes, which helps identify vulnerabilities earlier and reduces the window of opportunity for attackers.{" "}
 						</Text>
 					</Box>
 				</Box>
 				<Box display="flex" flex-direction="column" align-items="flex-start" justify-content="space-between">
 					<Icon
 						category="bs"
-						icon="BsBullseye"
+						icon={BsBullseye}
 						size="42px"
 						color="--light"
 						background="--color-red"
@@ -1108,7 +1108,7 @@ export default (() => {
 				<Box display="flex" flex-direction="column" align-items="flex-start" justify-content="space-between">
 					<Icon
 						category="bs"
-						icon="BsFillPeopleFill"
+						icon={BsFillPeopleFill}
 						size="42px"
 						color="--light"
 						background="--color-red"
@@ -1140,7 +1140,7 @@ export default (() => {
 				<Box display="flex" flex-direction="column" align-items="flex-start" justify-content="space-between">
 					<Icon
 						category="go"
-						icon="GoMortarBoard"
+						icon={GoMortarBoard}
 						size="42px"
 						color="--light"
 						background="--color-red"
@@ -1172,7 +1172,7 @@ export default (() => {
 				<Box display="flex" flex-direction="column" align-items="flex-start" justify-content="space-between">
 					<Icon
 						category="io"
-						icon="IoMdGitCompare"
+						icon={IoMdGitCompare}
 						size="42px"
 						color="--light"
 						background="--color-red"
