@@ -348,7 +348,7 @@ export default (() => {
 						text-align="center"
 						flex="1 0 auto"
 					>
-						Security teams are routinely staffed in response to the threats they face. Truss looks to provide crowdsourced staffing to fill those gaps.
+						Security teams are routinely staffed in response to the threats they face. Truss crowdsources the skills to fill these gaps.
 					</Text>
 				</Box>
 				<Box align-items="center" justify-content="flex-start" flex-direction="column" display="flex">
@@ -964,7 +964,7 @@ export default (() => {
 							pointer-events="auto"
 							font="--base"
 						>
-							Near-instantaneous transfer of CTI eliminates delays and limits on political cross-border transactions.
+							Real time transfer of CTI reduces delays and limits on political cross-border transactions.
 						</Span>
 					</Text>
 				</Box>
@@ -1083,7 +1083,7 @@ export default (() => {
 							pointer-events="auto"
 							font="--base"
 						>
-							Every participant in the DeSec network can access the same information, creating a transparent and shared ledger.
+							Participants in the DeSec network can access the same information, creating a transparent and shared ledger.
 						</Span>
 					</Text>
 				</Box>
@@ -1121,7 +1121,7 @@ export default (() => {
 								user-select="auto"
 								pointer-events="auto"
 							>
-								{" "}A DeSec token foundation incentives developers, organizations, and researchers who contribute to the Truss ecosystem.
+								{" "}A DeSec token incentives developers, organizations, and researchers who contribute to the Truss ecosystem.
 							</Span>
 						</Span>
 					</Text>
