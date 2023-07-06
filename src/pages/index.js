@@ -348,7 +348,7 @@ export default (() => {
 						text-align="center"
 						flex="1 0 auto"
 					>
-						Security teams are routinely staffed in response to the threats they face. Truss looks to provide crowdsourced staffing to fill those gaps
+						Security teams are routinely staffed in response to the threats they face. Truss looks to provide crowdsourced staffing to fill those gaps.
 					</Text>
 				</Box>
 				<Box align-items="center" justify-content="flex-start" flex-direction="column" display="flex">
@@ -371,7 +371,7 @@ export default (() => {
 						text-align="center"
 						flex="1 0 auto"
 					>
-						Security is often seen as a blackhole to throw money at, hoping that security protections are in place to prevent compromise
+						Security is often seen as a blackhole to throw money at, Truss provides an avenue for security to bring in a revenue stream.
 					</Text>
 				</Box>
 				<Box align-items="center" justify-content="flex-start" flex-direction="column" display="flex">
@@ -529,6 +529,282 @@ export default (() => {
 		</Section>
 		<Section
 			padding="40px 0 40px 0"
+			sm-padding="40px 0"
+			sm-min-height="auto"
+			display="flex"
+			quarkly-title="Researchers"
+		>
+			<Override
+				slot="SectionContent"
+				flex-direction="row"
+				flex-wrap="wrap"
+				grid-gap="5%"
+				sm-min-width="280px"
+			/>
+			<Box
+				display="flex"
+				width="100%"
+				flex-direction="column"
+				justify-content="center"
+				align-items="flex-start"
+				lg-width="100%"
+				lg-align-items="flex-start"
+				lg-margin="0px 0px 60px 0px"
+				sm-margin="0px 0px 40px 0px"
+				sm-padding="0px 0px 0px 0px"
+				lg-flex-direction="row"
+				lg-flex-wrap="wrap"
+				sm-width="100%"
+				md-margin="0px 0px 30px 0px"
+				margin="0px 0px 64px 0px"
+				lg-justify-content="flex-start"
+			>
+				<Text
+					as="h1"
+					margin="0px"
+					font="--headline2"
+					color="--dark"
+					width="100%"
+					md-width="100%"
+					md-margin="0px 0px 32px 0px"
+					md-padding="0px 0px 0px 0px"
+					sm-font="normal 600 40px/1.2 --fontFamily-sans"
+					text-align="left"
+				>
+					Crowdsourcing Threat Intelligence
+				</Text>
+				<Text
+					as="p"
+					margin="20px 0 0 0"
+					font="--lead"
+					font-size="20px"
+					font-weight="300"
+					color="--dark"
+					width="80%"
+					md-width="100%"
+					md-margin="0px 0px 0px 0px"
+					md-padding="0px 0px 0px 0px"
+					sm-font="--base"
+					text-align="left"
+					lg-width="100%"
+					lg-max-width="720px"
+				>
+					Truss is the first cybersecurity platform that directly supports and incentivizes the crowdsourcing of Cyber Threat Intelligence (CTI). By involving and engaging a diverse community of security researchers, ethical hackers, and interested individuals, Truss helps to strengthen global hygiene against novel threats by increasing an organization's access to security "Just-in-Time" security data.
+				</Text>
+			</Box>
+			<Box
+				width="100%"
+				display="grid"
+				grid-template-columns="repeat(3, 1fr)"
+				grid-gap="32px"
+				lg-grid-template-columns="1fr"
+				lg-grid-gap="48px"
+			>
+				<Box display="flex" flex-direction="column" align-items="flex-start" justify-content="space-between">
+					<Icon
+						category="io"
+						icon={IoMdAperture}
+						size="42px"
+						color="--light"
+						background="--color-red"
+						padding="8px 8px 8px 8px"
+						border-radius="8px"
+						sm-margin="0px 0px 12px 0px"
+						margin="0px 0px 20px 0px"
+					/>
+					<Box align-items="flex-start" display="flex" flex-direction="column" lg-max-width="720px">
+						<Text font="--lead" color="--dark" margin="0px 0px 6px 0px">
+							<Strong
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+								user-select="auto"
+								pointer-events="auto"
+							>
+								Broader skillset and expertise
+							</Strong>
+						</Text>
+						<Text margin="0px 0px 24px 0px" font="--base" color="--darkL2">
+							Engaging a crowd of security experts brings together a wide range of perspectives, experiences, and knowledge, which help identify vulnerabilities and threats.
+						</Text>
+					</Box>
+				</Box>
+				<Box display="flex" flex-direction="column" align-items="flex-start" justify-content="space-between">
+					<Icon
+						category="io"
+						icon={IoIosBug}
+						size="42px"
+						color="--light"
+						background="--color-red"
+						padding="8px 8px 8px 8px"
+						border-radius="8px"
+						sm-margin="0px 0px 12px 0px"
+						margin="0px 0px 20px 0px"
+					/>
+					<Box align-items="flex-start" display="flex" flex-direction="column" lg-max-width="720px">
+						<Text font="--lead" color="--dark" margin="0px 0px 6px 0px">
+							<Strong
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+								user-select="auto"
+								pointer-events="auto"
+							>
+								Rapid Vulnerability Discovery
+							</Strong>
+						</Text>
+						<Text margin="0px 0px 24px 0px" font="--base" color="--darkL2">
+							Incentivizing crowds to find vulnerabilities increases the number of eyes, which helps identify vulnerabilities earlier and reduces the window of opportunity for attackers.{" "}
+						</Text>
+					</Box>
+				</Box>
+				<Box display="flex" flex-direction="column" align-items="flex-start" justify-content="space-between">
+					<Icon
+						category="bs"
+						icon={BsBullseye}
+						size="42px"
+						color="--light"
+						background="--color-red"
+						padding="8px 8px 8px 8px"
+						border-radius="8px"
+						sm-margin="0px 0px 12px 0px"
+						margin="0px 0px 20px 0px"
+					/>
+					<Box align-items="flex-start" display="flex" flex-direction="column" lg-max-width="720px">
+						<Text font="--lead" color="--dark" margin="0px 0px 6px 0px">
+							<Strong
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+								user-select="auto"
+								pointer-events="auto"
+							>
+								Cost-Effective Security
+							</Strong>
+						</Text>
+						<Text margin="0px 0px 24px 0px" font="--base" color="--darkL2">
+							This distributed model allows organizations to pay only for valid vulnerabilities identified, making crowdsourcing a scalable and cost-efficient way to improve organizational security.
+						</Text>
+					</Box>
+				</Box>
+			</Box>
+			<Box
+				width="100%"
+				display="grid"
+				grid-template-columns="repeat(3, 1fr)"
+				grid-gap="32px"
+				lg-grid-template-columns="1fr"
+				lg-grid-gap="48px"
+			>
+				<Box display="flex" flex-direction="column" align-items="flex-start" justify-content="space-between">
+					<Icon
+						category="bs"
+						icon={BsFillPeopleFill}
+						size="42px"
+						color="--light"
+						background="--color-red"
+						padding="8px 8px 8px 8px"
+						border-radius="8px"
+						sm-margin="0px 0px 12px 0px"
+						margin="0px 0px 20px 0px"
+					/>
+					<Box align-items="flex-start" display="flex" flex-direction="column" lg-max-width="720px">
+						<Text font="--lead" color="--dark" margin="0px 0px 6px 0px">
+							<Strong
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+								user-select="auto"
+								pointer-events="auto"
+							>
+								Builds Trust
+							</Strong>
+						</Text>
+						<Text margin="0px 0px 24px 0px" font="--base" color="--darkL2">
+							Engaging with the security community builds trust and enhances the organization's reputation among both security researchers and the broader public.
+						</Text>
+					</Box>
+				</Box>
+				<Box display="flex" flex-direction="column" align-items="flex-start" justify-content="space-between">
+					<Icon
+						category="go"
+						icon={GoMortarBoard}
+						size="42px"
+						color="--light"
+						background="--color-red"
+						padding="8px 8px 8px 8px"
+						border-radius="8px"
+						sm-margin="0px 0px 12px 0px"
+						margin="0px 0px 20px 0px"
+					/>
+					<Box align-items="flex-start" display="flex" flex-direction="column" lg-max-width="720px">
+						<Text font="--lead" color="--dark" margin="0px 0px 6px 0px">
+							<Strong
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+								user-select="auto"
+								pointer-events="auto"
+							>
+								Knowledge Transfer
+							</Strong>
+						</Text>
+						<Text margin="0px 0px 24px 0px" font="--base" color="--darkL2">
+							By fostering knowledge-sharing and education within the community, organizations can gain insights into emerging trends, techniques, and best practices in cybersecurity.
+						</Text>
+					</Box>
+				</Box>
+				<Box display="flex" flex-direction="column" align-items="flex-start" justify-content="space-between">
+					<Icon
+						category="io"
+						icon={IoMdGitCompare}
+						size="42px"
+						color="--light"
+						background="--color-red"
+						padding="8px 8px 8px 8px"
+						border-radius="8px"
+						sm-margin="0px 0px 12px 0px"
+						margin="0px 0px 20px 0px"
+					/>
+					<Box align-items="flex-start" display="flex" flex-direction="column" lg-max-width="720px">
+						<Text font="--lead" color="--dark" margin="0px 0px 6px 0px">
+							<Strong
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+								user-select="auto"
+								pointer-events="auto"
+							>
+								Continuous Monitoring
+							</Strong>
+						</Text>
+						<Text margin="0px 0px 24px 0px" font="--base" color="--darkL2">
+							Crowdsourcing helps identify new vulnerabilities as they emerge. Providing real-time feedback on potential threats, Helps organizations stay ahead of evolving security risks and emerging threats.
+						</Text>
+					</Box>
+				</Box>
+			</Box>
+		</Section>
+		<Section
+			padding="40px 0 40px 0"
 			sm-padding="60px 0 60px 0"
 			min-height="600px"
 			sm-min-height="auto"
@@ -596,7 +872,7 @@ export default (() => {
 					lg-text-align="center"
 					lg-width="100%"
 				>
-					Imagine, emulating how the body’s immune system works together to deploy antigens to protect the whole body from a pathogen, the security industry can build a global immune system to ensure that security infections taking place in one enterprise are rapidly disseminated to protect the global ecosystem.
+					Imagine, emulating how the body’s immune system works to protect the whole body. Now, imagine if your security tools did the same thing. A global immune system ensure that security infections taking place in one environment are rapidly disseminated to protect the entire global ecosystem.
 				</Text>
 			</Box>
 			<List
@@ -927,282 +1203,6 @@ export default (() => {
 				</Link>
 			</Box>
 		</Section>
-		<Section
-			padding="40px 0 40px 0"
-			sm-padding="40px 0"
-			sm-min-height="auto"
-			display="flex"
-			quarkly-title="Researchers"
-		>
-			<Override
-				slot="SectionContent"
-				flex-direction="row"
-				flex-wrap="wrap"
-				grid-gap="5%"
-				sm-min-width="280px"
-			/>
-			<Box
-				display="flex"
-				width="100%"
-				flex-direction="column"
-				justify-content="center"
-				align-items="flex-start"
-				lg-width="100%"
-				lg-align-items="flex-start"
-				lg-margin="0px 0px 60px 0px"
-				sm-margin="0px 0px 40px 0px"
-				sm-padding="0px 0px 0px 0px"
-				lg-flex-direction="row"
-				lg-flex-wrap="wrap"
-				sm-width="100%"
-				md-margin="0px 0px 30px 0px"
-				margin="0px 0px 64px 0px"
-				lg-justify-content="flex-start"
-			>
-				<Text
-					as="h1"
-					margin="0px"
-					font="--headline2"
-					color="--dark"
-					width="100%"
-					md-width="100%"
-					md-margin="0px 0px 32px 0px"
-					md-padding="0px 0px 0px 0px"
-					sm-font="normal 600 40px/1.2 --fontFamily-sans"
-					text-align="left"
-				>
-					Crowdsourcing Threat Intelligence
-				</Text>
-				<Text
-					as="p"
-					margin="20px 0 0 0"
-					font="--lead"
-					font-size="20px"
-					font-weight="300"
-					color="--dark"
-					width="80%"
-					md-width="100%"
-					md-margin="0px 0px 0px 0px"
-					md-padding="0px 0px 0px 0px"
-					sm-font="--base"
-					text-align="left"
-					lg-width="100%"
-					lg-max-width="720px"
-				>
-					Truss is the first cybersecurity platform that directly supports and incentivizes the crowdsourcing of Cyber Threat Intelligence (CTI). By involving and engaging a diverse community of security researchers, ethical hackers, and interested individuals, Truss helps to strengthen global hygiene against novel threats by increasing an organization's access to security "Just-in-Time" security data.
-				</Text>
-			</Box>
-			<Box
-				width="100%"
-				display="grid"
-				grid-template-columns="repeat(3, 1fr)"
-				grid-gap="32px"
-				lg-grid-template-columns="1fr"
-				lg-grid-gap="48px"
-			>
-				<Box display="flex" flex-direction="column" align-items="flex-start" justify-content="space-between">
-					<Icon
-						category="io"
-						icon={IoMdAperture}
-						size="42px"
-						color="--light"
-						background="--color-red"
-						padding="8px 8px 8px 8px"
-						border-radius="8px"
-						sm-margin="0px 0px 12px 0px"
-						margin="0px 0px 20px 0px"
-					/>
-					<Box align-items="flex-start" display="flex" flex-direction="column" lg-max-width="720px">
-						<Text font="--lead" color="--dark" margin="0px 0px 6px 0px">
-							<Strong
-								overflow-wrap="normal"
-								word-break="normal"
-								white-space="normal"
-								text-indent="0"
-								text-overflow="clip"
-								hyphens="manual"
-								user-select="auto"
-								pointer-events="auto"
-							>
-								Broader skillset and expertise
-							</Strong>
-						</Text>
-						<Text margin="0px 0px 24px 0px" font="--base" color="--darkL2">
-							Engaging a crowd of security experts brings together a wide range of perspectives, experiences, and knowledge, which help identify vulnerabilities and threats.
-						</Text>
-					</Box>
-				</Box>
-				<Box display="flex" flex-direction="column" align-items="flex-start" justify-content="space-between">
-					<Icon
-						category="io"
-						icon={IoIosBug}
-						size="42px"
-						color="--light"
-						background="--color-red"
-						padding="8px 8px 8px 8px"
-						border-radius="8px"
-						sm-margin="0px 0px 12px 0px"
-						margin="0px 0px 20px 0px"
-					/>
-					<Box align-items="flex-start" display="flex" flex-direction="column" lg-max-width="720px">
-						<Text font="--lead" color="--dark" margin="0px 0px 6px 0px">
-							<Strong
-								overflow-wrap="normal"
-								word-break="normal"
-								white-space="normal"
-								text-indent="0"
-								text-overflow="clip"
-								hyphens="manual"
-								user-select="auto"
-								pointer-events="auto"
-							>
-								Rapid Vulnerability Discovery
-							</Strong>
-						</Text>
-						<Text margin="0px 0px 24px 0px" font="--base" color="--darkL2">
-							Incentivizing crowds to find vulnerabilities increases the number of eyes, which helps identify vulnerabilities earlier and reduces the window of opportunity for attackers.{" "}
-						</Text>
-					</Box>
-				</Box>
-				<Box display="flex" flex-direction="column" align-items="flex-start" justify-content="space-between">
-					<Icon
-						category="bs"
-						icon={BsBullseye}
-						size="42px"
-						color="--light"
-						background="--color-red"
-						padding="8px 8px 8px 8px"
-						border-radius="8px"
-						sm-margin="0px 0px 12px 0px"
-						margin="0px 0px 20px 0px"
-					/>
-					<Box align-items="flex-start" display="flex" flex-direction="column" lg-max-width="720px">
-						<Text font="--lead" color="--dark" margin="0px 0px 6px 0px">
-							<Strong
-								overflow-wrap="normal"
-								word-break="normal"
-								white-space="normal"
-								text-indent="0"
-								text-overflow="clip"
-								hyphens="manual"
-								user-select="auto"
-								pointer-events="auto"
-							>
-								Cost-Effective Security
-							</Strong>
-						</Text>
-						<Text margin="0px 0px 24px 0px" font="--base" color="--darkL2">
-							This distributed model allows organizations to pay only for valid vulnerabilities identified, making crowdsourcing a scalable and cost-efficient way to improve organizational security.
-						</Text>
-					</Box>
-				</Box>
-			</Box>
-			<Box
-				width="100%"
-				display="grid"
-				grid-template-columns="repeat(3, 1fr)"
-				grid-gap="32px"
-				lg-grid-template-columns="1fr"
-				lg-grid-gap="48px"
-			>
-				<Box display="flex" flex-direction="column" align-items="flex-start" justify-content="space-between">
-					<Icon
-						category="bs"
-						icon={BsFillPeopleFill}
-						size="42px"
-						color="--light"
-						background="--color-red"
-						padding="8px 8px 8px 8px"
-						border-radius="8px"
-						sm-margin="0px 0px 12px 0px"
-						margin="0px 0px 20px 0px"
-					/>
-					<Box align-items="flex-start" display="flex" flex-direction="column" lg-max-width="720px">
-						<Text font="--lead" color="--dark" margin="0px 0px 6px 0px">
-							<Strong
-								overflow-wrap="normal"
-								word-break="normal"
-								white-space="normal"
-								text-indent="0"
-								text-overflow="clip"
-								hyphens="manual"
-								user-select="auto"
-								pointer-events="auto"
-							>
-								Builds Trust
-							</Strong>
-						</Text>
-						<Text margin="0px 0px 24px 0px" font="--base" color="--darkL2">
-							Engaging with the security community builds trust and enhances the organization's reputation among both security researchers and the broader public.
-						</Text>
-					</Box>
-				</Box>
-				<Box display="flex" flex-direction="column" align-items="flex-start" justify-content="space-between">
-					<Icon
-						category="go"
-						icon={GoMortarBoard}
-						size="42px"
-						color="--light"
-						background="--color-red"
-						padding="8px 8px 8px 8px"
-						border-radius="8px"
-						sm-margin="0px 0px 12px 0px"
-						margin="0px 0px 20px 0px"
-					/>
-					<Box align-items="flex-start" display="flex" flex-direction="column" lg-max-width="720px">
-						<Text font="--lead" color="--dark" margin="0px 0px 6px 0px">
-							<Strong
-								overflow-wrap="normal"
-								word-break="normal"
-								white-space="normal"
-								text-indent="0"
-								text-overflow="clip"
-								hyphens="manual"
-								user-select="auto"
-								pointer-events="auto"
-							>
-								Knowledge Transfer
-							</Strong>
-						</Text>
-						<Text margin="0px 0px 24px 0px" font="--base" color="--darkL2">
-							By fostering knowledge-sharing and education within the community, organizations can gain insights into emerging trends, techniques, and best practices in cybersecurity.
-						</Text>
-					</Box>
-				</Box>
-				<Box display="flex" flex-direction="column" align-items="flex-start" justify-content="space-between">
-					<Icon
-						category="io"
-						icon={IoMdGitCompare}
-						size="42px"
-						color="--light"
-						background="--color-red"
-						padding="8px 8px 8px 8px"
-						border-radius="8px"
-						sm-margin="0px 0px 12px 0px"
-						margin="0px 0px 20px 0px"
-					/>
-					<Box align-items="flex-start" display="flex" flex-direction="column" lg-max-width="720px">
-						<Text font="--lead" color="--dark" margin="0px 0px 6px 0px">
-							<Strong
-								overflow-wrap="normal"
-								word-break="normal"
-								white-space="normal"
-								text-indent="0"
-								text-overflow="clip"
-								hyphens="manual"
-								user-select="auto"
-								pointer-events="auto"
-							>
-								Continuous Monitoring
-							</Strong>
-						</Text>
-						<Text margin="0px 0px 24px 0px" font="--base" color="--darkL2">
-							Crowdsourcing helps identify new vulnerabilities as they emerge. Providing real-time feedback on potential threats, Helps organizations stay ahead of evolving security risks and emerging threats.
-						</Text>
-					</Box>
-				</Box>
-			</Box>
-		</Section>
 		<Section padding="48px 0 48px 0" sm-padding="60px 0 60px 0" quarkly-title="Organizational Benefits" background="--color-lightD1">
 			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" sm-min-width="280px" />
 			<Box
@@ -1436,28 +1436,6 @@ export default (() => {
 				info@truss-security.com
 			</Link>
 		</Section>
-		<Link
-			font={"--capture"}
-			font-size={"10px"}
-			position={"fixed"}
-			bottom={"12px"}
-			right={"12px"}
-			z-index={"4"}
-			border-radius={"4px"}
-			padding={"5px 12px 4px"}
-			background-color={"--dark"}
-			opacity={"0.6"}
-			hover-opacity={"1"}
-			color={"--light"}
-			cursor={"pointer"}
-			transition={"--opacityOut"}
-			quarkly-title={"Badge"}
-			text-decoration-line={"initial"}
-			href={"https://quarkly.io/"}
-			target={"_blank"}
-		>
-			Made on Quarkly
-		</Link>
 		<RawHtml>
 			<style place={"endOfHead"} rawKey={"64972fbb588b2d0019591baf"}>
 				{":root {\n  box-sizing: border-box;\n}\n\n* {\n  box-sizing: inherit;\n}"}
