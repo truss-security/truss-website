@@ -64,19 +64,19 @@ export default (() => {
 				Whitepaper
 			</Text>
 			<Text margin="0px 0px 30px 0px" font="normal 600 42px/1.2 --fontFamily-sans">
-				Truss - An Inter-chain Decentralized Autonomous Security Ecosystem
+				Truss - A Decentralized Security Ecosystem
 			</Text>
 			<Text margin="0px 0px 20px 0px" font="--headline3" align-self="flex-start">
 				Abstract
 			</Text>
 			<Text margin="0px 0px 25px 0px" font="normal 300 18px/1.5 --fontFamily-sans" color="#505257">
-				It is rare when something fundamentally alters not only how we interact with the world around us but also with each other. The personal computer, the cellphone, and 5G wireless communication are examples of how technology can transform the physical mediums we use to communicate and connect with each other. Blockchain technology, on the other hand, stands apart from the physical mediums just mentioned and enters the world of transforming how we trust information. Blockchain has an answer to questions like, How well do we trust the information we digest? Is there a consensus on the legitimacy of a particular event? Can we mathematically prove that a particular event even took place?
+				It is rare when something fundamentally alters not only how we interact with the world around us but also with each other. The personal computer, the cellphone, and 5G wireless communication are examples of how technology can transform the physical mediums we use to communicate and connect with each other. Distributed ledger technology, or bockchain, on the other hand, stands apart from the physical mediums just mentioned and enters the world of transforming how we trust information. Blockchain has an answer to questions like: How well do we trust the information we ingest? Is there a consensus on the legitimacy of a particular event? Can we prove that a particular event took place?
 				<br />
 				<br />
-				Blockchain up to this point has been largely focused on answering the questions of trust from a financial perspective as well as leveraging the technology to enhance governance, privacy, and multi-signature authorization. In each use-case, cryptologic functions are used to assert, without question, that a particular set of events are indeed true. This leads us to a logical next step, the information security industry. Blockchain operations have many parallels with security operations. Redundancy, transparency, privacy, and authentication, each of these is rooted deeply within both fields. The three questions we want to address are: 1) can we use the strengths of blockchain to store and provide security event data? Furthermore, 2) can this include data developed and curated by a decentralized network of researchers to achieve validation or consensus? Finally, 3) can we enable this security data to be sent directly to consumers in real-time to protect them from novel and viral threats?
+				Blockchain up to this point has been largely focused on answering the questions of trust from a financial perspective as well as leveraging the technology to enhance governance, privacy, and multi-signature authorization. In each use-case, cryptologic functions are used to assert, without question, that a particular set of events are indeed true. This financial use case leads to a logical next step in the information security industry. Blockchain operations have many parallels with security operations, including redundancy, transparency, privacy, and authentication. Each of these is rooted deeply within both fields. The three questions we want to address are: 1) can we use the strengths of blockchain to store and provide security event data, 2) can this include data developed and curated by a decentralized network of researchers to achieve validation or consensus, and 3) can we enable this security data to be sent directly to consumers in real-time to protect them from novel and viral threats.
 				<br />
 				<br />
-				We envision a world where peer-to-peer (P2P) communication of malware signatures, malicious Command and Control (C2) infrastructure, threat actor tactics, techniques, and procedures (TTPs), and security tools are streamed between the developer and the recipient. Where the transmission of security data is processed, purchased, and integrated in real time via smart contract automation. In such a world, when a threat actor launches a novel attack, within minutes every organization in the world has the security data required to prevent this attack from impacting their environment. To achieve this goal, we propose the development of a Global Cyber Immune System, called Decentralized Autonomous Security (DAS), designed to combat the viral infections of cyber attacks.
+				We envision a world where peer-to-peer (P2P) communication of malware signatures, malicious Command and Control (C2) infrastructure, threat actor tactics, techniques, and procedures (TTPs), and security tools are streamed between the developer and the recipient. Where the transmission of security data is processed, purchased, and integrated in real time via smart contract automation. In such a world, when a threat actor launches a novel attack, within minutes every organization in the world has the security data required to prevent this attack from impacting their environment. To achieve this goal, we propose the development of a Decentralized Security (DeSec) global cyber immune system designed to combat the viral infections of cyber attacks.
 				<br />
 				<br />
 				This whitepaper presents a decentralized approach to providing relevant, simple, and economical security data. The concepts listed here present a new way to deliver, purchase, and retrieve security data that directly supports the research of and prevention of cyber-attacks across the globe. Information security practitioners across the globe acknowledge the decentralized nature of attackers and how decentralized attack patterns present a technological and economic challenge to providing timely, actionable security data for organizations wanting to protect themselves. With this paper, we propose an alternative to centralized security vendors, one that takes a decentralized approach to combating cyber attacks.
@@ -292,15 +292,18 @@ export default (() => {
 				</Link>
 				], small and medium-sized businesses simply cannot be expected to survive even one data breach. Now more than ever medium-sized businesses need security solutions that allow them to use relevant, simple, and economical security products. There are three scenarios that accurately reflect this problem:
 				<br />
-				<br />
-				Scenario #1 - Commercial security vendors can provide relevant, timely, and actionable threat information that is simple to understand and implement. However, this oftentimes only comes with the purchase of premier security offerings, pushing these services out of reach for most mid-level organizations.
-				<br />
-				<br />
-				Scenario #2 - Open source products such as MISP, OpenCTI, and many security GitHub repository tools can provide timely and actionable threat information that will assist security operations. Since they are free, they are also very economical to implement. However, these tools can be difficult to use, time-consuming to maintain, and a dedicated team with advanced skills is required to implement them. Most mid-level organizations cannot provide this level of support.
-				<br />
-				<br />
-				Scenario #3 - Free threat intelligence lists can be simple to integrate into most security tools reducing the burden on security personnel. But, many of the free threat intelligence lists contain old and irrelevant data, which may or may not have been verified by reputable sources. This security data thus delivers a false sense of security.{" "}
-				<br />
+				<ul>
+					<li>
+					Scenario #1 - Commercial security vendors can provide relevant, timely, and actionable threat information that is simple to understand and implement. However, this oftentimes only comes with the purchase of premier security offerings, pushing these services out of reach for most mid-level organizations.
+					</li>
+					<li>
+					Scenario #2 - Open source products such as MISP, OpenCTI, and many security GitHub repository tools can provide timely and actionable threat information that will assist security operations. Since they are free, they are also very economical to implement. However, these tools can be difficult to use, time-consuming to maintain, and a dedicated team with advanced skills is required to implement them. Most mid-level organizations cannot provide this level of support.
+					<br />
+					</li>
+					<li>
+					Scenario #3 - Free threat intelligence lists can be simple to integrate into most security tools reducing the burden on security personnel. But, many of the free threat intelligence lists contain old and irrelevant data, which may or may not have been verified by reputable sources. This security data thus delivers a false sense of security.
+					</li>
+				</ul>
 				<br />
 				The high and urgent demand for threat intelligence by global mid-sized organizations is not being met by today’s cybersecurity defense providers. As noted above there are traditionally two types of suppliers for security products: centralized commercial security providers and decentralized open source security researchers. The security products from centralized providers are high-quality and easy to integrate, but they are oftentimes expensive and inaccessible to most organizations. The security products from decentralized security researchers are basically free, but they come from unverified sources, suffer from variable quality, and can be complex to integrate [
 				<Link
@@ -320,131 +323,6 @@ export default (() => {
 				<br />
 				<br />
 				The main problem facing the majority of organizations, and the IT professionals providing security services to these organizations, is that threat intelligence is time-consuming to collect and difficult to analyze, and security products are oftentimes complex to develop and can be difficult to deploy. As a result, a large number of middlemen–the commercial security providers–have stepped in to create and deliver them. These security vendors maintain the resources to hire expert researchers and analysts to deliver leading-edge security analytics and best-in-class solutions. Consequently, in order to remain on the leading edge of a growing threat landscape, the vendor is required to collect larger quantities of security data, hire analysts to facilitate the analysis of the data and hire engineers to develop the security products required to protect their customer base. This directly leads to the vendors charging a premium for their integration services, which prices out the small and medium-sized businesses that would greatly benefit from the advanced security analysis.
-			</Text>
-			<Text margin="0px 0px 45px 0px" font="normal 300 18px/1.5 --fontFamily-sans" color="#505257">
-				<Strong
-					overflow-wrap="normal"
-					word-break="normal"
-					white-space="normal"
-					text-indent="0"
-					text-overflow="clip"
-					hyphens="manual"
-					user-select="auto"
-					pointer-events="auto"
-					font="700 22px/27px -apple-system, system-ui, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif"
-				>
-					A Holistic Vision
-					<br />
-				</Strong>
-				<br />
-				Today’s modern and interconnected world is not all that dissimilar from a biological system. There are independent and diverse organizations and networks working in unison with the larger global society to maintain, support, and develop our modern lifestyle. However, there is a plague that is wreaking havoc across our interconnected world. A pandemic that, to date, we have not been able to successfully combat or even significantly hamper. This pandemic is the “cyber attack”.
-				<br />
-				<br />
-				Cyber attackers are highly decentralized and their attacks originate from many different countries [
-				<Link
-					href="https://blog.cyberproof.com/blog/which-countries-are-most-dangerous"
-					overflow-wrap="normal"
-					word-break="normal"
-					white-space="normal"
-					text-indent="0"
-					text-overflow="clip"
-					hyphens="manual"
-					user-select="auto"
-					pointer-events="auto"
-				>
-					6
-				</Link>
-				]. At the same time, the victims of cyber attacks are also highly decentralized [
-				<Link
-					href="https://gatefy.com/blog/which-countries-are-most-targeted-hackers/"
-					overflow-wrap="normal"
-					word-break="normal"
-					white-space="normal"
-					text-indent="0"
-					text-overflow="clip"
-					hyphens="manual"
-					user-select="auto"
-					pointer-events="auto"
-				>
-					8
-				</Link>
-				]. Yet, cyber defense is primarily provided by centralized, commercial enterprises [
-				<Link
-					href="https://www.cyberdb.co/database/usa/page/2/"
-					overflow-wrap="normal"
-					word-break="normal"
-					white-space="normal"
-					text-indent="0"
-					text-overflow="clip"
-					hyphens="manual"
-					user-select="auto"
-					pointer-events="auto"
-				>
-					5
-				</Link>
-				]. The primary motivation of these commercial security providers is to increase revenue from potential cyber victims while decreasing the costs of supplying security. As a result, cyber security has become a profitable multi-billion dollar industry [
-				<Link
-					href="https://www.grandviewresearch.com/industry-analysis/security-market"
-					overflow-wrap="normal"
-					word-break="normal"
-					white-space="normal"
-					text-indent="0"
-					text-overflow="clip"
-					hyphens="manual"
-					user-select="auto"
-					pointer-events="auto"
-				>
-					17
-				</Link>
-				].{" "}
-				<br />
-				<br />
-				Organizations get their threat intelligence data from a variety of sources [
-				<Link
-					href="https://www.threatq.com/documentation/Survey_CTI-2021_ThreatQuotient.pdf"
-					overflow-wrap="normal"
-					word-break="normal"
-					white-space="normal"
-					text-indent="0"
-					text-overflow="clip"
-					hyphens="manual"
-					user-select="auto"
-					pointer-events="auto"
-				>
-					2
-				</Link>
-				] including media reports, community or industry groups, threat feeds from commercial vendors, and open-source threat intelligence feeds. At the same time, these organizations are inhibited from integrating CTI because of a lack of trained staff [
-				<Link
-					href="https://www.issa.org/wp-content/uploads/2021/07/ESG-ISSA-Research-Report-Life-of-Cybersecurity-Professionals-Jul-2021.pdf"
-					overflow-wrap="normal"
-					word-break="normal"
-					white-space="normal"
-					text-indent="0"
-					text-overflow="clip"
-					hyphens="manual"
-					user-select="auto"
-					pointer-events="auto"
-				>
-					13
-				</Link>
-				], limited funding, and a lack of automation tools.
-				<br />
-				<br />
-				In summary, there is a cyber attack pandemic originating from a large number of decentralized individuals and groups. This pandemic is global and affects a large percentage of the world’s organizations. Yet, the security industry is trying to fight this pandemic with centralized, commercial organizations. Due to the cost associated with the collection and analysis required to curate actionable security data, commercial organizations are oftentimes unwilling to openly share large sums of their intellectual property and security data with the global audience even though the improvement of global security is the driving force of each commercial security provider. This is called “coopetition” within the security industry [
-				<Link
-					href="https://academic.oup.com/cybersecurity/article/4/1/tyy008/5245383"
-					overflow-wrap="normal"
-					word-break="normal"
-					white-space="normal"
-					text-indent="0"
-					text-overflow="clip"
-					hyphens="manual"
-					user-select="auto"
-					pointer-events="auto"
-				>
-					22
-				</Link>
-				]. This centralized response has created a situation where most organizations are unable to access the timely, trusted CTI they need to protect themselves because the data is often siloed away in a commercial security provider’s intellectual security vault.In order to combat this “coopetition” effect, every organization and commercial security provider requires an incentive mechanism to ensure the timely and accurate transferal of critical security data. The incentive mechanism for commercial security providers will come in the form of an economic transfer of resources, essentially the ability to get paid for performing a service. Only after the sharing of security data is properly incentivized can the security industry begin to dismantle the “coopetition” practices and barriers that currently prohibit effective and timely security defenses from taking place. Imagine, emulating how the body’s immune system works together to deploy antigens to protect the whole body from a pathogen, the security industry can build a global immune system to ensure that security infections taking place in one enterprise are rapidly disseminated to protect the global ecosystem.{" "}
 			</Text>
 			<Text margin="0px 0px 20px 0px" font="--headline3">
 				II. Decentralized Autonomous Security
@@ -476,8 +354,23 @@ export default (() => {
 				What is needed is a new, faster system for detecting, transporting, and deploying security-focused antigens to all global defenses to ensure they have correct and timely information to fight the infection. This system must not only respond to a singular infection but must also build the immunity response antigens to combat cyber infections on a global scale.
 				<br />
 				<br />
-				By pulling from nature, we are presented with a method to prevent wide-scale infections. Imagine, instead of a pathogen like a virus or bacteria, we are presented with a threat actor who has compromised a network. Imagine also, similar to how the immune system responds to a virus, the cyber immune system responds to the threat by deploying cyber antigens throughout the global network of interconnected organizations thus preventing infections in those networks. With the advancement of blockchain technology, it is now possible to achieve this imagined scenario: the creation of a global Decentralized Autonomous Security (DAS) cyber immune system.{" "}
-				<br />
+				By pulling from nature, we are presented with a method to prevent wide-scale infections. Imagine, instead of a pathogen like a virus or bacteria, we are presented with a threat actor who has compromised a network. Imagine also, similar to how the immune system responds to a virus, the cyber immune system responds to the threat by deploying cyber antigens throughout the global network of interconnected organizations thus preventing infections in those networks. With the advancement of blockchain technology, it is now possible to achieve this imagined scenario: the creation of a global Decentralized  Security (DeSec) cyber immune system.{" "}
+				</Text>
+			<Text margin="0px 0px 45px 0px" font="normal 300 18px/1.5 --fontFamily-sans" color="#505257">
+				<Strong
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+					user-select="auto"
+					pointer-events="auto"
+					font="700 22px/27px -apple-system, system-ui, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif"
+				>
+					Truss Ecosystem
+					<br />
+				</Strong>
 				<br />
 				Figure 2 shows the three main components of the Truss ecosystem: 1) On the right are the organizations that are the front line of attack and are often the first to recognize new attacks; 2) on the left are the researchers who analyze organizational attack data and create the products that enable defenses against cyber attacks; and 3) in the middle is the marketplace which serves as the hub for sharing data, creating security responses, and incentivizing participation from the community of researchers and organizations.
 			</Text>
@@ -512,7 +405,7 @@ export default (() => {
 					<br />
 				</Strong>
 				<br />
-				At the heart of the global cyber immune system is a distributed network of independent security blockchains. This network of DAS organizations or individuals (hereby referred to as Truss entities) provides a platform where each Truss entity can use the security information generated from the environments of other Truss entities to better secure their own environments and build security mitigations in response to global cyber pandemics automatically and in real-time.
+				At the heart of the global cyber immune system is a distributed network of independent security data providers. This network of organizations or individuals (hereby referred to as Truss entities) provides a platform where each Truss entity can use the security information generated from the environments of other Truss entities to better secure their own environments and build security mitigations in response to global cyber pandemics automatically and in real-time.
 				<br />
 				<br />
 				As illustrated in Figure 3, an organization records the security events taking place within its cloud environment. Should malware within a given container be identified, a list of the malware’s IOCs is shared across the Truss network.
@@ -531,56 +424,6 @@ export default (() => {
 			</Text>
 			<Text margin="0px 0px 45px 0px" font="normal 300 18px/1.5 --fontFamily-sans" color="#505257">
 				A Truss network provides the foundation for automating the detection and dissemination of a security event that occurs in a single environment. It does so by sharing this event with the global network in real time. By using a public and transparent blockchain to maintain the cryptologic proof that a security event took place within a given environment, each entity in the Truss network maintains a communication pathway with all other entities in the network to facilitate the sharing of security incident information. Each subsequent investigation of an incident can result in the creation, distribution, and implementation of tailored security products that can be used to detect any number of cyber attacks across any number of networks. Identified attack data can then be shared instantly. The result will be the faster transfer of security-related events and information creating a more secure global ecosystem.
-			</Text>
-			<Text margin="0px 0px 45px 0px" font="normal 300 18px/1.5 --fontFamily-sans" color="#505257">
-				<Strong
-					overflow-wrap="normal"
-					word-break="normal"
-					white-space="normal"
-					text-indent="0"
-					text-overflow="clip"
-					hyphens="manual"
-					user-select="auto"
-					pointer-events="auto"
-					font="700 22px/27px -apple-system, system-ui, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif"
-				>
-					Truss and Sensitive Internal Information
-					<br />
-				</Strong>
-				<br />
-				A Truss ecosystem works to maintain the anonymity of users and organizations through the anonymization of sensitive internal data such as Personally Identifiable Information (PII). By presenting a fully transparent blockchain of security events, other organizations or individuals are able to identify the organization maintaining that security blockchain. For some organizations such as DAOs or other open-source organizations, this level of transparency is highly desired. For other organizations, such as Future 100 companies with considerable dollar investments in intellectual property (IP), exposing security information publicly would be unthinkable and could have a negative effect on the trust placed within that organization and ultimately harm the public opinion and value of that organization.
-				<br />
-				<br />
-				The Truss system will provide a mechanism to anonymize sensitive internal information via a smart contract that sanitizes all sensitive security information before the data is written to the public blockchain. The sanitization process should replace the sensitive indicators with asymmetric hash values that still allow for analytic associations to be made without exposing the sensitive indicator values themselves.
-				<br />
-				<br />
-				Examples of sensitive internal indicators that can be sanitized are:
-			</Text>
-			<Text margin="0px 0px 45px 0px" font="normal 300 18px/1.5 --fontFamily-sans" color="#505257" padding="0px 0px 0px 30px">
-				- IP addresses
-				<br />
-				- Netranges
-				<br />
-				- Subnet artifacts
-				<br />
-				- Geolocation information
-				<br />
-				- Domain names
-				<br />
-				- User names
-				<br />
-				- Data samples
-				<br />
-				- Hostnames
-				<br />
-				- Application types
-				<br />
-				- Application names
-				<br />
-				- Among others
-			</Text>
-			<Text margin="0px 0px 45px 0px" font="normal 300 18px/1.5 --fontFamily-sans" color="#505257">
-				Truss entities will also maintain the ability to replace some, all, or none of these indicators at their discretion. This gives each of the Truss entities a choice on the transparency of their blockchain data. When a Truss entity sends data to the public blockchain, it will be prompted to determine how much or how little information they want to share with the Truss ecosystem.{" "}
 			</Text>
 			<Text margin="0px 0px 45px 0px" font="normal 300 18px/1.5 --fontFamily-sans" color="#505257">
 				<Strong
@@ -613,46 +456,10 @@ export default (() => {
 				</Em>
 			</Text>
 			<Text margin="0px 0px 45px 0px" font="normal 300 18px/1.5 --fontFamily-sans" color="#505257">
-				<Strong
-					overflow-wrap="normal"
-					word-break="normal"
-					white-space="normal"
-					text-indent="0"
-					text-overflow="clip"
-					hyphens="manual"
-					user-select="auto"
-					pointer-events="auto"
-					font="700 22px/27px -apple-system, system-ui, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif"
-				>
-					Incentivization for allowing access to researchers
-					<br />
-				</Strong>
-				<br />
 				Organizations will be incentivized to allow researchers to review their security logs through a tokenomic-based exchange model. The more data an organization allows a researcher to view, the more likely that the researcher will produce a security product from the organization’s data. When the researcher makes their work available for purchase on the Truss Marketplace a portion of the sale of each product sold will return to the organization the security researcher used to build their product.
 				<br />
 				<br />
 				The tokenomics of the Truss ecosystem actively work to incentivize all participants within the ecosystem to work together to produce high-quality and high-fidelity products that benefit each participant within the ecosystem. The more trustworthy the researcher, the more likely organizations will be incentivized to allow them access to their data. The more an organization opens its data to researchers, the more opportunities the organization has to help protect the larger ecosystem as well as the more opportunities they have to benefit from their data returning an economic reward.
-			</Text>
-			<Text margin="0px 0px 45px 0px" font="normal 300 18px/1.5 --fontFamily-sans" color="#505257">
-				<Strong
-					overflow-wrap="normal"
-					word-break="normal"
-					white-space="normal"
-					text-indent="0"
-					text-overflow="clip"
-					hyphens="manual"
-					user-select="auto"
-					pointer-events="auto"
-					font="700 22px/27px -apple-system, system-ui, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif"
-				>
-					Researcher and organization interaction
-					<br />
-				</Strong>
-				<br />
-				Using decentralized authorization and permission functionality, organizations can allow researchers different levels of access to any subset of security data the organization feels comfortable sharing. Organizations have the ability to grant or deny access to any and all data access requests presented to them. Organizations will also have the ability to openly allow any subset of their data to be open to the public. In the same token, researchers will have the ability to view a listing of all public data available to them and they will have the opportunity to request access to the data of specific organizations.
-				<br />
-				<br />
-				The Truss ecosystem is one built upon trust and the validation of trust for both organizations and researchers alike, as well as the data they supply and produce. Each entity within the Truss ecosystem will have the ability to approve or deny any operation affecting its operation or reputation. They will also be able to view the trustworthiness of each other’s history and operations through the analysis of that entity’s operations as recorded within the public Truss blockchain ledger. This ensures a level of transparency for all entities within the Truss ecosystem.
 			</Text>
 			<Text margin="0px 0px 45px 0px" font="normal 300 18px/1.5 --fontFamily-sans" color="#505257">
 				<Strong
@@ -700,46 +507,10 @@ export default (() => {
 				</Em>
 			</Text>
 			<Text margin="0px 0px 45px 0px" font="normal 300 18px/1.5 --fontFamily-sans" color="#505257">
-				As the number and scope of cyber threats increases, so will the demand for security data and other security products. The Truss Marketplace will be presented with the ability to crowd-source the best security products based on the consumer's feedback. The consumer of a purchased query smart contract will be able to rate the effectiveness of that particular security product. The consumer base within the Truss ecosystem will influence the popularity and sophistication of query smart contracts and all other security products sold on the Truss Marketplace.
-			</Text>
-			<Text margin="0px 0px 45px 0px" font="normal 300 18px/1.5 --fontFamily-sans" color="#505257">
-				<Strong
-					overflow-wrap="normal"
-					word-break="normal"
-					white-space="normal"
-					text-indent="0"
-					text-overflow="clip"
-					hyphens="manual"
-					user-select="auto"
-					pointer-events="auto"
-					font="700 22px/27px -apple-system, system-ui, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif"
-				>
-					Non-Fungable Tokens
-					<br />
-				</Strong>
-				<br />
-				The security products sold within the Truss Marketplace will be minted as Non-Fungable Tokens (NFT). This will allow for each security product to maintain cryptographic insurance that every security product transferred from the seller to the buyer is authentic.
+				As the number and scope of cyber threats increases, so will the demand for security data and other security products. The Truss Marketplace will be presented with the ability to crowdsource the best security products based on the consumer's feedback. The consumer of a purchased query smart contract will be able to rate the effectiveness of that particular security product. The consumer base within the Truss ecosystem will influence the popularity and sophistication of query smart contracts and all other security products sold on the Truss Marketplace.
 				<br />
 				<br />
-				The minting of the NFT will ensure the ownership and integrity of the security product being purchased and sold. The use of NFTs can ease the burden of auditing and integrity checks for security products through hashing functionalities and chain of custody tracking, ie. the public ledger that records the transfer of each security rule NFT. In regards to the Truss Marketplace, by minting multiple NFTs for each security product, the marketplace can more readily determine traffic metrics and pricing guidelines to ensure that security products can reach as large of an audience as possible without raising the price of the security product being sold or making the security product a profitable commodity or asset.{" "}
-			</Text>
-			<Text margin="0px 0px 45px 0px" font="normal 300 18px/1.5 --fontFamily-sans" color="#505257">
-				<Strong
-					overflow-wrap="normal"
-					word-break="normal"
-					white-space="normal"
-					text-indent="0"
-					text-overflow="clip"
-					hyphens="manual"
-					user-select="auto"
-					pointer-events="auto"
-					font="700 22px/27px -apple-system, system-ui, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif"
-				>
-					Other Marketplace Content
-					<br />
-				</Strong>
-				<br />
-				Through a Truss Marketplace, any Truss entity can buy security products directly from the creators of that product. This direct approach should reduce the cost and increase the availability of security solutions. The Truss ecosystem also provides an avenue toward profitability for a large enterprise-level Truss entity’s security team. By allowing these security teams to sell their security knowledge and expertise, the enterprise security team can transition into a profitable investment, instead of the ever-necessary and ever-rising cost of doing business.
+				Through the marketplace, any Truss entity can buy security products directly from the creators of that product. This direct approach should reduce the cost and increase the availability of security solutions. The Truss ecosystem also provides an avenue toward profitability for a large enterprise-level Truss entity’s security team. By allowing these security teams to sell their security knowledge and expertise, the enterprise security team can transition into a profitable investment, instead of the ever-necessary and ever-rising cost of doing business.
 			</Text>
 			<Image src="https://uploads.quarkly.io/648b58158bd7e60018594e7d/images/Figure%207%20-%20Security%20information%20supply%20chain.png?v=2023-06-21T04:36:53.469Z" display="block" max-width="700px" align-self="center" />
 			<Text margin="0px 0px 45px 0px" font="normal 300 18px/1.5 --fontFamily-sans" color="#505257" text-align="center">
@@ -769,10 +540,10 @@ export default (() => {
 					<br />
 				</Strong>
 				<br />
-				The primary goal of the Truss chain is to support innovation around the creation and dissemination of CTI data and tools to support the creation of a global cyber immune system. This includes technical innovation wherein a diversity of security researchers are given complete freedom to define their security products. This may include offerings such as threat intelligence products containing information about emerging threats, IOCs, and known malicious entity reporting. It could also lead to the development and sale of script-based intelligence tools, Infrastructure as Code (IaC) templates, configuration and security design guides used for compliance guidelines, or even formalized security information and event management (SIEM) add-ons that facilitate the collection and analysis of security event logs from various sources within an organization's formalized security products.
+				The primary goal of Truss is to support innovation around the creation and dissemination of CTI data and tools to support the creation of a global cyber immune system. This includes technical innovation wherein a diversity of security researchers are given complete freedom to define their security products. This may include offerings such as threat intelligence products containing information about emerging threats, IOCs, and known malicious entity reporting. It could also lead to the development and sale of script-based intelligence tools, Infrastructure as Code (IaC) templates, configuration and security design guides used for compliance guidelines, or even formalized security information and event management (SIEM) add-ons that facilitate the collection and analysis of security event logs from various sources within an organization's formalized security products.
 				<br />
 				<br />
-				The Truss chain supports economic innovation wherein security researchers and organizations are able to explore different models for packaging and selling threat data and products that best suit their unique purpose and intent. For example, one researcher may want to charge a premium for their product because it addresses a complex attack. Another researcher may want to charge a minimal amount and try to sell on volume. Some researchers may want to include a fee that creates an automated "marketing bounty" to use on a specific product. Some researchers may want to allocate a minimal amount to pay for community sales reps while others may want to give away much more of their margin to really encourage the sales team.{" "}
+				The Truss platform supports economic innovation wherein security researchers and organizations are able to explore different models for packaging and selling threat data and products that best suit their unique purpose and intent. For example, one researcher may want to charge a premium for their product because it addresses a complex attack. Another researcher may want to charge a minimal amount and try to sell on volume. Some researchers may want to include a fee that creates an automated "marketing bounty" to use on a specific product. Some researchers may want to allocate a minimal amount to pay for community sales reps while others may want to give away much more of their margin to really encourage the sales team.{" "}
 				<br />
 				<br />
 				Truss supports evolutionary innovation through an open contract security platform that supports the creation and execution of smart contracts in an open and decentralized manner. In an open contract blockchain platform, the underlying infrastructure and protocol layer is designed to enable the execution of smart contracts and enforce their terms and conditions. The Truss platform will provide a set of tools, libraries, and APIs that security researchers can use to create and deploy specialized smart contracts on the Truss chain.
@@ -871,7 +642,7 @@ export default (() => {
 					user-select="auto"
 					pointer-events="auto"
 				>
-					4. Security and trust:
+					4. Security:
 				</Strong>
 				{" "}Blockchain technology provides a high level of security and trust in transactions. The data stored on the blockchain is encrypted and distributed across multiple nodes in the network, making it highly resistant to tampering and fraud. This feature is crucial when dealing with global customers as it helps establish trust in the transactions and ensures the integrity of the information being shared.
 				<br />
@@ -932,7 +703,7 @@ export default (() => {
 				<br />
 				In the Truss ecosystem, participating organizations must manage large quantities of text-heavy logging data. This is in sharp contrast to the small and lightweight transactional data that is traditionally stored in public blockchains. In this situation, a hybrid blockchain can offer cost advantages compared to a fully public blockchain. By utilizing a private blockchain layer for internal or sensitive operations, organizations can reduce the computational and storage costs associated with public blockchain networks.The Truss hybrid chain ecosystem supports the coexistence of internal private permissioned chains and a public permissionless chain. An organization implementing a full Truss blockchain would maintain two or more private blockchain nodes for log collection and threat intelligence ingestion. It would also interact with the public blockchain for reporting and disseminating threat data. In total, the three types of blockchains include the public Truss blockchain, a private blockchain, and finally a master blockchain (Figure 8).
 			</Text>
-			<Image src="https://uploads.quarkly.io/648b58158bd7e60018594e7d/images/Figure%208%20-%20The%20Truss%20Blockchain%20Triad.png?v=2023-06-21T04:37:48.984Z" display="block" max-width="700px" align-self="center" />
+			<Image src="https://uploads.quarkly.io/648b58158bd7e60018594e7d/images/Figure%208%20-%20The%20Truss%20Blockchain%20Triad.png?v=2023-06-21T04:37:48.984Z" display="block" max-width="400px" align-self="center" />
 			<Text margin="0px 0px 45px 0px" font="normal 300 18px/1.5 --fontFamily-sans" color="#505257" text-align="center">
 				<Em>
 					Figure 8. The Truss Blockchain Triad
@@ -969,16 +740,7 @@ export default (() => {
 				</Em>
 			</Text>
 			<Text margin="0px 0px 45px 0px" font="normal 300 18px/1.5 --fontFamily-sans" color="#505257">
-				A hybrid blockchain architecture can facilitate interoperability between Truss entities. By bridging public and private components, hybrid chains enable the exchange of assets, data, or transactions between different blockchain ecosystems or traditional databases. The Truss ecosystem will utilize an IBC mechanism where threat information and other data can pass between the public chain and the private chains, as well as other Truss entities or Truss Marketplaces. Each Truss entity will maintain its own unique security blockchain and can store or transfer data that would be pertinent to the security of other Truss entities. Each entity will be free to initiate connections with one or more Truss blockchains to share its data (Figure 10). This will allow for the safe and secure transfer of potential malicious incidents.
-			</Text>
-			<Image src="https://uploads.quarkly.io/648b58158bd7e60018594e7d/images/Figure%2010%20-%20Inter-Chain%20Communication.png?v=2023-06-21T04:39:10.150Z" display="block" max-width="700px" align-self="center" />
-			<Text margin="0px 0px 45px 0px" font="normal 300 18px/1.5 --fontFamily-sans" color="#505257" text-align="center">
-				<Em>
-					Figure 10. Inter-Chain Communication
-				</Em>
-			</Text>
-			<Text margin="0px 0px 45px 0px" font="normal 300 18px/1.5 --fontFamily-sans" color="#505257">
-				Within the Truss Marketplace the power of the IBC technology truly takes root. A Truss entity and a Truss Marketplace would be centralized in nature. However, through IBC each of these entities participates in the larger Truss ecosystem.
+				A hybrid blockchain architecture can facilitate interoperability between Truss entities. By bridging public and private components, hybrid chains enable the exchange of assets, data, or transactions between different blockchain ecosystems or traditional databases. The Truss ecosystem will utilize an IBC mechanism where threat information and other data can pass between the public chain and the private chains, as well as other Truss entities or Truss Marketplaces. Each Truss entity will maintain its own unique security blockchain and can store or transfer data that would be pertinent to the security of other Truss entities. Each entity will be free to initiate connections with one or more Truss blockchains to share its data. This will allow for the safe and secure transfer of potential malicious incidents.
 			</Text>
 			<Text margin="0px 0px 45px 0px" font="normal 300 18px/1.5 --fontFamily-sans" color="#505257">
 				<Strong
@@ -1112,27 +874,6 @@ export default (() => {
 					pointer-events="auto"
 					font="700 22px/27px -apple-system, system-ui, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif"
 				>
-					Logging Security Data in Private Blockchains
-					<br />
-				</Strong>
-				<br />
-				Truss will make use of IBC allowing for each individual or organization's private blockchain to share data with other Truss blockchains. This hybrid use of both private and public blockchains allows each Truss entity to maintain and curate their own private blockchain and maintains boundaries and protocols to ensure all blockchains can properly interact.
-				<br />
-				<br />
-				The data stored within each block of the Truss entity’s private blockchain will consist of the information collected from each organization's computational endpoints and network sensors. The data collected from these sensors will be organized based on the time the data is received by the private blockchain node.
-			</Text>
-			<Text margin="0px 0px 45px 0px" font="normal 300 18px/1.5 --fontFamily-sans" color="#505257">
-				<Strong
-					overflow-wrap="normal"
-					word-break="normal"
-					white-space="normal"
-					text-indent="0"
-					text-overflow="clip"
-					hyphens="manual"
-					user-select="auto"
-					pointer-events="auto"
-					font="700 22px/27px -apple-system, system-ui, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif"
-				>
 					Generating Threat Intelligence from Event Logs
 					<br />
 				</Strong>
@@ -1195,143 +936,11 @@ export default (() => {
 					pointer-events="auto"
 					font="700 22px/27px -apple-system, system-ui, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif"
 				>
-					Truss and the Traffic Light Protocol
-					<br />
-				</Strong>
-				<br />
-				The Traffic Light Protocol (TLP) [
-				<Link
-					href="https://www.cisa.gov/news-events/news/traffic-light-protocol-tlp-definitions-and-usage"
-					overflow-wrap="normal"
-					word-break="normal"
-					white-space="normal"
-					text-indent="0"
-					text-overflow="clip"
-					hyphens="manual"
-					user-select="auto"
-					pointer-events="auto"
-				>
-					19
-				</Link>
-				] was created to facilitate the greater sharing of information. TLP is a set of designations used to ensure that sensitive information is shared with the appropriate audience. It employs four colors to indicate the boundaries of different levels of sharing. TLP addresses the sensitivity and security requirements for each of the given levels and will be used to determine the security requirements for a given Truss entity. The TLP protocol security labels are as follows:
-				<br />
-				<br />
-				{"   "}-{" "}
-				<Strong
-					overflow-wrap="normal"
-					word-break="normal"
-					white-space="normal"
-					text-indent="0"
-					text-overflow="clip"
-					hyphens="manual"
-					user-select="auto"
-					pointer-events="auto"
-				>
-					TLP:RED
-				</Strong>
-				{" "}- Not for disclosure
-				<br />
-				{"   "}-{" "}
-				<Strong
-					overflow-wrap="normal"
-					word-break="normal"
-					white-space="normal"
-					text-indent="0"
-					text-overflow="clip"
-					hyphens="manual"
-					user-select="auto"
-					pointer-events="auto"
-				>
-					TLP:AMBER
-				</Strong>
-				{" "}- Limited disclosure. Internal, need to know only limitations
-				<br />
-				{"   "}-{" "}
-				<Strong
-					overflow-wrap="normal"
-					word-break="normal"
-					white-space="normal"
-					text-indent="0"
-					text-overflow="clip"
-					hyphens="manual"
-					user-select="auto"
-					pointer-events="auto"
-				>
-					TLP:GREEN
-				</Strong>
-				{" "}- Limited disclosure. Limited to the industry
-				<br />
-				{"   "}-{" "}
-				<Strong
-					overflow-wrap="normal"
-					word-break="normal"
-					white-space="normal"
-					text-indent="0"
-					text-overflow="clip"
-					hyphens="manual"
-					user-select="auto"
-					pointer-events="auto"
-				>
-					TLP:CLEAR
-				</Strong>
-				{" "}- No restrictions
-				<br />
-				<br />
-				Different types of nodes may need to employ unique network security requirements to ensure they operate as designed. The public node has the least amount of restrictions as it is designed to be accessible to the public. Any data contained with the public node will be considered TLP:GREEN. Some organizations could set this to TLP:CLEAR as full visibility is encouraged, however, some organizations require even a minor amount of sensitivity over public security information, in this case, the TLP defaults to GREEN.
-				<br />
-				<br />
-				The private node is considered a production system and needs to be protected as any security tool should be protected. It will only be accessible to internal users and access to the data itself will be limited to those individuals or teams which are responsible for ensuring the security of the organization’s systems and applications. Any data contained within a private Truss node is considered TLP:AMBER.
-				<br />
-				<br />
-				The master node is the most critical as any modification to the Master Node can result in a lack of trust in the internal security Truss Blockchain. The Master Node is considered the control node and the sole source of integrity validation for the Truss entity’s security events. All data on this node is considered TLP:RED.
-			</Text>
-			<Text margin="0px 0px 45px 0px" font="normal 300 18px/1.5 --fontFamily-sans" color="#505257">
-				<Strong
-					overflow-wrap="normal"
-					word-break="normal"
-					white-space="normal"
-					text-indent="0"
-					text-overflow="clip"
-					hyphens="manual"
-					user-select="auto"
-					pointer-events="auto"
-					font="700 22px/27px -apple-system, system-ui, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif"
-				>
-					Inter-Blockchain Communication
-					<br />
-				</Strong>
-				<br />
-				IBC is a protocol that allows for independent blockchains to perform a connection-oriented, end-to-end, and stateful transfer of blockchain data from one chain to another. The transfer is reliable, orderly, and most important authenticated. IBC transfers can take place within two types of methods, either chain-to-chain transfers (Figure 15) or chain-to-hub transfers (Figure 16). This will allow organizations to directly transfer data between each other, or it can allow organizations or individuals to post their data to a centralized hub, allowing other organizations to integrate that data into their chain.
-			</Text>
-			<Image src="https://uploads.quarkly.io/648b58158bd7e60018594e7d/images/Figure%2015%20-%20IBC%20Transfer%20Chain%20to%20Chain.png?v=2023-06-21T04:41:59.008Z" display="block" max-width="700px" align-self="center" />
-			<Text margin="0px 0px 45px 0px" font="normal 300 18px/1.5 --fontFamily-sans" color="#505257" text-align="center">
-				<Em>
-					Figure 15. IBC Transfer Chain to Chain
-				</Em>
-			</Text>
-			<Image src="https://uploads.quarkly.io/648b58158bd7e60018594e7d/images/Figure%2016%20-%20IBC%20Transfer%20Chain%20to%20Marketplace%20to%20Chain.png?v=2023-06-21T04:42:09.695Z" display="block" max-width="700px" align-self="center" />
-			<Text margin="0px 0px 45px 0px" font="normal 300 18px/1.5 --fontFamily-sans" color="#505257" text-align="center">
-				<Em>
-					Figure 16. IBC Transfer Chain to Marketplace to Chain
-				</Em>
-			</Text>
-			<Text margin="0px 0px 45px 0px" font="normal 300 18px/1.5 --fontFamily-sans" color="#505257">
-				<Strong
-					overflow-wrap="normal"
-					word-break="normal"
-					white-space="normal"
-					text-indent="0"
-					text-overflow="clip"
-					hyphens="manual"
-					user-select="auto"
-					pointer-events="auto"
-					font="700 22px/27px -apple-system, system-ui, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif"
-				>
 					Smart Contracts
 					<br />
 				</Strong>
 				<br />
-				Smart contracts [
+				Smart contracts (or smart functions) [
 				<Link
 					href="https://www.ibm.com/topics/smart-contracts"
 					overflow-wrap="normal"
@@ -1363,7 +972,7 @@ export default (() => {
 				>
 					Scanning and Alerting:
 				</Strong>
-				{" "}The Truss Blockchain contains the data required to facilitate the detection operations of suspicious and malicious events. Researchers and organizations can develop and share or sell configurable smart contracts that enable the scanning of security events written to the private Truss blockchains. These scanning smart contracts will use researcher-developed query rules to identify cyber threats.
+				{" "}The Truss chain contains the data required to facilitate the detection operations of suspicious and malicious events. Researchers and organizations can develop and share or sell configurable smart contracts that enable the scanning of security events written to the private Truss blockchains. These scanning smart contracts will use researcher-developed query rules to identify cyber threats.
 				<br />
 				<br />
 				<Strong
@@ -1394,108 +1003,6 @@ export default (() => {
 					Threat Mitigation:
 				</Strong>
 				{" "}Mitigation operations are designated as operations that prevent, stop, and eradicate security threats from occurring within a Truss entity’s environment or isolated system. Threat mitigation smart contracts will enable organizations to programmatically interact with inline security tools to inject mitigation operations that effectively prevent a known security risk.
-			</Text>
-			<Text margin="0px 0px 45px 0px" font="normal 300 18px/1.5 --fontFamily-sans" color="#505257">
-				<Strong
-					overflow-wrap="normal"
-					word-break="normal"
-					white-space="normal"
-					text-indent="0"
-					text-overflow="clip"
-					hyphens="manual"
-					user-select="auto"
-					pointer-events="auto"
-					font="700 22px/27px -apple-system, system-ui, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif"
-				>
-					Data Sanitization Contracts
-					<br />
-				</Strong>
-				<br />
-				When data is moved from the internal private node to the public node, all sensitive information will need to be sanitized before its transfer. Security researchers and organizations will be able to create and share or sell data sanitation rules that can be adopted by organizations on an ad hoc basis.
-				<br />
-				<br />
-				Researchers and organizations can also develop and share or sell sanitization contracts that use rules to sanitize data. These contracts will perform the sanitization operation and will also perform the authentication operations between the private and public internal nodes. All internal private node metadata will be stripped from the data to ensure internal security architecture can not lead to recon of the internal security operation or identification of the originating organization's identity.
-				<br />
-				<br />
-				The transference of data between chains will require the cryptographic authentication of both parties. These smart contracts can be configured for single transfer operations or recurring data transfers. They will allow for the integration and transfer of Truss Marketplace data and tools for individual accounts.
-			</Text>
-			<Text margin="0px 0px 45px 0px" font="normal 300 18px/1.5 --fontFamily-sans" color="#505257">
-				<Strong
-					overflow-wrap="normal"
-					word-break="normal"
-					white-space="normal"
-					text-indent="0"
-					text-overflow="clip"
-					hyphens="manual"
-					user-select="auto"
-					pointer-events="auto"
-					font="700 22px/27px -apple-system, system-ui, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif"
-				>
-					Scanning and Alerting Contracts
-					<br />
-				</Strong>
-				<br />
-				The Truss Blockchain contains the data required to facilitate the detection operations of suspicious and malicious events. Researchers and organizations can develop and share or sell configurable smart contracts that enable the scanning of security events written to the private Truss blockchains. These scanning smart contracts will use researcher-developed query rules to identify cyber threats.
-				<br />
-				<br />
-				The Truss ecosystem allows for these query rules to be transferred or shared between all Truss entities. This facilitates a peer-to-peer relationship as well as a profitable relationship where the selling of specific queries could be posted within the Truss Marketplace. Allowing for the global sale of security products and allowing other Truss entities to engage in the public trading of query smart contracts enables the Truss ecosystem to raise global awareness of key security threats.
-				<br />
-				<br />
-				When a purchased query smart contract is run within a buyer’s private blockchain, the rule will query the blockchain for a matching set of indicators based on the query smart contract’s original construction. Example: The query smart contract could only query the private blockchain data for a specific indicator, such as an external source IP address connection, from a single type of data sensor, such as a Windows Event log or an AWS CloudTrail log. All within a specified time frame, such as the last 2 hours, or between January 1, 2023, and June 30, 2023. Given this type of granularity, the rule can be designed to ensure the detection of highly specific security incidents on only those event types specified within the query smart contract.
-				<br />
-				<br />
-				<Strong>
-					<Em>
-						Live Scans
-						<br />
-					</Em>
-				</Strong>
-				<br />
-				Live scans will be performed as soon as a new block is written to the blockchain. This will provide near real-time scanning of security events providing an opportunity to detect events as they occur. Live Scans will likely comprise the majority of the query smart contract scanning operations within a given Truss entity’s environment. This may also cause a resource burden on the Private Truss blockchain due to the number and frequency of scanning operations occurring.{" "}
-				<br />
-				<br />
-				<Strong>
-					<Em>
-						History Scans
-						<br />
-					</Em>
-				</Strong>
-				<br />
-				History scans are time-based scanning operations that require a designated time frame to allow the scanning smart contract operation to isolate specific blocks within the Private blockchain to be scanned for the designated NFT rule set specifications. Unlike Live Scan operations, historic scanning operations may not experience a sustained demand for returning query results so a large processing overhead may not be required. However, Historic Scans will require a large data requirement as any number of blocks from the recorded history of the Truss entity organization may be requested..
-				<br />
-				<br />
-				<Strong>
-					<Em>
-						Alerting
-						<br />
-					</Em>
-				</Strong>
-				<br />
-				When a rule set identifies matching criteria within the Private Blockchain it will trigger another smart contract operation which will initiate an alerting operation. The alerting operation will allow for a variety of configurable platform options. These will include, email, slack, discord, telegram, JIRA tickets, and Aha! tickets, among many others.
-			</Text>
-			<Text margin="0px 0px 45px 0px" font="normal 300 18px/1.5 --fontFamily-sans" color="#505257">
-				<Strong
-					overflow-wrap="normal"
-					word-break="normal"
-					white-space="normal"
-					text-indent="0"
-					text-overflow="clip"
-					hyphens="manual"
-					user-select="auto"
-					pointer-events="auto"
-					font="700 22px/27px -apple-system, system-ui, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif"
-				>
-					Threat Mitigation Contracts
-					<br />
-				</Strong>
-				<br />
-				Mitigation operations are designated as operations that prevent, stop, and eradicate security threats from occurring within a Truss entity’s environment or isolated system. Mitigation involves a complex and highly customizable set of operations that require advanced knowledge of security event generation platforms, applications, and systems.
-				<br />
-				<br />
-				To perform mitigation operations, a smart contract will be required to programmatically interact with inline security tools to inject mitigation operations that effectively prevent a known security risk. The security tools that will be interacted with could include laptops, bare-metal servers, firewalls, virtual machines, containers, container hosts, cloud platforms, individual applications, and application platforms, among others.
-				<br />
-				<br />
-				To provide security mitigation operations as quickly as possible, the Truss mitigation operation smart contract would benefit greatly from direct interaction between established security platform tools currently deployed to the majority of global organizations. Allowing the Truss mitigation operations to inject mitigation rules into established security tools allows organizations to maintain the same security tool infrastructure they currently trust, and still experience the benefits of using the Truss ecosystem's global immunity knowledge set.
 			</Text>
 			<Text margin="0px 0px 20px 0px" font="--headline3">
 				IV. Incentivization Model
@@ -1540,9 +1047,6 @@ export default (() => {
 					12
 				</Link>
 				]. In the context of blockchain, a token providing a utility refers to its ability to have functional value or usefulness within a specific ecosystem or network. The Truss token will be used to facilitate the economic requirements of scanning a public blockchain, purchasing security products from the Truss Marketplace, purchasing a seller's space within the marketplace, and paying gas fees for writing to the layer 1 blockchain. In addition to the economic functions of the Truss token, it will also incentivize participants of the Truss ecosystem to share information about security events taking place within their computational environments.
-				<br />
-				<br />
-				The token will operate on a public blockchain maintained through a decentralized proof of stake (PoS) consensus model. The purpose of the PoS consensus model is to provide an incentive to encourage the decentralization of all Truss blockchain transactions in line with the decentralized methodology the Truss ecosystem will encourage.
 				<br />
 				<br />
 				The Truss public chain will implement a fee-sharing token economic model that collects fees for payment and distributes them to researchers, developers, and other Truss entities. This model is useful in blockchain-based ecosystems to incentivize participation and contributions from various stakeholders.
@@ -1614,7 +1118,22 @@ export default (() => {
 					<br />
 				</Strong>
 				<br />
-				To further enhance the ecosystem, the native Truss token will have additional utility beyond fee sharing. For example, the token will enable access to cyber threat intelligence, security services offered by the community, organizational cyber event data that can be used for research, and to support governance of the Truss Foundation.
+				To further enhance the ecosystem, the native Truss token will have additional utility beyond fee sharing. This includes:
+				</Text>
+				<Text margin="0px 0px 45px 0px" font="normal 300 18px/1.5 --fontFamily-sans" color="#505257" padding="0px 0px 0px 30px">
+				<Strong
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+					user-select="auto"
+					pointer-events="auto"
+				>
+					Minting Security Products:
+				</Strong>
+				{" "}Security products are added to the Truss Marketplace through the minting of a security product facilitated through the use of the Truss Token.
 				<br />
 				<br />
 				<Strong
@@ -1627,22 +1146,9 @@ export default (() => {
 					user-select="auto"
 					pointer-events="auto"
 				>
-					<Em
-						overflow-wrap="normal"
-						word-break="normal"
-						white-space="normal"
-						text-indent="0"
-						text-overflow="clip"
-						hyphens="manual"
-						user-select="auto"
-						pointer-events="auto"
-					>
-						Minting Security Product NFTs
-					</Em>
+					Publishing and Purchasing Security Products and Tools:
 				</Strong>
-				<br />
-				<br />
-				Security products are added to the Truss Marketplace through the minting of a security product NFT facilitated through the use of the Truss Token.
+				{" "}Each security product transfer will take place through the exchange of Truss Tokens between the seller and purchaser. The seller will sell the security product, which the purchaser will then use Truss Token to purchase.
 				<br />
 				<br />
 				<Strong
@@ -1655,22 +1161,9 @@ export default (() => {
 					user-select="auto"
 					pointer-events="auto"
 				>
-					<Em
-						overflow-wrap="normal"
-						word-break="normal"
-						white-space="normal"
-						text-indent="0"
-						text-overflow="clip"
-						hyphens="manual"
-						user-select="auto"
-						pointer-events="auto"
-					>
-						Publishing and Purchasing Security Products and Tools
-						<br />
-					</Em>
+					Access to Security Services:
 				</Strong>
-				<br />
-				Each security product transfer will take place through the exchange of Truss Tokens between the seller and purchaser. The seller will sell the security product NFT, which the purchaser will then use Truss Token to purchase.
+				{" "}Utility tokens can grant holders access to specific services or features within a decentralized application or platform. For example, a token might be required to access premium content, use certain functionalities, or participate in voting or governance mechanisms. Sellers may also put up a contract for the use of their services, such as Pentesting operations, Incident Response operations, Security analytics, or even architectural or security consulting services. Each of the services made available will use the Truss Token to facilitate the service agreement.
 				<br />
 				<br />
 				<Strong
@@ -1683,22 +1176,9 @@ export default (() => {
 					user-select="auto"
 					pointer-events="auto"
 				>
-					<Em
-						overflow-wrap="normal"
-						word-break="normal"
-						white-space="normal"
-						text-indent="0"
-						text-overflow="clip"
-						hyphens="manual"
-						user-select="auto"
-						pointer-events="auto"
-					>
-						Access to Security Services
-						<br />
-					</Em>
+					Access to Organizational Security Data:
 				</Strong>
-				<br />
-				Utility tokens can grant holders access to specific services or features within a decentralized application or platform. For example, a token might be required to access premium content, use certain functionalities, or participate in voting or governance mechanisms. Sellers may also put up a contract for the use of their services, such as Pentesting operations, Incident Response operations, Security analytics, or even architectural or security consulting services. Each of the services made available will use the Truss Token to facilitate the service agreement.
+				{" "}When organizations open their security events to the public, they open the door to receiving Truss token rewards for the use of their data. This public data is available to a subset of users of the Truss ecosystem and can be used to create security products that can be sold on the Truss Marketplace.
 				<br />
 				<br />
 				<Strong
@@ -1711,25 +1191,9 @@ export default (() => {
 					user-select="auto"
 					pointer-events="auto"
 				>
-					<Em
-						overflow-wrap="normal"
-						word-break="normal"
-						white-space="normal"
-						text-indent="0"
-						text-overflow="clip"
-						hyphens="manual"
-						user-select="auto"
-						pointer-events="auto"
-					>
-						Access to Organizational Security Data
-						<br />
-					</Em>
+					Truss Marketplace Transactions:
 				</Strong>
-				<br />
-				When organizations open their security events to the public, they open the door to receiving Truss token rewards for the use of their data. This public data is available to a subset of users of the Truss ecosystem and can be used to create security products that can be sold on the Truss Marketplace.
-				<br />
-				<br />
-				Organizations also maintain the right to allow their private blockchain data to be scanned by researchers. Organizations will configure the desired permissions for their data to be accessible by researchers. Researchers can also request access to particular types of data and the requested organization can grant or deny the access in exchange for payment in Truss tokens. If granted access, researchers will be able to scan that data using scanning smart contracts which query the data for specific patterns or values.{" "}
+				{" "}The majority of purchased security products will be performed within the Truss Marketplace. While the Truss chain is public and the direct sale of security products between Truss entities can take place, the Truss marketplace will provide ease of access and product support allowing users to quickly discover trending security products and interact with peers to build stronger relationships. The Truss Marketplace will provide a centralized location for all security products to aid in the ease of discovery of critical security products. The Truss Marketplace will also provide the service of marketing and providing real estate for researchers and security vendors to generate revenue for their security developments.
 				<br />
 				<br />
 				<Strong
@@ -1742,28 +1206,12 @@ export default (() => {
 					user-select="auto"
 					pointer-events="auto"
 				>
-					<Em
-						overflow-wrap="normal"
-						word-break="normal"
-						white-space="normal"
-						text-indent="0"
-						text-overflow="clip"
-						hyphens="manual"
-						user-select="auto"
-						pointer-events="auto"
-					>
-						Truss Marketplace
-						<br />
-					</Em>
+					Industry Information:
 				</Strong>
-				<br />
-				The majority of purchased security products will be performed within the Truss Marketplace. While the Truss chain is public and the direct sale of security products between Truss entities can take place, the Truss marketplace will provide ease of access and product support allowing users to quickly discover trending security products and interact with peers to build stronger relationships. The Truss Marketplace will provide a centralized location for all security products to aid in the ease of discovery of critical security products. The Truss Marketplace will also provide the service of marketing and providing real estate for researchers and security vendors to generate revenue for their security developments.
-				<br />
-				<br />
-				The Truss Marketplace will take a percentage of every transaction that occurs as a result of its hosting and providing connections with its users. This fee is essentially a merchant's fee for providing the location for such a transaction to occur. The Truss Marketplace will also provide paid-for product placement for researchers and security vendors to have center stage within the marketplace UI to sell their critical or time-sensitive products. This placement will require an additional cost, which will be agreed upon prior to the placement of the seller's products.{" "}
+				{" "}The Truss Marketplace will provide a number of beneficial services for the industry at large, including hosting a Top 10 Trending Security Product listing which will be continually updated to show the most pressing or time-sensitive security products requested and purchased by the Marketplace clientele. The Truss Marketplace will also maintain a Top Security incident board, highlighting the latest industry news and breach alert notifications to ensure that users are up to date on the latest security incidents as they occur. Additionally, the Truss Marketplace will maintain analytic functionalities to pair organizations with new security products. When new products are developed, organizations will receive customizable notifications of potential new security mitigations being made available through the marketplace.
 				<br />
 				<br />
-				The Truss Marketplace will provide a number of beneficial services for the industry at large, including hosting a Top 10 Trending Security Product listing which will be continually updated to show the most pressing or time-sensitive security products requested and purchased by the Marketplace clientele. The Truss Marketplace will also maintain a Top Security incident board, highlighting the latest industry news and breach alert notifications to ensure that users are up to date on the latest security incidents as they occur. Additionally, the Truss Marketplace will maintain analytic functionalities to pair organizations with new security products. When new products are developed, organizations will receive customizable notifications of potential new security mitigations being made available through the marketplace.
+
 			</Text>
 			<Text margin="0px 0px 45px 0px" font="normal 300 18px/1.5 --fontFamily-sans" color="#505257">
 				<Strong
@@ -1938,7 +1386,7 @@ export default (() => {
 				</Strong>
 				{" "}A portion of the token supply may be allocated to marketing initiatives, including promotional activities, partnerships, and exchange listings. This allocation helps create awareness, drive adoption, and support the ongoing development of the protocol.
 			</Text>
-			<Text margin="0px 0px 45px 0px" font="normal 300 18px/1.5 --fontFamily-sans" color="#505257">
+			<Text margin="0px 0px 25px 0px" font="normal 300 18px/1.5 --fontFamily-sans" color="#505257">
 				<Strong
 					overflow-wrap="normal"
 					word-break="normal"
@@ -1965,127 +1413,36 @@ export default (() => {
 				</Strong>
 				<br />
 				Truss tokens can be purchased directly from the Truss marketplace in exchange for Truss products or services or from token holders on secondary exchanges.
-				<br />
-				<br />
-				<Strong
-					overflow-wrap="normal"
-					word-break="normal"
-					white-space="normal"
-					text-indent="0"
-					text-overflow="clip"
-					hyphens="manual"
-					user-select="auto"
-					pointer-events="auto"
-				>
-					<Em
-						overflow-wrap="normal"
-						word-break="normal"
-						white-space="normal"
-						text-indent="0"
-						text-overflow="clip"
-						hyphens="manual"
-						user-select="auto"
-						pointer-events="auto"
-					>
-						The Sale of Security Products and Tools
-						<br />
-					</Em>
-				</Strong>
-				<br />
-				For every purchase of a security product, either from within the Truss Marketplace or from a peer-to-peer transaction, security products will be sold from one entity to another. Within the Truss Marketplace, every sale will use the Truss token as the legal tender. Each transaction will be broken down into the following receivers of funds.
-				<br />
-				<br />
-				{"   "}- The seller of the product will receive the bulk of the transaction.
-				<br />
-				{"   "}- The suppliers of data used by the developer to produce the security product will receive a % of the rewards from any sale of the security product.
-				<br />
-				{"   "}- The Truss Marketplace will receive a small % amount of the transaction as the marketplace provider. The Truss development team will determine the amount of the % fee on a recurring basis to ensure a healthy balance. The funds paid to the marketplace will be used to continue hosting Truss Marketplace and support its growth.
-				<br />
-				<br />
-				<Strong
-					overflow-wrap="normal"
-					word-break="normal"
-					white-space="normal"
-					text-indent="0"
-					text-overflow="clip"
-					hyphens="manual"
-					user-select="auto"
-					pointer-events="auto"
-				>
-					<Em
-						overflow-wrap="normal"
-						word-break="normal"
-						white-space="normal"
-						text-indent="0"
-						text-overflow="clip"
-						hyphens="manual"
-						user-select="auto"
-						pointer-events="auto"
-					>
-						Receiving Tokens From Peer-to-peer Selling
-						<br />
-					</Em>
-				</Strong>
-				<br />
-				Security Products are not required to be sold within the Truss Marketplace. Should this occur, the marketplace has no authority or claim to the transfer of funds. As such, it will be the duty of the seller and buyer of the security product to come to their terms when negotiating the transfer of funds and products. However, a fee will still be required for the usage of the Truss Protocol.{" "}
-				<br />
-				<br />
-				<Strong
-					overflow-wrap="normal"
-					word-break="normal"
-					white-space="normal"
-					text-indent="0"
-					text-overflow="clip"
-					hyphens="manual"
-					user-select="auto"
-					pointer-events="auto"
-				>
-					<Em
-						overflow-wrap="normal"
-						word-break="normal"
-						white-space="normal"
-						text-indent="0"
-						text-overflow="clip"
-						hyphens="manual"
-						user-select="auto"
-						pointer-events="auto"
-					>
-						Providing Services{" "}
-						<br />
-					</Em>
-				</Strong>
-				<br />
-				Tokens can also be received by sellers of security services as well as from products. Security services such as consulting, advising, operational analytics, incident response operations, and many others are common within the security industry. The Truss Token can be used as payment to procure the service capabilities from others, and these transaction payments will fall under the same rules and regulations as the sale of security products and tools.
-				<br />
-				<br />
-				<Strong
-					overflow-wrap="normal"
-					word-break="normal"
-					white-space="normal"
-					text-indent="0"
-					text-overflow="clip"
-					hyphens="manual"
-					user-select="auto"
-					pointer-events="auto"
-				>
-					<Em
-						overflow-wrap="normal"
-						word-break="normal"
-						white-space="normal"
-						text-indent="0"
-						text-overflow="clip"
-						hyphens="manual"
-						user-select="auto"
-						pointer-events="auto"
-					>
-						Sharing Security Data
-						<br />
-					</Em>
-				</Strong>
-				<br />
-				To encourage entities to maintain a public blockchain of their security events, i.e. for use by independent researchers, they will be paid, in Truss token, a percentage of the total paid value by the requesting entity for each query request upon their public blockchain. This reward will be provided on a sliding scale based on how much information is available within the public chain. For example:
 			</Text>
-			<Text margin="0px 0px 45px 0px" font="normal 300 18px/1.5 --fontFamily-sans" color="#505257" padding="0px 0px 0px 30px">
+			<Text margin="0px 0px 25px 0px" font="normal 300 18px/1.5 --fontFamily-sans" color="#505257">
+				<Strong
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+					user-select="auto"
+					pointer-events="auto"
+				>
+					<Em
+						overflow-wrap="normal"
+						word-break="normal"
+						white-space="normal"
+						text-indent="0"
+						text-overflow="clip"
+						hyphens="manual"
+						user-select="auto"
+						pointer-events="auto"
+					>
+						Token Exchange
+						<br />
+					</Em>
+				</Strong>
+				<br />
+				The Truss token will also be distributed via peer-to-peer transactions involving security products and tools. This includes:
+			</Text>
+			<Text margin="0px 0px 25px 0px" font="normal 300 18px/1.5 --fontFamily-sans" color="#505257" padding="0px 0px 0px 30px">
 				<Strong
 					overflow-wrap="normal"
 					word-break="normal"
@@ -2106,10 +1463,10 @@ export default (() => {
 						user-select="auto"
 						pointer-events="auto"
 					>
-						Entity A
+						The Sale of Security Products and Tools:
 					</Span>
 				</Strong>
-				{" "}- is a fully transparent Decentralized Autonomous Organization (DAO) and they maintain a 1:1 public chain of their private chain or rather a fully transparent public security chain. This entitles them to 100%* (minus Truss Marketplace, Truss Foundation, and Researcher product development fees) of the paid Truss token paid by the requesting entity.
+				{" "}For every purchase of a security product, either from within the Truss Marketplace or from a peer-to-peer transaction, security products will be sold from one entity to another. Within the Truss Marketplace, every sale will use the Truss token as the legal tender.
 				<br />
 				<br />
 				<Strong
@@ -2132,10 +1489,10 @@ export default (() => {
 						user-select="auto"
 						pointer-events="auto"
 					>
-						Entity B
+						Providing Services:
 					</Span>
 				</Strong>
-				{" "}- is an enterprise organization and they have certain stakeholder requirements or sensitive information contained within their security event logs which cannot be shared publicly. However, they do have their public chain smart contract sanitize several items from each security event which allows them to share a portion of their security events with a public chain. When a requesting entity pays for a query to this chain, Entity B will receive a % portion of the paid requesting value. I.e. 50-90% of the paid requesting cost. This sliding scale is determined based on the amount of raw data that is present within the chain. The more sanitized data contained within the public chain, the smaller percentage of the paid request fee will be given to Entity B.{" "}
+				{" "}Tokens can also be received by sellers of security services as well as from products. Security services such as consulting, advising, operational analytics, incident response operations, and many others are common within the security industry. The Truss Token can be used as payment to procure the service capabilities from others, and these transaction payments will fall under the same rules and regulations as the sale of security products and tools.
 				<br />
 				<br />
 				<Strong
@@ -2148,9 +1505,22 @@ export default (() => {
 					user-select="auto"
 					pointer-events="auto"
 				>
-					Entity C
+					<Span
+						overflow-wrap="normal"
+						word-break="normal"
+						white-space="normal"
+						text-indent="0"
+						text-overflow="clip"
+						hyphens="manual"
+						user-select="auto"
+						pointer-events="auto"
+					>
+						Sharing Security Data:
+					</Span>
 				</Strong>
-				{" "}- participates in the purchasing of Truss Marketplace security products, however, they do not maintain a public chain. In return, they will not receive any Truss token for the scanning of their public chain as they do not maintain a public chain.
+				{" "}To encourage entities to maintain a public blockchain of their security events, i.e. for use by independent researchers, they will be paid, in Truss token, a percentage of the total paid value by the requesting entity for each query request upon their public blockchain. This reward will be provided on a sliding scale based on how much information is available within the public chain.
+				<br />
+				<br />
 			</Text>
 			<Text margin="0px 0px 45px 0px" font="normal 300 18px/1.5 --fontFamily-sans" color="#505257">
 				<Strong
@@ -2184,7 +1554,7 @@ export default (() => {
 					user-select="auto"
 					pointer-events="auto"
 				>
-					1. Decentralization:
+					Decentralization:
 				</Strong>
 				{" "}Blockchain networks aim to be decentralized, distributing power and decision-making authority among participants. A governance model ensures that the token's management is not concentrated in the hands of a few entities or individuals. Instead, it allows token holders and stakeholders to have a say in the direction and development of the blockchain ecosystem.
 				<br />
@@ -2199,7 +1569,7 @@ export default (() => {
 					user-select="auto"
 					pointer-events="auto"
 				>
-					2. Protocol Evolution:
+					Protocol Evolution:
 				</Strong>
 				{" "}Blockchain protocols are not static and may need to evolve over time to address security vulnerabilities, scale the network, introduce new features, or adapt to changing user needs. A governance model provides a mechanism for proposing, discussing, and implementing protocol upgrades or changes. It allows stakeholders to contribute to the decision-making process and reach consensus on these modifications.
 				<br />
@@ -2214,7 +1584,7 @@ export default (() => {
 					user-select="auto"
 					pointer-events="auto"
 				>
-					3. Community Engagement:{" "}
+					Community Engagement:{" "}
 				</Strong>
 				Tokens are often associated with vibrant communities of developers, users, and enthusiasts. A governance model fosters community engagement by involving token holders in important decisions. It gives them a sense of ownership and empowers them to actively participate in shaping the future of the blockchain ecosystem. This engagement can lead to a better alignment of interests and increased commitment to the network's success.
 				<br />
@@ -2229,7 +1599,7 @@ export default (() => {
 					user-select="auto"
 					pointer-events="auto"
 				>
-					4. Conflict Resolution:
+					Conflict Resolution:
 				</Strong>
 				{" "}Disagreements and conflicts can arise within blockchain communities, such as debates over proposed upgrades or the allocation of resources. A governance model provides a structured framework to address and resolve these conflicts in a transparent and democratic manner. It establishes rules and processes for decision-making, ensuring that conflicts are resolved fairly and efficiently.
 				<br />
@@ -2244,7 +1614,7 @@ export default (() => {
 					user-select="auto"
 					pointer-events="auto"
 				>
-					5. Long-Term Sustainability:
+					Long-Term Sustainability:
 				</Strong>
 				{" "}Tokens are often tied to the economic aspects of a blockchain ecosystem. A governance model helps ensure the long-term sustainability of the token and the network by addressing economic factors such as inflation, token supply, token distribution, and economic incentives. It enables stakeholders to make informed decisions about these economic parameters and maintain the stability and viability of the token and its ecosystem.
 			</Text>
