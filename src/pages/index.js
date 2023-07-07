@@ -299,7 +299,7 @@ export default (() => {
 						lg-margin="0px 0px 32px 0px"
 						sm-margin="0px 0px 28px 0px"
 					>
-						Medium-sized businesses are the most prominent target for commodity cyber-attacks. Truss can dramatically reduce the cost of quality security products available to these organizations by providing a marketplace where these organizations can quickly and easily implement security solutions developed directly by industry security researchers.
+						Medium-sized businesses are the most prominent target for commodity cyberattacks. Truss dramatically reduces the cost of quality security products by providing a marketplace where organizations can quickly and easily implement security solutions developed by industry security researchers.
 					</Text>
 				</Box>
 			</Box>
@@ -348,7 +348,7 @@ export default (() => {
 						text-align="center"
 						flex="1 0 auto"
 					>
-						Security teams are routinely staffed in response to the threats they face. Truss crowdsources the skills to fill these gaps.
+						Security teams are routinely staffed in response to the threats they face. Truss enables organizations to tap into the resources of the global security community.
 					</Text>
 				</Box>
 				<Box align-items="center" justify-content="flex-start" flex-direction="column" display="flex">
@@ -371,7 +371,7 @@ export default (() => {
 						text-align="center"
 						flex="1 0 auto"
 					>
-						Security is often seen as a blackhole to throw money at, Truss provides an avenue for security to bring in a revenue stream.
+						Security is frequently perceived as a bottomless pit for financial investment. Truss provides an avenue for security to generate a revenue stream.
 					</Text>
 				</Box>
 				<Box align-items="center" justify-content="flex-start" flex-direction="column" display="flex">
@@ -394,7 +394,8 @@ export default (() => {
 						text-align="center"
 						flex="1 0 auto"
 					>
-						Threat intelligence analysts, threat hunters, and red team operators are expensive. Truss crowdsources these skills.
+						Threat intelligence analysts, threat hunters, and red team operators are difficult to find. Truss leverages crowdsourcing to bridge these skills gaps.
+
 					</Text>
 				</Box>
 			</Box>
@@ -589,7 +590,7 @@ export default (() => {
 					lg-width="100%"
 					lg-max-width="720px"
 				>
-					Truss is the first cybersecurity platform that directly supports and incentivizes the crowdsourcing of Cyber Threat Intelligence (CTI). By involving and engaging a diverse community of security researchers, ethical hackers, and interested individuals, Truss helps to strengthen global hygiene against novel threats by increasing an organization's access to security "Just-in-Time" security data.
+					Truss is the first cybersecurity platform that directly supports and incentivizes the crowdsourcing of Cyber Threat Intelligence (CTI). By involving and engaging a diverse community of security researchers, ethical hackers, and interested individuals, Truss helps to strengthen global hygiene against novel threats by increasing an organization's access to timely security data.
 				</Text>
 			</Box>
 			<Box
@@ -628,7 +629,7 @@ export default (() => {
 							</Strong>
 						</Text>
 						<Text margin="0px 0px 24px 0px" font="--base" color="--darkL2">
-							Engaging a crowd of security experts brings together a wide range of perspectives, experiences, and knowledge, which help identify vulnerabilities and threats.
+							Engaging a crowd of security experts brings together a wide range of perspectives, experiences, and knowledge. This broadens and diversifies security coverage.
 						</Text>
 					</Box>
 				</Box>
@@ -660,7 +661,7 @@ export default (() => {
 							</Strong>
 						</Text>
 						<Text margin="0px 0px 24px 0px" font="--base" color="--darkL2">
-							Incentivizing crowds to find vulnerabilities increases the number of eyes, which helps identify vulnerabilities earlier and reduces the window of opportunity for attackers.{" "}
+							Incentivizing crowds to find vulnerabilities increases the number of eyes, which expedites the identification of vulnerabilities and reduces the window of opportunity for attackers.{" "}
 						</Text>
 					</Box>
 				</Box>
@@ -692,7 +693,7 @@ export default (() => {
 							</Strong>
 						</Text>
 						<Text margin="0px 0px 24px 0px" font="--base" color="--darkL2">
-							This distributed model allows organizations to pay only for valid vulnerabilities identified, making crowdsourcing a scalable and cost-efficient way to improve organizational security.
+							The distributed model allows organizations to pay only for valid vulnerabilities, making crowdsourcing a scalable and cost-efficient way to improve organizational security.
 						</Text>
 					</Box>
 				</Box>
@@ -733,7 +734,7 @@ export default (() => {
 							</Strong>
 						</Text>
 						<Text margin="0px 0px 24px 0px" font="--base" color="--darkL2">
-							Engaging with the security community builds trust and enhances the organization's reputation among both security researchers and the broader public.
+							By actively engaging with the security community, organizations can establish and foster trust, while simultaneously enhancing their reputation among security researchers and the broader public.
 						</Text>
 					</Box>
 				</Box>
@@ -797,7 +798,7 @@ export default (() => {
 							</Strong>
 						</Text>
 						<Text margin="0px 0px 24px 0px" font="--base" color="--darkL2">
-							Crowdsourcing helps identify new vulnerabilities as they emerge. Providing real-time feedback on potential threats, Helps organizations stay ahead of evolving security risks and emerging threats.
+							Crowdsourcing helps identify new vulnerabilities as they emerge, providing real-time feedback on potential threats. This helps organizations stay ahead of evolving security risks and emerging threats.
 						</Text>
 					</Box>
 				</Box>
@@ -872,7 +873,7 @@ export default (() => {
 					lg-text-align="center"
 					lg-width="100%"
 				>
-					Imagine, emulating how the body’s immune system works to protect the whole body. Now, imagine if your security tools did the same thing. A global immune system ensure that security infections taking place in one environment are rapidly disseminated to protect the entire global ecosystem.
+					Imagine a security ecosystem that mirrors the body's immune system, safeguarding the entire network just like the body protects itself. Truss is a platform for developing security products that act as a global immune system, swiftly detecting and disseminating information about security threats across different environments, which protects the entire global ecosystem from potential harm.
 				</Text>
 			</Box>
 			<List
@@ -924,7 +925,7 @@ export default (() => {
 							pointer-events="auto"
 							font="--base"
 						>
-							The decentralized nature of Truss eliminates the need for intermediaries and allows for direct peer-to-peer transactions.
+							Truss' decentralized architecture enables seamless peer-to-peer transactions, promoting direct interactions among the security community.
 						</Span>
 					</Text>
 				</Box>
@@ -964,7 +965,7 @@ export default (() => {
 							pointer-events="auto"
 							font="--base"
 						>
-							Real time transfer of CTI reduces delays and limits on political cross-border transactions.
+							Real time transfer of CTI reduces delays and facilitates cross-border transactions.
 						</Span>
 					</Text>
 				</Box>
@@ -1004,7 +1005,7 @@ export default (() => {
 							pointer-events="auto"
 							font="--base"
 						>
-							Using DeSec eliminates the need for intermediaries, allowing for the direct transfer of CTI between buyers and sellers.
+							DeSec eliminates the need for intermediaries, allowing for the direct transfer of CTI between buyers and sellers.
 						</Span>
 					</Text>
 				</Box>
