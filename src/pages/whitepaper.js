@@ -11,9 +11,9 @@ export default (() => {
 			<title>
 				Truss Security
 			</title>
-			<meta name={"description"} content={"The Truss Website and Whitepaper layout the primary mission and focus of the Truss Protocol and Truss Marketplace through the establishment of a decentralized autonomous security platform."} />
+			<meta name={"description"} content={"The Truss Website and Whitepaper layout the primary mission and focus of the Truss Protocol and Truss Marketplace through the establishment of a decentralized security platform."} />
 			<meta property={"og:title"} content={"Truss"} />
-			<meta property={"og:description"} content={"Truss Security establishes a decentralized autonomous security platform."} />
+			<meta property={"og:description"} content={"Truss Security establishes a decentralized security platform."} />
 			<meta property={"og:image"} content={"https://uploads.quarkly.io/64972fbb588b2d0019591bb1/images/Truss%20Logo%20IconOnly_Black.png?v=2023-06-26T01:17:23.697Z"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/64972fbb588b2d0019591bb1/images/Truss%20Logo%20IconOnly_BWG.png?v=2023-06-26T01:17:44.962Z"} type={"image/x-icon"} />
 			<link rel={"apple-touch-icon"} href={"https://uploads.quarkly.io/64972fbb588b2d0019591bb1/images/Truss%20Logo%20IconOnly_BWG.png?v=2023-06-26T01:17:44.962Z"} />
@@ -334,7 +334,7 @@ export default (() => {
 				The main problem facing the majority of organizations, and the IT professionals providing security services to these organizations, is that threat intelligence is time-consuming to collect and difficult to analyze, and security products are oftentimes complex to develop and can be difficult to deploy. As a result, a large number of middlemen–the commercial security providers–have stepped in to create and deliver them. These security vendors maintain the resources to hire expert researchers and analysts to deliver leading-edge security analytics and best-in-class solutions. Consequently, in order to remain on the leading edge of a growing threat landscape, the vendor is required to collect larger quantities of security data, hire more and more analysts to facilitate the analysis of the data and hire engineers to develop the security products required to protect their customer base. This directly leads to the vendors charging a premium for their integration services, which prices out the small and medium-sized businesses that would greatly benefit from the advanced security analysis.
 			</Text>
 			<Text margin="0px 0px 20px 0px" font="--headline3">
-				II. Decentralized Autonomous Security
+				II. Decentralized Security
 			</Text>
 			<Text margin="0px 0px 45px 0px" font="normal 300 18px/1.5 --fontFamily-sans" color="#505257">
 				Humans have adapted to survive in nearly every inhospitable climate on this planet, including those which harbor some of the most deadly diseases and bacteria. In recent history, medical advancements like immunization and proper sanitation have increased human longevity. We owe our continued survival to one of the most intriguing and significant advancements in evolutionary biology: the immune system.
@@ -549,16 +549,16 @@ export default (() => {
 					<br />
 				</Strong>
 				<br />
-				The primary goal of Truss is to support innovation around the creation and dissemination of CTI data, and tools to support the creation of a global cyber immune system. This includes technical innovation wherein a diversity of security researchers are given complete freedom to define their security products. This may include offerings such as threat intelligence products containing information about emerging threats, IOCs, and known malicious entity reporting. It could also lead to the development and sale of script-based intelligence tools, Infrastructure as Code (IaC) templates, configuration and security design guides used for compliance guidelines, or even formalized security information and event management (SIEM) add-ons that facilitate the collection and analysis of security event logs from various sources within an organization's formalized security products.
+				The primary goal of Truss is to provide a platform that promotes innovation around the creation and dissemination of security products to support the creation of a global cyber immune system. This includes technical innovation wherein a diversity of security researchers are given complete freedom to define their security products. This may include offerings such as threat intelligence products containing information about emerging threats, IOCs, and known malicious entity reporting. It could also lead to the development and sale of script-based intelligence tools, Infrastructure as Code (IaC) templates, configuration and security design guides used for compliance guidelines, or even formalized security information and event management (SIEM) add-ons that facilitate the collection and analysis of security event logs from various sources within an organization's formalized security products.
 				<br />
 				<br />
-				The Truss platform supports economic innovation wherein security researchers and organizations are able to explore different models for packaging and selling threat data and products. For example, one researcher may want to charge a premium for their product because it addresses a complex attack. Another researcher may want to charge a minimal amount and try to sell on volume. Some researchers may want to include a fee that creates an automated "marketing bounty" to use on a specific product. Some researchers may want to allocate a minimal amount to pay for community sales reps while others may want to give away much more of their margin to encourage the sales team.
+				The Truss platform also promotes economic innovation wherein security researchers and organizations are able to explore different models for packaging and selling threat data and products. For example, one researcher may want to charge a premium for their product because it addresses a complex attack. Another researcher may want to charge a minimal amount and try to sell on volume. Some researchers may want to include a fee that creates an automated "marketing bounty" to use on a specific product. Some researchers may want to allocate a minimal amount to pay for community sales reps while others may want to give away much more of their margin to encourage the sales team.
 				<br />
 				<br />
-				Truss supports evolutionary innovation through an open contract security platform that supports the creation and execution of smart contracts. In an open contract blockchain platform, the underlying infrastructure and protocol layer is designed to enable the execution of smart contracts and enforce their terms and conditions. The Truss platform will provide a set of tools, libraries, and APIs that security researchers can use to create and deploy specialized smart contracts on the Truss chain.
+				Truss promotes evolutionary innovation through an open contract security platform that supports the creation and execution of smart contracts. In an open contract blockchain platform, the underlying infrastructure and protocol layer is designed to enable the execution of smart contracts and enforce their terms and conditions. The Truss platform provides a set of tools, libraries, and APIs that security researchers can use to create and deploy specialized smart contracts on the Truss chain.
 				<br />
 				<br />
-				One of the key characteristics of the Truss platform is its openness and accessibility. It allows anyone to participate, deploy their own smart contracts, and engage in transactions with other participants. This openness promotes transparency, inclusivity, and equal opportunity for all users, fostering a dynamic Truss ecosystem. In turn, this will empower security researchers and organizations to create and execute programmable agreements, automate processes, and build decentralized applications that can disrupt the traditional threat intelligence supply chain and enable new forms of digital interactions to combat cyber attacks.
+				One of the key characteristics of the Truss platform is its openness and accessibility. It allows anyone to participate, deploy their own smart contracts, and engage in transactions with other participants. This openness promotes transparency, inclusivity, and equal opportunity for all users, fostering a dynamic Truss ecosystem. In turn, this empowers security researchers and organizations to create and execute programmable agreements, automate processes, and build decentralized applications that can disrupt the traditional threat intelligence supply chain and enable new forms of digital interactions to combat cyber attacks.
 			</Text>
 			<Text margin="0px 0px 45px 0px" font="normal 300 18px/1.5 --fontFamily-sans" color="#505257">
 				<Strong
@@ -686,7 +686,7 @@ export default (() => {
 				{" "}A blockchain token presents a straightforward way to offer incentives to developers, organizations, and researchers who contribute to the Truss ecosystem. These incentives can come from fees paid into the ecosystem by other participants, or they can be more direct in the form of token grants, bounties, funding for building applications or providing other valuable services.
 			</Text>
 			<Text margin="0px 0px 45px 0px" font="normal 300 18px/1.5 --fontFamily-sans" color="#505257">
-				The production of threat intelligence is complex and requires access to large amounts of organizational data and time on the researcher's part to build analytic case files for unique operations, campaigns, and techniques used by multiple threat actors. It is not reasonable to expect voluntary contributions of time and expertise from researchers and organizational security professionals to produce high-quality threat intelligence material. Organizations, analysts, and security consultants need to be paid for their time, data, and skill. By facilitating an avenue for threat intelligence analysts to monetize their own operations, they can be allowed to provide higher-quality threat assessments to a wider audience. It is the belief of the authors that this will only enhance global security hygiene by providing high-quality security information to larger numbers of organizations while simultaneously lowering the price of this security information.
+				The production of threat intelligence is complex and requires access to large amounts of organizational data and time on the researcher's part to build analytic case files for unique operations, campaigns, and techniques used by multiple threat actors. It is not reasonable to expect voluntary contributions of time and expertise from researchers and organizational security professionals to produce high-quality threat intelligence material. Organizations, analysts, and security consultants need to be paid for their time, data, and skill. The authors believe that enabling threat intelligence analysts to monetize their own operations will encourage the production of higher-quality threat assessments to a wider audience. This will result in enhanced global security hygiene by providing high-quality security information to larger numbers of organizations while simultaneously lowering the price of this security information.
 			</Text>
 			<Text margin="0px 0px 45px 0px" font="normal 300 18px/1.5 --fontFamily-sans" color="#505257">
 				<Strong
@@ -704,13 +704,13 @@ export default (() => {
 					<br />
 				</Strong>
 				<br />
-				A principal requirement of the Truss ecosystem is that it must support the distribution of CTI data. This information must be shareable and easily accessed by all organizations participating in the ecosystem. As such, there is a public component of the Truss ecosystem that provides the current state of security events and transparent and auditable security data products. The Truss ecosystem must also support a network of organizations each with its own set of security log data, where much of this data is considered private and must be kept secure. Thus, there is also a private component of the Truss ecosystem that provides for secure storage of organizational security data. This necessitates the creation of a hybrid blockchain, where private organizations will maintain a private blockchain of their own internal security events, but simultaneously allow the organization to share parts of their private data on a public blockchain that is available to all users of the Truss ecosystem.
+				A principal requirement of the Truss platform is that it must support the distribution of CTI data. This information must be shareable and easily accessed by all organizations participating in the ecosystem. As such, there is a public component of the Truss ecosystem that provides the current state of security events and transparent and auditable security data products. The Truss ecosystem must also support a network of organizations each with its own set of security log data, where much of this data is considered private and must be kept secure. Thus, there is also a private component of the Truss ecosystem that provides for secure storage of organizational security data. This necessitates the creation of a hybrid blockchain, where private organizations will maintain a private blockchain of their own internal security events, but simultaneously allow the organization to share parts of their private data on a public blockchain that is available to all users of the Truss ecosystem.
 				<br />
 				<br />
 				Hybrid blockchains combine elements from both public and private blockchains, aiming to leverage the benefits of both models. They provide a middle ground between the fully decentralized nature of public blockchains and the controlled access and permissions of private blockchains. The first layer consists of a permissionless or public blockchain that maintains the decentralization, transparency, and immutability features. The second layer is a permission-based, or private, blockchain that adds controlled access and additional functionalities.
 				<br />
 				<br />
-				In the Truss ecosystem, participating organizations must manage large quantities of text-heavy logging data. This is in sharp contrast to the small and lightweight transactional data that is traditionally stored in public blockchains. In this situation, a hybrid blockchain can offer cost advantages compared to a fully public blockchain. By utilizing a private blockchain layer for internal or sensitive operations, organizations can reduce the computational and storage costs associated with public blockchain networks.The Truss hybrid chain ecosystem supports the coexistence of internal private permissioned chains and a public permissionless chain. An organization implementing a full Truss blockchain would maintain two or more private blockchain nodes for log collection and threat intelligence ingestion. It would also interact with the public blockchain for reporting and disseminating threat data. In total, the three types of blockchains include the public Truss blockchain, a private blockchain, and finally a master blockchain (Figure 8).
+				Organizations generally must manage large quantities of text-heavy security log data. This is in sharp contrast to the small and lightweight transactional data that is traditionally stored in public blockchains. In this situation, a hybrid blockchain can offer cost advantages compared to a fully public blockchain. By utilizing a private blockchain layer for internal or sensitive operations, organizations can reduce the computational and storage costs associated with public blockchain networks. A hybrid chain ecosystem supports the coexistence of internal private permissioned chains alongside a public permissionless chain. An organization implementing full Truss infrastructure might maintain two or more internal private blockchain nodes for log collection and threat intelligence ingestion. It would also interact with the public blockchain for reporting and disseminating threat data. In total, the three types of blockchains include the public Truss blockchain, a private blockchain, and finally a master blockchain (Figure 8).
 			</Text>
 			<Image src="https://uploads.quarkly.io/648b58158bd7e60018594e7d/images/Figure%208%20-%20The%20Truss%20Blockchain%20Triad.png?v=2023-06-21T04:37:48.984Z" display="block" max-width="400px" align-self="center" />
 			<Text margin="0px 0px 45px 0px" font="normal 300 18px/1.5 --fontFamily-sans" color="#505257" text-align="center">
@@ -724,7 +724,7 @@ export default (() => {
 					<br />
 				</Strong>
 				<br />
-				The public chain is external to the organization. Data from the private chain is shared with the public chain via a customizable smart contract that can redact some or all of the internal or sensitive information contained within the private blockchain. This can allow Truss entities to share as much or as little data about a particular event as they feel comfortable. For example, a DAO may wish all information within their network to be fully transparent as this is a cornerstone of their operational philosophy. Whereas a Fortune 100 enterprise may wish to share very little information as this could jeopardize their shareholder's confidence in protecting their intellectual property.
+				The public chain is external to the organization. Data from the private chain is shared with the public chain via a customizable smart contract that can redact some or all of the internal or sensitive information contained within the private blockchain. This can allow Truss entities to share as much or as little data about a particular event as they feel comfortable. For example, a DAO may wish all information within their network to be fully transparent as this is a cornerstone of their operational philosophy, whereas a Fortune 100 enterprise may wish to share very little information as this could jeopardize their shareholder's confidence in protecting their intellectual property.
 				<br />
 				<br />
 				<Strong>
@@ -732,15 +732,15 @@ export default (() => {
 					<br />
 				</Strong>
 				<br />
-				The private blockchain is used by the Truss entity as the production-ready security operations hub for monitoring and detecting all security events generated from the Truss entity’s computational environment. The Private Blockchain is hosted internally within the Truss entity's production environment and is not exposed to the internet. It is possible to maintain several unique nodes hosting a copy of the private chain to assist with large log volume and investigation requirements. The private blockchain node could also replace a Security Information and Event Management (SIEM) appliance as the two share similar functionality.
+				The private blockchain is used by the Truss entity as the production-ready security operations hub for monitoring and detecting all security events generated from the Truss entity’s computational environment. The private nodes are hosted internally within the Truss entity's production environment and is not exposed to the internet. It is possible to maintain several unique nodes to assist with large log volume and investigation requirements. The private blockchain could also replace a Security Information and Event Management (SIEM) appliance as the two share similar functionality.
 				<br />
 				<br />
 				<Strong>
-					Master Blockchain
+					Master Blockchain Nodes
 					<br />
 				</Strong>
 				<br />
-				The master blockchain node is optional and is only used as an integrity check and a core source of truth for the Truss entity’s security events recorded within the private blockchain. The master blockchain would be hosted under an additional layer of security from the production environment and from the private blockchain. User access to the master blockchain would be strictly controlled and external network access would be prohibited. Only isolated and heavily regulated service accounts would be allowed to interact with the master blockchain to ensure that the data contained within is uncompromised (Figure 9).
+				The master blockchain is optional and is only used as an integrity check and a core source of truth for the Truss entity’s security events recorded within the private blockchain nodes. The master node would be hosted under an additional layer of security from the production environment and from the private node. User access to the master node would be strictly controlled and external network access would be prohibited. Only isolated and heavily regulated service accounts would be allowed to interact with the master blockchain to ensure that the data contained within is uncompromised (Figure 9).
 			</Text>
 			<Image src="https://uploads.quarkly.io/648b58158bd7e60018594e7d/images/Figure%209%20-%20The%20Internal%20Blockchain%20Triad%20copy.png?v=2023-06-21T04:38:44.467Z" display="block" max-width="700px" align-self="center" />
 			<Text margin="0px 0px 45px 0px" font="normal 300 18px/1.5 --fontFamily-sans" color="#505257" text-align="center">
@@ -749,7 +749,7 @@ export default (() => {
 				</Em>
 			</Text>
 			<Text margin="0px 0px 45px 0px" font="normal 300 18px/1.5 --fontFamily-sans" color="#505257">
-				A hybrid blockchain architecture can facilitate interoperability between Truss entities. By bridging public and private components, hybrid chains enable the exchange of assets, data, or transactions between different blockchain ecosystems or traditional databases. The Truss ecosystem will utilize an IBC mechanism where threat information and other data can pass between the public chain and the private chains, as well as other Truss entities or Truss Marketplaces. Each Truss entity will maintain its own unique security blockchain and can store or transfer data that would be pertinent to the security of other Truss entities. Each entity will be free to initiate connections with one or more Truss blockchains to share its data. This will allow for the safe and secure transfer of potential malicious incidents.
+				A hybrid blockchain architecture can facilitate interoperability between Truss entities. By bridging public and private components, hybrid chains enable the exchange of assets, data, or transactions between different blockchain ecosystems or traditional databases. The Truss ecosystem will utilize an inter-chain communication mechanism where threat information and other data can pass between the public chain and the private chains, as well as other Truss entities or the Truss marketplaces. Each Truss entity will maintain its own unique security information and can store or transfer data that would be pertinent to the security of other Truss entities. Each entity will be free to initiate connections with one or more Truss entities to share its data. This will allow for the safe and secure transfer of potential malicious incidents.
 			</Text>
 			<Text margin="0px 0px 45px 0px" font="normal 300 18px/1.5 --fontFamily-sans" color="#505257">
 				<Strong
@@ -767,7 +767,7 @@ export default (() => {
 					<br />
 				</Strong>
 				<br />
-				The public chain is key to the success of the Truss ecosystem as it provides transparency and visibility into global security events. The public chain must be reachable by security researchers and organizations around the world. In addition, it must be able to support a large number of low-cost transactions, so chain transaction fees must be relatively low.The Truss blockchain can be conceptualized as consisting of three primary layers: the infrastructure layer, the protocol layer, and the application layer (Figure 10).{" "}
+				The public chain is key to the success of the Truss ecosystem as it provides transparency and visibility into global security events. The public chain must be reachable by security researchers and organizations around the world. In addition, it must be able to support a large number of low-cost transactions, so chain transaction fees must be relatively low. The Truss blockchain can be conceptualized as consisting of three primary layers: the infrastructure layer, the protocol layer, and the application layer (Figure 10).{" "}
 			</Text>
 			<Image src="https://uploads.quarkly.io/648b58158bd7e60018594e7d/images/Figure%2011%20-%20Truss%20Blockchain%20Architecture.png?v=2023-06-21T04:40:09.243Z" display="block" align-self="center" max-width="700px" />
 			<Text margin="0px 0px 45px 0px" font="normal 300 18px/1.5 --fontFamily-sans" color="#505257" text-align="center">
@@ -776,33 +776,12 @@ export default (() => {
 				</Em>
 			</Text>
 			<Text margin="0px 0px 45px 0px" font="normal 300 18px/1.5 --fontFamily-sans" color="#505257">
-				The application layer is where the actual use cases and applications are built on top of the blockchain infrastructure and protocol layers. This layer represents the user-facing side of the blockchain, where developers create decentralized applications (dApps) that interact with the blockchain network.
-				<br />
-				<br />
-				In the Truss ecosystem, the application layer includes the Truss decentralized marketplace and other blockchain-based applications such as cryptocurrency wallets, and voting platforms. Developers leverage the underlying infrastructure and protocol layers to build applications that utilize the trust, transparency, and decentralized nature of the blockchain. These applications can interact with the blockchain through an application programming interface (API), accessing and modifying the blockchain's data and executing smart contracts.
+				The application layer is where the business logic and applications reside. This layer represents the user-facing side of the blockchain, where developers create decentralized applications (dApps) that interact with the blockchain network. In the Truss ecosystem, the application layer includes the Truss decentralized marketplace and other blockchain-based applications such as cryptocurrency wallets and voting platforms. Developers leverage the underlying infrastructure and protocol layers to build applications that utilize the trust, transparency, and decentralized nature of the blockchain. These applications interact with the blockchain through an application programming interface (API) to access and modify data and execute smart contracts.
 				<br />
 				<br />
 				The protocol layer of a blockchain encompasses the rules, algorithms, and protocols that govern the operation and behavior of the blockchain network. It includes elements such as the consensus algorithm, block creation and validation rules, cryptographic algorithms, and transaction validation protocols. The protocol layer also holds the smart contracts that define the rules, terms, and conditions of interactions between Truss entities.{" "}
 				<br />
 				<br />
-				Examples of the features that Truss smart contracts could support include:
-			</Text>
-			<Text margin="0px 0px 45px 0px" font="normal 300 18px/1.5 --fontFamily-sans" color="#505257" padding="0px 0px 0px 30px">
-				- A native utility token to enable token-based community incentives
-				<br />
-				- NFT-based security products
-				<br />
-				- Reputation system to ensure quality security products and services
-				<br />
-				- Key-based access to encrypted data
-				<br />
-				- Payment and authentication operations
-				<br />
-				- Facilitating security product integration operations
-				<br />
-				- Subscription-based pulling of specific security products
-			</Text>
-			<Text margin="0px 0px 45px 0px" font="normal 300 18px/1.5 --fontFamily-sans" color="#505257">
 				The infrastructure layer forms the foundation of the blockchain network. It includes the underlying hardware and network components that enable the functioning of the blockchain. This layer encompasses the physical infrastructure, such as servers, nodes, and data centers, as well as the networking infrastructure that facilitates communication and data transmission between the nodes in the network.
 				<br />
 				<br />
@@ -827,10 +806,10 @@ export default (() => {
 					<br />
 				</Strong>
 				<br />
-				For the Truss chain, having all of the security event data stored within an irrefutable chain of events, security researchers can determine with 100% accuracy that a given event took place within a specific environment and under which specific conditions. Through a chain request, a security researcher can query a blockchain for any series of indicators or patterns of events that may have occurred within an organization's computational environment.
+				For the Truss chain, having all of the security event data stored within an irrefutable chain of events enables security researchers to determine with 100% accuracy that a given event took place within a specific environment under specific conditions. Through a chain request, a security researcher can query the blockchain for any series of indicators or patterns of events that may have occurred within an organization's computational environment.
 				<br />
 				<br />
-				Truss entities are also free to query other entities and build security products based on their particular skill sets, talents, and missions. These created security products can be used to identify and prevent malicious or unwanted events that match their designed criteria. Individual security practitioners or research teams would be free to search any public chain to hunt for malicious or suspicious indicators or behavior. Their resulting security products will be eligible to be sold or transferred on the open market where the global network of Truss entities can buy and sell security products fitting their needs.
+				Truss entities are also free to query other entities and build security products based on their particular skill sets, talents, and missions. These created security products can be used to identify and prevent malicious or unwanted events that match their designed criteria. Individual security practitioners or research teams would be free to search the public chain to hunt for malicious or suspicious indicators or behavior. Their resulting security products will be eligible to be sold or transferred on the open market where the global network of Truss entities can buy and sell security products fitting their needs.
 				<br />
 				<br />
 				A blockchain API is a set of protocols and tools that allow developers to interact with a blockchain network. The Truss blockchain API will support organizations and security analysts wanting to access security event information and security products. An API typically exposes a variety of endpoints or methods that developers can use to interact with the blockchain network. These endpoints can include functions such as submitting transactions, retrieving information about blocks, querying account balances, and executing smart contracts.
@@ -840,9 +819,6 @@ export default (() => {
 				<br />
 				<br />
 				By using an API query node, developers can offload the computational and storage demands of serving API queries from the main network nodes, which are primarily responsible for maintaining the integrity and security of the blockchain network. This segregation allows the blockchain network to handle a large volume of API requests without compromising the performance or stability of the core blockchain operations.
-				<br />
-				<br />
-				As the Truss ecosystem grows and queries become computationally expensive it may become necessary for API query node providers to charge a fee. The fee serves two purposes: 1) to dissuade malicious actors from performing a distributed denial of service (DDoS) of the public chain, and 2) to provide the financial and incentive basis to pay Truss entities for the use of their security information.
 			</Text>
 			<Text margin="0px 0px 45px 0px" font="normal 300 18px/1.5 --fontFamily-sans" color="#505257">
 				<Strong
@@ -860,7 +836,7 @@ export default (() => {
 					<br />
 				</Strong>
 				<br />
-				The private blockchain is used by the Truss entity as the production-ready security operations hub for monitoring and detecting all security events generated from the Truss entity’s computational environment. It also allows for the collection and analysis of internal security log data. The use of a private blockchain within each organization allows for faster operation and ingestion of the data-heavy blockchain data they will be storing. In addition, the number of private nodes hosting the Truss entity’s blockchain can be nearly unlimited within the Truss entity’s internal network architecture. This architectural design allows the Truss entity to create an internal decentralized blockchain that allows for faster data processing and ensures the integrity of its internal security blockchain. An organization participating in the Truss ecosystem would optionally host a private blockchain and a master blockchain. This private blockchain could be hosted internally or outsourced to a service provider. Specific security data would be ingested from the public to the private chain. Similarly, select organizational log data or the results of log analysis could be shared with members of the ecosystem (Figure 11).
+				A private blockchain is an application environment that enables the decentralized storage of security events and the execution of smart contracts and smart functions. A private node is used by the Truss entity as the production-ready security operations hub for monitoring and detecting all security events generated from the Truss entity’s computational environment. It also allows for the collection and analysis of internal security log data. The use of a private node within each organization allows for faster operation and ingestion of the security data they will be storing. In addition, the number of private nodes can be nearly unlimited within the Truss entity’s internal network architecture. This architectural design allows the Truss entity to create an internal network of nodes that allows for faster data processing and ensures the integrity of its internal security data. An organization participating in the Truss ecosystem would optionally host a private node and a master node. This private node could be hosted internally or outsourced to a service provider. Specific security data would be ingested from the public chain to the private node. Similarly, select organizational log data or the results of log analysis could be shared with members of the ecosystem (Figure 11).
 			</Text>
 			<Image src="https://uploads.quarkly.io/648b58158bd7e60018594e7d/images/Figure%2012%20-%20The%20Internal%20Blockchain%20Triad.png?v=2023-06-21T04:40:33.748Z" display="block" align-self="center" max-width="700px" />
 			<Text margin="0px 0px 45px 0px" font="normal 300 18px/1.5 --fontFamily-sans" color="#505257" text-align="center">
@@ -901,7 +877,7 @@ export default (() => {
 					<br />
 				</Strong>
 				<br />
-				To participate in the Truss ecosystem, an organization would expose data from its private blockchain allowing researchers to investigate or hunt for malicious activity. An organization would technically still be allowed to participate in the Truss ecosystem without sharing security data, and this would effectively prevent researchers from investigating any security events occurring within that Truss entity. However, if an attack were to occur in that particular Truss entity’s environment, only that entity would be able to know and respond to the incident. Any intelligence collected from the incident would not be immediately shared with the wider ecosystem. This option is available to the Truss entity and it is their prerogative to operate as they deem necessary. Philosophically, all Truss entities become stronger the more they share and there are incentives to be had, both monetarily and philosophically, by participating fully within the Truss ecosystem.Figure 13 shows the technical flow of how an organization might share a security incident it discovers. On the left of the figure, the organization has discovered and collected the incident details. These details are then used to create a Security NFT in the marketplace. This NFT is publicized and other organizations are notified either manually or via their own scanning smart contract. Organizations that deem the security incident relevant then can ingest the threat response details into their systems.
+				To participate in the Truss ecosystem, an organization would expose data from its private blockchain allowing researchers to investigate or hunt for malicious activity. An organization would technically still be allowed to participate in the Truss ecosystem without sharing security data, and this would effectively prevent researchers from investigating any security events occurring within that Truss entity. However, if an attack were to occur in that particular Truss entity’s environment, only that entity would be able to know and respond to the incident. Any intelligence collected from the incident would not be immediately shared with the wider ecosystem. Philosophically, all Truss entities become stronger the more they share and there are incentives to be had, both monetarily and philosophically, by participating fully within the Truss ecosystem. Figure 13 shows the technical flow of how an organization might share a security incident it discovers. On the left of the figure, the organization has discovered and collected the incident details. These details are then used to create an NFT security product in the marketplace. This product is publicized and other organizations are notified either manually or via their own scanning applications. Organizations that deem the security incident relevant then can ingest the threat response details into their systems.
 			</Text>
 			<Image src="https://uploads.quarkly.io/648b58158bd7e60018594e7d/images/Figure%2014%20-%20Technical%20Flow%20of%20sharing%20a%20security%20incident.png?v=2023-06-21T04:41:22.332Z" display="block" max-width="700px" align-self="center" />
 			<Text margin="0px 0px 45px 0px" font="normal 300 18px/1.5 --fontFamily-sans" color="#505257" text-align="center">
@@ -928,10 +904,10 @@ export default (() => {
 					<br />
 				</Strong>
 				<br />
-				Truss enables organizations to sell their security knowledge and data. This enables them to not only increases their return on investment (ROI) for security operations, which is traditionally a zero-sum investment (until a compromise occurs), but also enables them to share their security expertise with the larger ecosystem, raising the global security awareness and ultimately the security hygiene of all who participate in the ecosystem.
+				Truss enables organizations to sell their security knowledge and data. This enables them to not only increase their return on investment (ROI) for security operations, which is traditionally a zero-sum investment (until a compromise occurs), but also enables them to share their security expertise with the larger ecosystem, raising the global security awareness and ultimately the security hygiene of all who participate in the ecosystem.
 				<br />
 				<br />
-				Fueled by a growing number of security practitioners vying for the selling of the latest defensive measures, more knowledge will be shared within the ecosystem, resulting in a natural reduction in the number of sustainable malicious actors and the elimination of their sustained offensive capabilities. Furthermore, the more exposed and unsanitized a Truss entity chooses to make its public blockchain, the more visibility researchers can achieve, resulting in more sophisticated detection and defensive measures being made available to the public.
+				Fueled by a growing number of security practitioners vying for the selling of the latest defensive measures, more knowledge will be shared within the ecosystem, resulting in a natural reduction in the number of sustainable malicious actors and the elimination of their offensive capabilities. Furthermore, the more exposed and unsanitized a Truss entity chooses to make its public blockchain, the more visibility researchers can achieve, resulting in more sophisticated detection and defensive measures being made available to the public.
 			</Text>
 			<Text margin="0px 0px 45px 0px" font="normal 300 18px/1.5 --fontFamily-sans" color="#505257">
 				<Strong
@@ -1106,7 +1082,7 @@ export default (() => {
 				>
 					3. Fee Distribution:
 				</Strong>
-				{" "}The fees will be distributed among different participants according to predefined rules. These rules can vary depending on the product or service being offered. In this case, the fees are divided among security product publishers, researchers, data sources, the Truss marketplace, the Truss foundation, and other Truss entities.
+				{" "}The fees will be distributed among different participants according to predefined rules. These rules can vary depending on the product or service being offered. For example, the fees might be divided among security product publishers, researchers, data sources, the Truss marketplace, the Truss foundation, and other Truss entities.
 			</Text>
 			<Text margin="0px 0px 45px 0px" font="normal 300 18px/1.5 --fontFamily-sans" color="#505257">
 				By implementing a fee-sharing token economic model, the Truss platform will create a self-sustaining ecosystem where contributors are motivated to actively participate and contribute to its growth, ultimately benefiting the entire security community.  Increases to the token's value will naturally occur as the Truss ecosystem gains popularity and functionality and will provide additional incentives for participants to hold and use it. However, the token will not be considered an investment contract or a security asset.
@@ -1202,7 +1178,7 @@ export default (() => {
 				>
 					Truss Marketplace Transactions:
 				</Strong>
-				{" "}The majority of purchased security products will be performed within the Truss Marketplace. While the Truss chain is public and the direct sale of security products between Truss entities can take place, the Truss marketplace will provide ease of access and product support allowing users to quickly discover trending security products and interact with peers to build stronger relationships. The Truss Marketplace will provide a centralized location for all security products to aid in the ease of discovery of critical security products. The Truss Marketplace will also provide the service of marketing and providing real estate for researchers and security vendors to generate revenue for their security developments.
+				{" "}The majority of purchased security products will be performed within the Truss Marketplace. While the Truss chain is public and the direct sale of security products between Truss entities can take place, the Truss marketplace will provide ease of access and product support allowing users to quickly discover trending security products and interact with peers to build stronger relationships. The Truss Marketplace will provide a centralized location for all security products to aid in the ease of discovery of critical security events. The Truss Marketplace will also provide the service of marketing and providing real estate for researchers and security vendors to generate revenue for their security products.
 				<br />
 				<br />
 				<Strong
@@ -1238,6 +1214,13 @@ export default (() => {
 					<br />
 				</Strong>
 				<br />
+				Blockchain networks thrive on network effects, which occur when the value of a network increases as more users join. When tokens are owned by a large number of users, it creates a positive feedback loop. As the user base grows, the demand for tokens may increase, leading to potential appreciation in value. This, in turn, attracts more users, further strengthening the network effect and utility of the tokens.
+				<br />
+				<br />
+				There are several methods that will be used to facilitate the distribution of Truss tokens.
+				<br />
+			</Text>
+			<Text margin="0px 0px 45px 0px" font="normal 300 18px/1.5 --fontFamily-sans" color="#505257">
 				<Strong
 					overflow-wrap="normal"
 					word-break="normal"
@@ -1527,7 +1510,7 @@ export default (() => {
 						Sharing Security Data:
 					</Span>
 				</Strong>
-				{" "}To encourage entities to maintain a public blockchain of their security events, i.e. for use by independent researchers, they will be paid, in Truss token, a percentage of the total paid value by the requesting entity for each query request upon their public blockchain. This reward will be provided on a sliding scale based on how much information is available within the public chain.
+				{" "}To encourage entities to maintain a public record of their security events for use by independent researchers they will be paid, in Truss token, directly by researchers or can receive a percentage of the revenues generated by security products based on their data.
 				<br />
 				<br />
 			</Text>
@@ -1547,7 +1530,7 @@ export default (() => {
 					<br />
 				</Strong>
 				<br />
-				A principal goal of Truss is to create a Decentralized Autonomous Security protocol that is not dependent on a centralized intermediary. In addition, it is understood that the Truss protocol will only be as powerful as the community of researchers contributing data and tools and the community of IT users and organizations purchasing the data. To this end, the use of a custom Truss token creates an economic model that does not rely on a trusted intermediary but instead relies on decentralized trust among a diverse group of community members.
+				A principal goal of Truss is to create a decentralized security protocol that is not dependent on a centralized intermediary. In addition, it is understood that the Truss protocol will only be as powerful as the community of researchers contributing data and tools and the community of IT users and organizations purchasing the data. To this end, the use of a custom Truss token creates an economic model that does not rely on a trusted intermediary but instead relies on decentralized trust among a diverse group of community members.
 				<br />
 				<br />
 				A key requirement of a token-based blockchain is the establishment of a governance model for the token and the protocol. There are several goals that need to be addressed by the governance model:
