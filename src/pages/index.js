@@ -657,11 +657,11 @@ export default (() => {
 								user-select="auto"
 								pointer-events="auto"
 							>
-								Rapid Vulnerability Discovery
+								Active Threat Discovery
 							</Strong>
 						</Text>
 						<Text margin="0px 0px 24px 0px" font="--base" color="--darkL2">
-							Incentivizing crowds to find vulnerabilities increases the number of eyes, which expedites the identification of vulnerabilities and reduces the window of opportunity for attackers.{" "}
+							Incentivizing crowds to identify active threats increases the number of eyes, which expedites the identification of real-time attacks and reduces the window of opportunity for threat actors.{" "}
 						</Text>
 					</Box>
 				</Box>
@@ -693,7 +693,7 @@ export default (() => {
 							</Strong>
 						</Text>
 						<Text margin="0px 0px 24px 0px" font="--base" color="--darkL2">
-							The distributed model allows organizations to pay only for valid vulnerabilities, making crowdsourcing a scalable and cost-efficient way to improve organizational security.
+							The distributed model allows organizations to pay only for specific mitigations or events. Making crowdsourced threat intelligence a scalable and cost-efficient way to improve organizational security.
 						</Text>
 					</Box>
 				</Box>
@@ -798,7 +798,7 @@ export default (() => {
 							</Strong>
 						</Text>
 						<Text margin="0px 0px 24px 0px" font="--base" color="--darkL2">
-							Crowdsourcing helps identify new vulnerabilities as they emerge, providing real-time feedback on potential threats. This helps organizations stay ahead of evolving security risks and emerging threats.
+							Crowdsourcing helps identify new threats as they emerge, providing real-time feedback on potential campaigns actions. This helps organizations stay ahead of evolving security risks and emerging threats.
 						</Text>
 					</Box>
 				</Box>
