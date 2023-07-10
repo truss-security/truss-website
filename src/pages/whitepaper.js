@@ -314,7 +314,7 @@ export default (() => {
 					</li>
 				</ul>
 				<br />
-				The high and urgent demand for threat intelligence by global mid-sized organizations is not being met by today’s cybersecurity defense providers. As noted above there are traditionally two types of suppliers for security products: centralized commercial security providers and decentralized open source security researchers. The security products from centralized providers are high quality and easy to integrate, but they are oftentimes expensive and inaccessible to most organizations. The security products from decentralized security researchers are basically free, but they come from unverified sources, suffer from variable quality, and can be complex to integrate [
+				The high and urgent demand for threat intelligence by global mid-sized organizations is not being met by today's cybersecurity defense providers. As noted above there are traditionally two types of suppliers for security products: centralized commercial security providers and decentralized open source security researchers. The security products from centralized providers are high quality and easy to integrate, but they are oftentimes expensive and inaccessible to most organizations. The security products from decentralized security researchers are basically free, but they come from unverified sources, suffer from variable quality, and can be complex to integrate [
 				<Link
 					href="https://www.usenix.org/legacy/publications/library/proceedings/lisa99/full_papers/roesch/roesch.pdf"
 					overflow-wrap="normal"
@@ -340,13 +340,13 @@ export default (() => {
 				Humans have adapted to survive in nearly every inhospitable climate on this planet, including those which harbor some of the most deadly diseases and bacteria. In recent history, medical advancements like immunization and proper sanitation have increased human longevity. We owe our continued survival to one of the most intriguing and significant advancements in evolutionary biology: the immune system.
 				<br />
 				<br />
-				The immune system is nature’s way of dealing with infections and diseases that enter the human body. It grows and adapts as we are exposed to foreign bodies like fungi, toxins, viruses, and bacteria, also called pathogens. The immune system maintains a network of sensors that sound the alarm when a pathogen is detected and in response creates antigens that our bodies remember forever to ensure they can quickly fight the infection should it return. Remarkably, instead of combatting the infection locally, the immune system provides the antigens to the entire body. This sharing of remediation information prevents a systemic infection from taking place within the body.
+				The immune system is nature's way of dealing with infections and diseases that enter the human body. It grows and adapts as we are exposed to foreign bodies like fungi, toxins, viruses, and bacteria, also called pathogens. The immune system maintains a network of sensors that sound the alarm when a pathogen is detected and in response creates antigens that our bodies remember forever to ensure they can quickly fight the infection should it return. Remarkably, instead of combatting the infection locally, the immune system provides the antigens to the entire body. This sharing of remediation information prevents a systemic infection from taking place within the body.
 				<br />
 				<br />
-				Today’s modern and interconnected world is not all that dissimilar from a biological system. There are independent and diverse organizations and networks working in unison with the larger global society to maintain, support, and develop not only our modern lifestyle but the very ability to move forward and evolve. Arguably our society is still a nation-centric one, but we have begun to build global defense agencies such as Interpol and the World Health Organization which are capable of spreading information internationally regarding terrorism and pandemic-level events. However, today, there is a plague that is wreaking havoc across our interconnected world. A global pandemic that we have not been able to successfully combat or even significantly hamper. This pandemic is the Cyber Attack.
+				Today's modern and interconnected world is not all that dissimilar from a biological system. There are independent and diverse organizations and networks working in unison with the larger global society to maintain, support, and develop not only our modern lifestyle but the very ability to move forward and evolve. Arguably our society is still a nation-centric one, but we have begun to build global defense agencies such as Interpol and the World Health Organization which are capable of spreading information internationally regarding terrorism and pandemic-level events. However, today, there is a plague that is wreaking havoc across our interconnected world. A global pandemic that we have not been able to successfully combat or even significantly hamper. This pandemic is the Cyber Attack.
 				<br />
 				<br />
-				In a world where we can live stream any event to billions of users around the world, why do we still find ourselves in a situation where a cyber campaign can use the same type of attack to compromise hundreds of organizations over the course of several months and not be stopped? Is it not possible to build a global antibody armored against an attack’s indicators of compromise (IOC) and deliver this to all organizations immediately? This type of global network immune system would undoubtedly protect potential victims, prevent criminal organizations from making large sums of money, and reduce the global threat of cyber attack pandemics.
+				In a world where we can live stream any event to billions of users around the world, why do we still find ourselves in a situation where a cyber campaign can use the same type of attack to compromise hundreds of organizations over the course of several months and not be stopped? Is it not possible to build a global antibody armored against an attack's indicators of compromise (IOC) and deliver this to all organizations immediately? This type of global network immune system would undoubtedly protect potential victims, prevent criminal organizations from making large sums of money, and reduce the global threat of cyber attack pandemics.
 				<br />
 				<br />
 				Similar to how the immune system is able to globally deploy antigens to protect the whole body from a pathogen, the security industry needs to build a global network immune system to ensure that security infections taking place in one enterprise are rapidly disseminated to protect the global ecosystem. We should not live in a world where a single ransomware variant, or pandemic, is only fought locally and allowed to persist successfully for several months around the globe. Nor should we live in a world where 53% of all security breaches are not detected [
@@ -417,7 +417,7 @@ export default (() => {
 				At the heart of the global cyber immune system is a distributed network of independent security organizations or individuals (hereby referred to as Truss entities). Within this network, each Truss entity can use the security information generated from the environments of other Truss entities to better secure their own environments and build security mitigations in response to global cyber pandemics automatically and in real-time.
 				<br />
 				<br />
-				As illustrated in Figure 3, an organization records the security events taking place within its cloud environment. Should malware within a given container be identified, a list of the malware’s IOCs is shared across the Truss network.
+				As illustrated in Figure 3, an organization records the security events taking place within its cloud environment. Should malware within a given container be identified, a list of the malware's IOCs is shared across the Truss network.
 			</Text>
 			<Image
 				src="https://uploads.quarkly.io/648b58158bd7e60018594e7d/images/Figure%203%20-%20Interconnect%20Security%20Blockchain%20Flow.png?v=2023-06-21T04:34:40.818Z"
@@ -465,7 +465,7 @@ export default (() => {
 				</Em>
 			</Text>
 			<Text margin="0px 0px 45px 0px" font="normal 300 18px/1.5 --fontFamily-sans" color="#505257">
-				Organizations will be incentivized to allow researchers to review their security logs through a tokenomic-based exchange model. The more data an organization allows a researcher to view, the more likely that the researcher will produce a security product from the organization’s data. When the researcher makes their work available for purchase on the Truss Marketplace a portion of the sale of each product sold will return to the organization the security researcher used to build their product.
+				Organizations will be incentivized to allow researchers to review their security logs through a tokenomic-based exchange model. The more data an organization allows a researcher to view, the more likely that the researcher will produce a security product from the organization's data. When the researcher makes their work available for purchase on the Truss Marketplace a portion of the sale of each product sold will return to the organization the security researcher used to build their product.
 				<br />
 				<br />
 				The tokenomics of the Truss ecosystem actively work to incentivize all participants within the ecosystem to work together to produce high-quality and high-fidelity products that benefit each participant within the ecosystem. The more trustworthy the researcher, the more likely organizations will be incentivized to allow them access to their data. The more an organization opens its data to researchers, the more opportunities the organization has to help protect the larger ecosystem as well as the more opportunities they have to economically benefit from their data.
@@ -519,7 +519,7 @@ export default (() => {
 				As the number and scope of cyber threats increases, so will the demand for security data and other security products. The Truss Marketplace will be presented with the ability to crowdsource the best security products based on the consumer's feedback. The consumer of a purchased query smart contract will be able to rate the effectiveness of that particular security product. The consumer base within the Truss ecosystem will influence the popularity and sophistication of query smart contracts and all other security products sold on the Truss Marketplace.
 				<br />
 				<br />
-				Through the marketplace, any Truss entity can buy security products directly from the creators of that product. This direct approach should reduce the cost and increase the availability of security solutions. The Truss ecosystem also provides an avenue toward profitability for a large enterprise-level Truss entity’s security team. By allowing these security teams to sell their security knowledge and expertise, the enterprise security team can transition into a profitable investment, instead of the ever-necessary and ever-rising cost of doing business.
+				Through the marketplace, any Truss entity can buy security products directly from the creators of that product. This direct approach should reduce the cost and increase the availability of security solutions. The Truss ecosystem also provides an avenue toward profitability for a large enterprise-level Truss entity's security team. By allowing these security teams to sell their security knowledge and expertise, the enterprise security team can transition into a profitable investment, instead of the ever-necessary and ever-rising cost of doing business.
 			</Text>
 			<Image src="https://uploads.quarkly.io/648b58158bd7e60018594e7d/images/Figure%207%20-%20Security%20information%20supply%20chain.png?v=2023-06-21T04:36:53.469Z" display="block" max-width="700px" align-self="center" />
 			<Text margin="0px 0px 45px 0px" font="normal 300 18px/1.5 --fontFamily-sans" color="#505257" text-align="center">
@@ -732,7 +732,7 @@ export default (() => {
 					<br />
 				</Strong>
 				<br />
-				The private blockchain is used by the Truss entity as the production-ready security operations hub for monitoring and detecting all security events generated from the Truss entity’s computational environment. The private nodes are hosted internally within the Truss entity's production environment and is not exposed to the internet. It is possible to maintain several unique nodes to assist with large log volume and investigation requirements. The private blockchain could also replace a Security Information and Event Management (SIEM) appliance as the two share similar functionality.
+				The private blockchain is used by the Truss entity as the production-ready security operations hub for monitoring and detecting all security events generated from the Truss entity's computational environment. The private nodes are hosted internally within the Truss entity's production environment and is not exposed to the internet. It is possible to maintain several unique nodes to assist with large log volume and investigation requirements. The private blockchain could also replace a Security Information and Event Management (SIEM) appliance as the two share similar functionality.
 				<br />
 				<br />
 				<Strong>
@@ -740,7 +740,7 @@ export default (() => {
 					<br />
 				</Strong>
 				<br />
-				The master blockchain is optional and is only used as an integrity check and a core source of truth for the Truss entity’s security events recorded within the private blockchain nodes. The master node would be hosted under an additional layer of security from the production environment and from the private node. User access to the master node would be strictly controlled and external network access would be prohibited. Only isolated and heavily regulated service accounts would be allowed to interact with the master blockchain to ensure that the data contained within is uncompromised (Figure 9).
+				The master blockchain is optional and is only used as an integrity check and a core source of truth for the Truss entity's security events recorded within the private blockchain nodes. The master node would be hosted under an additional layer of security from the production environment and from the private node. User access to the master node would be strictly controlled and external network access would be prohibited. Only isolated and heavily regulated service accounts would be allowed to interact with the master blockchain to ensure that the data contained within is uncompromised (Figure 9).
 			</Text>
 			<Image src="https://uploads.quarkly.io/648b58158bd7e60018594e7d/images/Figure%209%20-%20The%20Internal%20Blockchain%20Triad%20copy.png?v=2023-06-21T04:38:44.467Z" display="block" max-width="700px" align-self="center" />
 			<Text margin="0px 0px 45px 0px" font="normal 300 18px/1.5 --fontFamily-sans" color="#505257" text-align="center">
@@ -836,7 +836,7 @@ export default (() => {
 					<br />
 				</Strong>
 				<br />
-				A private blockchain is an application environment that enables the decentralized storage of security events and the execution of smart contracts and smart functions. A private node is used by the Truss entity as the production-ready security operations hub for monitoring and detecting all security events generated from the Truss entity’s computational environment. It also allows for the collection and analysis of internal security log data. The use of a private node within each organization allows for faster operation and ingestion of the security data they will be storing. In addition, the number of private nodes can be nearly unlimited within the Truss entity’s internal network architecture. This architectural design allows the Truss entity to create an internal network of nodes that allows for faster data processing and ensures the integrity of its internal security data. An organization participating in the Truss ecosystem would optionally host a private node and a master node. This private node could be hosted internally or outsourced to a service provider. Specific security data would be ingested from the public chain to the private node. Similarly, select organizational log data or the results of log analysis could be shared with members of the ecosystem (Figure 11).
+				A private blockchain is an application environment that enables the decentralized storage of security events and the execution of smart contracts and smart functions. A private node is used by the Truss entity as the production-ready security operations hub for monitoring and detecting all security events generated from the Truss entity's computational environment. It also allows for the collection and analysis of internal security log data. The use of a private node within each organization allows for faster operation and ingestion of the security data they will be storing. In addition, the number of private nodes can be nearly unlimited within the Truss entity's internal network architecture. This architectural design allows the Truss entity to create an internal network of nodes that allows for faster data processing and ensures the integrity of its internal security data. An organization participating in the Truss ecosystem would optionally host a private node and a master node. This private node could be hosted internally or outsourced to a service provider. Specific security data would be ingested from the public chain to the private node. Similarly, select organizational log data or the results of log analysis could be shared with members of the ecosystem (Figure 11).
 			</Text>
 			<Image src="https://uploads.quarkly.io/648b58158bd7e60018594e7d/images/Figure%2012%20-%20The%20Internal%20Blockchain%20Triad.png?v=2023-06-21T04:40:33.748Z" display="block" align-self="center" max-width="700px" />
 			<Text margin="0px 0px 45px 0px" font="normal 300 18px/1.5 --fontFamily-sans" color="#505257" text-align="center">
@@ -863,7 +863,7 @@ export default (() => {
 					<br />
 				</Strong>
 				<br />
-				A local event log can maintain a record of all network and system events occurring within a computational environment. Through the technological benefits of blockchain technology, this event log can provide irrefutable forensic evidence that an event or an incident occurred. Every event in a computational device or endpoint and its associated metadata can be recorded in the event log. When an incident occurs, the IOCs can be transcribed to security rule sets and written to the chain. These rule entries provide a forensically viable method to track the creation, distribution, and usage of the developed security rule, or product. Should an organization require a greater sense of anonymity, the rule development process can provide an opportunity to anonymize any sensitive internal data the organization does not wish to publish.Figure 12 illustrates how incident information can be transferred from one organization to another. First, the incident metadata values are collected and written into an incident detail table. This table is in turn written to the source organization’s rule repository. This repository is used by the source organization as a rule repository able to trigger upon events or incidents that match the rule’s pattern requirements. Subsequently, the NFT rule can be transferred to another organization through a marketplace, or via direct transfer. This rule can then be used to trigger upon events or incidents that match the rule’s pattern requirements.{" "}
+				A local event log can maintain a record of all network and system events occurring within a computational environment. Through the technological benefits of blockchain technology, this event log can provide irrefutable forensic evidence that an event or an incident occurred. Every event in a computational device or endpoint and its associated metadata can be recorded in the event log. When an incident occurs, the IOCs can be transcribed to security rule sets and written to the chain. These rule entries provide a forensically viable method to track the creation, distribution, and usage of the developed security rule, or product. Should an organization require a greater sense of anonymity, the rule development process can provide an opportunity to anonymize any sensitive internal data the organization does not wish to publish.Figure 12 illustrates how incident information can be transferred from one organization to another. First, the incident metadata values are collected and written into an incident detail table. This table is in turn written to the source organization's rule repository. This repository is used by the source organization as a rule repository able to trigger upon events or incidents that match the rule's pattern requirements. Subsequently, the NFT rule can be transferred to another organization through a marketplace, or via direct transfer. This rule can then be used to trigger upon events or incidents that match the rule's pattern requirements.{" "}
 			</Text>
 			<Image src="https://uploads.quarkly.io/648b58158bd7e60018594e7d/images/Figure%2013%20-%20Truss%20Smart%20Contract%20Operations.png?v=2023-06-21T04:40:58.274Z" display="block" max-width="700px" align-self="center" />
 			<Text margin="0px 0px 45px 0px" font="normal 300 18px/1.5 --fontFamily-sans" color="#505257" text-align="center">
@@ -877,7 +877,7 @@ export default (() => {
 					<br />
 				</Strong>
 				<br />
-				To participate in the Truss ecosystem, an organization would expose data from its private blockchain allowing researchers to investigate or hunt for malicious activity. An organization would technically still be allowed to participate in the Truss ecosystem without sharing security data, and this would effectively prevent researchers from investigating any security events occurring within that Truss entity. However, if an attack were to occur in that particular Truss entity’s environment, only that entity would be able to know and respond to the incident. Any intelligence collected from the incident would not be immediately shared with the wider ecosystem. Philosophically, all Truss entities become stronger the more they share and there are incentives to be had, both monetarily and philosophically, by participating fully within the Truss ecosystem. Figure 13 shows the technical flow of how an organization might share a security incident it discovers. On the left of the figure, the organization has discovered and collected the incident details. These details are then used to create an NFT security product in the marketplace. This product is publicized and other organizations are notified either manually or via their own scanning applications. Organizations that deem the security incident relevant then can ingest the threat response details into their systems.
+				To participate in the Truss ecosystem, an organization would expose data from its private blockchain allowing researchers to investigate or hunt for malicious activity. An organization would technically still be allowed to participate in the Truss ecosystem without sharing security data, and this would effectively prevent researchers from investigating any security events occurring within that Truss entity. However, if an attack were to occur in that particular Truss entity's environment, only that entity would be able to know and respond to the incident. Any intelligence collected from the incident would not be immediately shared with the wider ecosystem. Philosophically, all Truss entities become stronger the more they share and there are incentives to be had, both monetarily and philosophically, by participating fully within the Truss ecosystem. Figure 13 shows the technical flow of how an organization might share a security incident it discovers. On the left of the figure, the organization has discovered and collected the incident details. These details are then used to create an NFT security product in the marketplace. This product is publicized and other organizations are notified either manually or via their own scanning applications. Organizations that deem the security incident relevant then can ingest the threat response details into their systems.
 			</Text>
 			<Image src="https://uploads.quarkly.io/648b58158bd7e60018594e7d/images/Figure%2014%20-%20Technical%20Flow%20of%20sharing%20a%20security%20incident.png?v=2023-06-21T04:41:22.332Z" display="block" max-width="700px" align-self="center" />
 			<Text margin="0px 0px 45px 0px" font="normal 300 18px/1.5 --fontFamily-sans" color="#505257" text-align="center">
@@ -987,7 +987,7 @@ export default (() => {
 				>
 					Threat Mitigation:
 				</Strong>
-				{" "}Mitigation operations are designated as operations that prevent, stop, and eradicate security threats from occurring within a Truss entity’s environment or isolated system. Threat mitigation smart contracts will enable organizations to programmatically interact with inline security tools to inject mitigation operations that effectively prevent a known security risk.
+				{" "}Mitigation operations are designated as operations that prevent, stop, and eradicate security threats from occurring within a Truss entity's environment or isolated system. Threat mitigation smart contracts will enable organizations to programmatically interact with inline security tools to inject mitigation operations that effectively prevent a known security risk.
 			</Text>
 			<Text margin="0px 0px 20px 0px" font="--headline3">
 				IV. Incentivization Model
@@ -1612,6 +1612,97 @@ export default (() => {
 			</Text>
 			<Text margin="0px 0px 45px 0px" font="normal 300 18px/1.5 --fontFamily-sans" color="#505257">
 				By implementing a governance model, Truss aims to foster decentralization, transparency, and community participation. The model should allow for the efficient management and evolution of the token and the associated Truss ecosystem.
+			</Text>
+			<Text margin="0px 0px 20px 0px" font="--headline3">
+				Conclusion
+				<br />
+			</Text>
+			<Text margin="0px 0px 25px 0px" font="normal 300 18px/1.5 --fontFamily-sans" color="#505257">
+				Today's cyber attacks are highly decentralized, with multiple threat actors operating independent campaigns against multiple target sets. These attacks occur continuously and from nearly every country around the world. Yet, today's commercial cyber defense solutions are centralized data silos that require each security vendor to continually expand their data collection requirements. This expanding siloed data approach is simply unsustainable in keeping costs low and delivering timely security protections. Successful defense against these global decentralized attacks requires a decentralized security (DeSec) approach, one that is capable of providing authenticated transfer of real-time security data, to address key threats.
+				<br />
+				This paper argues that a hybrid blockchain, that combines elements from both public and private blockchains, provides the optimal DeSec architecture. A community-managed public blockchain hosts the security products, facilitating the integrity and trust of global security data and giving organizations access to the protection data they need to secure their environments. At the same time, a Utility Token supported by the public chain creates economic incentivization to perform and produce quality security services, data, and intelligence.
+				<br />
+				Internal private blockchains are used by organizations as production-ready security operation hubs for monitoring and detecting security events published to the public chain. Internal chains enable organizations to store their security data while offering a means to quickly share this data with the public. Through the configurable selling of their security data, the organizations themselves can begin to have their security teams become a profit center for the organization, while simultaneously allowing their data to strengthen the defenses and enhance the protections for the global security community.
+				<br />
+				All members of the DeSec community add to the collective intelligence and identification of cyber threats. Each member plays an active role in the global immune system by producing timely and relevant security data for an attack they witnessed. The global immune system incentivizes the early detection, response, and mitigation of cyberattacks by pushing the economic structure to the data producers and analytic creators. Purchasers of this data buy individual security products directly from the producers and analytic creators instead of from a large monolithic security platform. This reduces the need for organizations to facilitate large-scale in-house security operations and encourages a lower global security cost. Finally, the DeSec ecosystem facilitates the real-time distribution of attack data, allowing organizations to detect and mitigate active threat actor campaigns in real-time, instead of being required to wait for mitigations from their sole security provider.
+				<br />
+				<br />
+			</Text>
+			<Text margin="0px 0px 20px 0px" font="--headline3">
+				References
+				<br />
+			</Text>
+			<Text margin="0px 0px 25px 0px" font="normal 300 18px/1.5 --fontFamily-sans" color="#505257">
+				The following references were used during the creation of this whitepaper. All attempts were made to ensure the citing of these sources were authentic and valid.
+				<br />
+				<ol>
+					<li>
+						BEC Attacks Increase by Astounding 84%. (2022, August 8). Abnormal. https://abnormalsecurity.com/blog/bec-attacks-increasing-new-research-shows
+					</li>
+					<li>
+						Brown, R., & M Lee, R. (2021, January). 2021 SANS Cyber Threat Intelligence (CTI) Survey. ThreatQ. Retrieved June 11, 2023, from https://www.threatq.com/documentation/Survey_CTI-2021_ThreatQuotient.pdf
+					</li>
+					<li>
+						Cost of a data breach 2022. (n.d.). IBM. https://www.ibm.com/reports/data-breach
+					</li>
+					<li>
+						Cybercrimemag. (2023, April 15). Cybersecurity Jobs Report: 3.5 Million Unfilled Positions In 2025. Cybercrime Magazine. https://cybersecurityventures.com/jobs/
+					</li>
+					<li>
+						CyberDB. (2018, May 7). USA Cyber Security Companies | CyberDB. https://www.cyberdb.co/database/usa/page/2/
+					</li>
+					<li>
+						DavidPur, N. (n.d.). Which Countries are Most Dangerous? Cyber Attack Origin – by Country. https://blog.cyberproof.com/blog/which-countries-are-most-dangerous
+					</li>
+					<li>
+						De Vries, R. (2022, August 3). What are the real costs of a security incident? | Tales from a Security Professional. Medium. https://tales-from-a-security-professional.com/what-are-the-real-costs-of-a-security-incident-dec0d090281f
+					</li>
+					<li>
+						Gatefy. (2021). Which countries are most targeted by hackers? Gatefy. https://gatefy.com/blog/which-countries-are-most-targeted-hackers/
+					</li>
+					<li>
+						Huang, K. (2023, May 4). The Devastating Business Impacts of a Cyber Breach. Harvard Business Review. https://hbr.org/2023/05/the-devastating-business-impacts-of-a-cyber-breach
+					</li>
+					<li>
+						Lemos, R. (2022, September 30). Cybercriminals See Allure in BEC Attacks Over Ransomware. Dark Reading. https://www.darkreading.com/threat-intelligence/cybercriminals-see-allure-bec-attacks-ransomware
+					</li>
+					<li>
+						Mandiant. (n.d.). Mandiant Security Effectiveness Report: DEEP DIVE INTO CYBER REALITY. Mandiant. https://www.mandiant.com/resources/security-effectiveness-2020-deep-dive-into-cyber-security-reality
+					</li>
+					<li>
+						Nibley, B. (2021, December 22). What Is a Utility Token? SoFi Learn. Retrieved June 11, 2023, from https://www.sofi.com/learn/content/what-is-a-utility-token/
+					</li>
+					<li>
+						Oltsik, J., & Lundell, B. (2021, July). The Life and Times of Cybersecurity Professionals 2021 Vol 5. issa.org. Retrieved June 11, 2023, from https://www.issa.org/wp-content/uploads/2021/07/ESG-ISSA-Research-Report-Life-of-Cybersecurity-Professionals-Jul-2021.pdf
+					</li>
+					<li>
+						Pandemic Cyber Crime, By the Numbers. (n.d.). Pandemic Cyber Crime, by the Numbers. https://www.cyberark.com/resources/blog/pandemic-cyber-crime-by-the-numbers
+					</li>
+					<li>
+						PurpleSec. (2023, February 22). 2023 Cyber Security Statistics: The Ultimate List Of Stats, Data & Trends | PurpleSec. https://purplesec.us/resources/cyber-security-statistics/#Ransomware
+					</li>
+					<li>
+						Roesch, M. (1999). SNORT - lightweight intrusion detection for networks. https://www.usenix.org/. Retrieved June 11, 2023, from https://www.usenix.org/legacy/publications/library/proceedings/lisa99/full_papers/roesch/roesch.pdf
+					</li>
+					<li>
+						Security Market Size, Share & Trends Analysis Report By System (Video Surveillance, Access Control Systems), By End-use (Commercial, Industrial), By Service, By Region, And Segment Forecasts, 2023 - 2030. (n.d.). https://www.grandviewresearch.com/industry-analysis/security-market
+					</li>
+					<li>
+						Shirky, C. (2008). Here Comes Everybody - The Power of Organizing without Organizations. Google Books. Retrieved June 11, 2023, from https://books.google.com/books?hl=en&lr=&id=mafZyckH_bAC&oi=fnd&pg=PA1&dq=shirky+2008+here+comes+everybody+&ots=HLpadLTBE3&sig=FxuGnd_ZJp5rUB8TweMQFVOO3Cg#v=onepage&q=shirky%202008%20here%20comes%20everybody&f=false
+					</li>
+					<li>
+						Traffic Light Protocol (TLP) Definitions and Usage | CISA. (2022, August 16). Cybersecurity and Infrastructure Security Agency CISA. https://www.cisa.gov/news-events/news/traffic-light-protocol-tlp-definitions-and-usage
+					</li>
+					<li>
+						Unit 42. (2022, March 24). 2022 Unit 42 Ransomware Threat Report Highlights: Ransomware Remains a Headliner. Unit 42. https://unit42.paloaltonetworks.com/2022-ransomware-threat-report-highlights/
+					</li>
+					<li>
+						What are smart contracts on blockchain? | IBM. (n.d.). https://www.ibm.com/topics/smart-contracts
+					</li>
+					<li>
+						Zrahia, A. (2018, December 18). Threat intelligence sharing between cybersecurity vendors: Network, dyadic, and agent views. Journal of Cybersecurity, 4(1). https://doi.org/10.1093/cybsec/tyy008
+					</li>
+				</ol>
 			</Text>
 		</Section>
 		<Section background-color="--dark" text-align="center" padding="32px 0" quarkly-title="Footer">
